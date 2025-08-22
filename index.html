@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruy Guerra - Site Oficial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos personalizados inspirados na referência */
+        body {
+            font-family: 'Lora', serif;
+            background-color: #322c27; /* Fundo escuro/marrom do site de referência */
+            color: #3d3d3d;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            color: #5a4a3b;
+        }
+        .main-container {
+            background-color: #e9e2d4; /* Fundo de papiro/bege */
+            max-width: 1280px;
+            margin: 1rem auto;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .nav-link {
+            cursor: pointer;
+            transition: all 0.2s;
+            padding: 8px 16px;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-link:hover {
+            color: #8c6f4b;
+            border-bottom-color: #8c6f4b;
+        }
+        .nav-link.active {
+            color: #8c6f4b;
+            font-weight: bold;
+            border-bottom-color: #8c6f4b;
+        }
+        .film-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: #d8cbb7; /* Tom de bege mais escuro para os cards */
+        }
+        .film-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        }
+        .mobile-menu {
+            display: none;
+        }
+        .mobile-menu.open {
+            display: block;
+        }
+        /* Estilos da Galeria da Home */
+        .gallery-container {
+            position: relative;
+            width: 100%;
+            height: 400px; /* Altura fixa para o container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery-item {
+            position: absolute;
+            transition: all 0.5s ease-in-out;
+            opacity: 0;
+            transform: scale(0.8) rotate(0deg);
+            border: 4px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .gallery-item.active {
+            opacity: 1;
+            z-index: 10;
+            transform: scale(1) rotate(0deg);
+            border-color: #a52a2a; /* Borda vermelha para a imagem ativa */
+        }
+        .gallery-item.prev-1 {
+            opacity: 0.5;
+            z-index: 9;
+            transform: scale(0.9) translateX(-50%) rotate(-10deg);
+        }
+        .gallery-item.next-1 {
+            opacity: 0.5;
+            z-index: 9;
+            transform: scale(0.9) translateX(50%) rotate(10deg);
+        }
+        .gallery-item.prev-2 {
+            opacity: 0.2;
+            z-index: 8;
+            transform: scale(0.8) translateX(-80%) rotate(-20deg);
+        }
+        .gallery-item.next-2 {
+            opacity: 0.2;
+            z-index: 8;
+            transform: scale(0.8) translateX(80%) rotate(20deg);
+        }
+        .gallery-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            background-image: url('data:image/svg+xml;utf8,<svg width="100" height="20" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="0" width="10" height="20" fill="black"/><rect x="20" y="0" width="10" height="20" fill="black"/><rect x="35" y="0" width="10" height="20" fill="black"/><rect x="50" y="0" width="10" height="20" fill="black"/><rect x="65" y="0" width="10" height="20" fill="black"/><rect x="80" y="0" width="10" height="20" fill="black"/><rect x="0" y="5" width="100" height="2" fill="black"/><rect x="0" y="13" width="100" height="2" fill="black"/></svg>');
+            background-repeat: repeat-x;
+            height: 30px;
+            padding: 0 20px;
+        }
+        .nav-dot {
+            cursor: pointer;
+            padding: 2px 8px;
+            margin: 0 10px;
+            background-color: #fff;
+            color: #3d3d3d;
+            font-weight: bold;
+            border: 1px solid #3d3d3d;
+        }
+        .nav-dot.active {
+            background-color: #a52a2a;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Cabeçalho e Navegação -->
+        <header class="p-6 border-b border-gray-400/30">
+            <div class="flex justify-between items-center">
+                <h1 class="text-4xl font-bold">Ruy Guerra</h1>
+                <!-- Menu para Desktop -->
+                <nav class="hidden lg:flex items-center space-x-4">
+                    <a class="nav-link active" data-section="home">Início</a>
+                    <a class="nav-link" data-section="biografia">Ruy Guerra</a>
+                    <a class="nav-link" data-section="filmografia">Filmografia</a>
+                    <a class="nav-link" data-section="ator">Ator</a>
+                    <a class="nav-link" data-section="escritos">Escritos</a>
+                    <a class="nav-link" data-section="pelo-mundo">Pelo Mundo</a>
+                    <a class="nav-link" data-section="noticias">Notícias</a>
+                    <a class="nav-link" data-section="contato">Contato</a>
+                </nav>
+                <!-- Botão do Menu Mobile -->
+                <button id="menu-toggle" class="lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Menu para Mobile -->
+            <nav id="mobile-nav" class="mobile-menu lg:hidden mt-4">
+                <ul class="flex flex-col space-y-2">
+                    <li><a class="nav-link block text-center active" data-section="home">Início</a></li>
+                    <li><a class="nav-link block text-center" data-section="biografia">Ruy Guerra</a></li>
+                    <li><a class="nav-link block text-center" data-section="filmografia">Filmografia</a></li>
+                    <li><a class="nav-link block text-center" data-section="ator">Ator</a></li>
+                    <li><a class="nav-link block text-center" data-section="escritos">Escritos</a></li>
+                    <li><a class="nav-link block text-center" data-section="pelo-mundo">Pelo Mundo</a></li>
+                    <li><a class="nav-link block text-center" data-section="noticias">Notícias</a></li>
+                    <li><a class="nav-link block text-center" data-section="contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Conteúdo Principal -->
+        <main class="p-6 lg:p-10">
+            
+            <!-- Seção Início -->
+            <section id="home" class="content-section active">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="text-left">
+                        <h2 class="text-4xl font-bold mb-4">Bem-vindo ao site Ruy Guerra</h2>
+                        <p class="text-lg">
+                           Este site é um espaço de referência sobre a vida e a obra de Ruy Guerra, um dos mais importantes realizadores do cinema moderno. Aqui você encontrará informações detalhadas sobre sua vasta filmografia, seus escritos, sua atuação como ator e sua trajetória pelo mundo. Explore as diferentes seções para mergulhar no universo de um artista que atravessou fronteiras geográficas e linguagens artísticas, deixando uma marca indelével na cultura contemporânea.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="gallery-container">
+                            <img src="images/ruy-gabo.jpg" class="gallery-item" alt="[Imagem de Ruy Guerra e Gabriel García Márquez]">
+                            <img src="images/ruy_guerra-chico_buarque.jpg" class="gallery-item" alt="[Imagem de Ruy Guerra jovem com câmera]">
+                            <img src="images/deco2.jpg" class="gallery-item" alt="[Imagem de Ruy Guerra em set de filmagem]">
+                            <img src="images/deco1.jpg" class="gallery-item" alt="[Imagem de Retrato de Ruy Guerra]">
+                            <img src="images/cinema_novo.jpg" class="gallery-item" alt="[Imagem de Ruy Guerra no deserto]">
+                        </div>
+                        <div class="gallery-nav">
+                            <!-- Os pontos de navegação serão gerados pelo JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Biografia -->
+            <section id="biografia" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Biografia</h2>
+                <div class="flex flex-col lg:flex-row gap-8 items-start">
+                    <img src="https://placehold.co/300x400/d8cbb7/5a4a3b?text=Ruy+Guerra" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/300x400/d8cbb7/5a4a3b?text=Imagem+Indispon%C3%ADvel';"
+                         alt="[Retrato de Ruy Guerra]" class="w-full lg:w-1/3 rounded-lg shadow-lg">
+                    <div class="text-base space-y-4">
+                        <p>Ruy Alexandre Guerra Coelho Pereira de Oliveira, nascido em Lourenço Marques (hoje Maputo), Moçambique, em 22 de agosto de 1931, é uma figura polivalente e fundamental na cultura de língua portuguesa. Cineasta, poeta, dramaturgo, letrista e professor, sua vida e obra são marcadas por um trânsito constante entre geografias, linguagens e formas de expressão.</p>
+                        <p>Sua jornada no cinema começa na França, onde estuda no IDHEC (Institut des Hautes Études Cinématographiques) em Paris. Ao chegar no Brasil no final dos anos 50, torna-se uma das peças-chave do Cinema Novo, movimento que revolucionou a estética e a política do cinema brasileiro. Filmes como "Os Cafajestes" (1962) e "Os Fuzis" (1964), vencedor do Urso de Prata em Berlim, estabelecem seu nome como um diretor de olhar agudo e contundente sobre as realidades sociais.</p>
+                        <p>Sua carreira internacional inclui trabalhos na França, México e Moçambique, onde dirigiu o Instituto Nacional de Cinema após a independência do país. A parceria com o escritor Gabriel García Márquez rendeu obras memoráveis como "Erêndira" (1983) e "A Bela Palomera" (1988). No Brasil, continuou a produzir obras impactantes como "A Queda" (1978), "Ópera do Malandro" (1986) e "Estorvo" (2000).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Filmografia -->
+            <section id="filmografia" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Filmografia</h2>
+                <h3 class="text-3xl font-semibold mb-6">Longas-metragens</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Card de Filme -->
+                    <div class="film-card rounded-lg overflow-hidden">
+                        <img src="https://placehold.co/300x450/d8cbb7/5a4a3b?text=Os+Fuzis" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/300x450/d8cbb7/5a4a3b?text=Cartaz+Indispon%C3%ADvel';"
+                             alt="[Cartaz do filme Os Fuzis]" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-bold text-lg">Os Fuzis</h4>
+                            <p class="text-sm text-gray-600">1964</p>
+                        </div>
+                    </div>
+                    <!-- Card de Filme -->
+                    <div class="film-card rounded-lg overflow-hidden">
+                        <img src="https://placehold.co/300x450/d8cbb7/5a4a3b?text=A+Queda" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/300x450/d8cbb7/5a4a3b?text=Cartaz+Indispon%C3%ADvel';"
+                             alt="[Cartaz do filme A Queda]" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-bold text-lg">A Queda</h4>
+                            <p class="text-sm text-gray-600">1978</p>
+                        </div>
+                    </div>
+                    <!-- Card de Filme -->
+                    <div class="film-card rounded-lg overflow-hidden">
+                         <img src="https://placehold.co/300x450/d8cbb7/5a4a3b?text=Er%C3%AAndira" 
+                              onerror="this.onerror=null;this.src='https://placehold.co/300x450/d8cbb7/5a4a3b?text=Cartaz+Indispon%C3%ADvel';"
+                              alt="[Cartaz do filme Erêndira]" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-bold text-lg">Erêndira</h4>
+                            <p class="text-sm text-gray-600">1983</p>
+                        </div>
+                    </div>
+                    <!-- Card de Filme -->
+                    <div class="film-card rounded-lg overflow-hidden">
+                        <img src="https://placehold.co/300x450/d8cbb7/5a4a3b?text=%C3%93pera+do+Malandro" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/300x450/d8cbb7/5a4a3b?text=Cartaz+Indispon%C3%ADvel';"
+                             alt="[Cartaz do filme Ópera do Malandro]" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-bold text-lg">Ópera do Malandro</h4>
+                            <p class="text-sm text-gray-600">1986</p>
+                        </div>
+                    </div>
+                     <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </section>
+
+            <!-- Seção Ator -->
+            <section id="ator" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Ator</h2>
+                <p class="mb-4">Além de dirigir, Ruy Guerra também marcou presença em frente às câmeras. Sua atuação mais icônica é como Dom Pedro de Ursua em "Aguirre, a Cólera dos Deuses" (1972), do cineasta alemão Werner Herzog, um papel que se tornou emblemático na história do cinema.</p>
+                <img src="https://placehold.co/600x400/d8cbb7/5a4a3b?text=Aguirre" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/d8cbb7/5a4a3b?text=Imagem+Indispon%C3%ADvel';"
+                     alt="[Cena de Ruy Guerra em Aguirre, a Cólera dos Deuses]" class="rounded-lg shadow-lg">
+            </section>
+
+            <!-- Seção Escritos -->
+            <section id="escritos" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Escritos</h2>
+                <p>A palavra é outro território fundamental para Ruy Guerra. Sua produção literária transita entre a poesia, a crônica e o conto, sempre com um olhar poético e crítico sobre o mundo.</p>
+                <div class="mt-6 bg-[#d8cbb7] p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2">"O Rinoceronte" (fragmento)</h3>
+                    <blockquote class="border-l-4 border-[#8c6f4b] pl-4 italic text-gray-700">
+                        <p>O rinoceronte avança, lento e pesado,<br>
+                        carregando no focinho o peso do mundo.<br>
+                        Sua pele é um mapa de batalhas antigas,<br>
+                        e seus olhos, pequenos, viram tudo.</p>
+                    </blockquote>
+                </div>
+            </section>
+
+            <!-- Seção Pelo Mundo -->
+            <section id="pelo-mundo" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Pelo Mundo</h2>
+                 <p class="mb-6">Um cidadão do mundo. As imagens a seguir registram encontros, viagens e momentos da vida de Ruy Guerra em diferentes cantos do planeta, refletindo sua trajetória cosmopolita.</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <img src="https://placehold.co/400x400/d8cbb7/5a4a3b?text=Pelo+Mundo+1" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/400x400/d8cbb7/5a4a3b?text=Foto+Indispon%C3%ADvel';"
+                         alt="[Foto de Ruy Guerra em viagem]" class="rounded-lg shadow-lg aspect-square object-cover">
+                    <img src="https://placehold.co/400x400/d8cbb7/5a4a3b?text=Pelo+Mundo+2" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/400x400/d8cbb7/5a4a3b?text=Foto+Indispon%C3%ADvel';"
+                         alt="[Foto de Ruy Guerra em festival]" class="rounded-lg shadow-lg aspect-square object-cover">
+                    <img src="https://placehold.co/400x400/d8cbb7/5a4a3b?text=Pelo+Mundo+3" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/400x400/d8cbb7/5a4a3b?text=Foto+Indispon%C3%ADvel';"
+                         alt="[Foto de Ruy Guerra com amigos]" class="rounded-lg shadow-lg aspect-square object-cover">
+                    <img src="https://placehold.co/400x400/d8cbb7/5a4a3b?text=Pelo+Mundo+4" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/400x400/d8cbb7/5a4a3b?text=Foto+Indispon%C3%ADvel';"
+                         alt="[Foto de Ruy Guerra em filmagem]" class="rounded-lg shadow-lg aspect-square object-cover">
+                </div>
+            </section>
+
+            <!-- Seção Notícias -->
+            <section id="noticias" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Últimas Notícias</h2>
+                <div class="space-y-6">
+                    <div class="bg-[#d8cbb7] p-6 rounded-lg">
+                        <h3 class="text-xl font-bold">Retrospectiva da obra de Ruy Guerra no MoMA</h3>
+                        <p class="text-sm text-gray-600 mb-2">15 de Agosto de 2025</p>
+                        <p>O Museu de Arte Moderna de Nova York anuncia uma retrospectiva completa dos filmes de Ruy Guerra, celebrando a contribuição do cineasta para o cinema mundial.</p>
+                    </div>
+                     <div class="bg-[#d8cbb7] p-6 rounded-lg">
+                        <h3 class="text-xl font-bold">Lançamento de coletânea de poesias</h3>
+                        <p class="text-sm text-gray-600 mb-2">02 de Julho de 2025</p>
+                        <p>A editora X anuncia o lançamento de "24 Quadros", uma nova coletânea que reúne poemas inéditos de Ruy Guerra escritos ao longo da última década.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Contato -->
+            <section id="contato" class="content-section">
+                <h2 class="text-4xl font-bold mb-6">Contato</h2>
+                 <p class="mb-6">Para informações sobre a obra, licenciamento de filmes ou projetos, por favor, entre em contato através dos canais abaixo.</p>
+                 <div class="bg-[#d8cbb7] p-6 rounded-lg max-w-md">
+                     <p><strong>Assessoria de Imprensa:</strong> <a href="mailto:imprensa@ruyguerra.com" class="text-[#8c6f4b] hover:underline">imprensa@ruyguerra.com</a></p>
+                     <p class="mt-2"><strong>Agente:</strong> <a href="mailto:agente@ruyguerra.com" class="text-[#8c6f4b] hover:underline">agente@ruyguerra.com</a></p>
+                 </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Lógica de navegação principal
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.content-section');
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileNav = document.getElementById('mobile-nav');
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    section.classList.toggle('active', section.id === sectionId);
+                });
+            }
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = this.getAttribute('data-section');
+                    navLinks.forEach(l => l.classList.toggle('active', l.getAttribute('data-section') === sectionId));
+                    showSection(sectionId);
+                    if (mobileNav.classList.contains('open')) {
+                        mobileNav.classList.remove('open');
+                    }
+                });
+            });
+
+            menuToggle.addEventListener('click', function() {
+                mobileNav.classList.toggle('open');
+            });
+
+            // Lógica da Galeria da Home
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const navContainer = document.querySelector('.gallery-nav');
+            let currentIndex = 0;
+            let intervalId;
+
+            function updateGallery() {
+                galleryItems.forEach((item, i) => {
+                    item.classList.remove('active', 'prev-1', 'next-1', 'prev-2', 'next-2');
+                    
+                    const diff = i - currentIndex;
+                    if (diff === 0) {
+                        item.classList.add('active');
+                    } else if (diff === -1 || diff === galleryItems.length - 1) {
+                        item.classList.add('prev-1');
+                    } else if (diff === 1 || diff === -(galleryItems.length - 1)) {
+                        item.classList.add('next-1');
+                    } else if (diff === -2 || diff === galleryItems.length - 2) {
+                        item.classList.add('prev-2');
+                    } else if (diff === 2 || diff === -(galleryItems.length - 2)) {
+                        item.classList.add('next-2');
+                    }
+                });
+
+                document.querySelectorAll('.nav-dot').forEach((dot, i) => {
+                    dot.classList.toggle('active', i === currentIndex);
+                });
+            }
+
+            function setupNav() {
+                galleryItems.forEach((_, i) => {
+                    const dot = document.createElement('button');
+                    dot.classList.add('nav-dot');
+                    dot.textContent = i + 1;
+                    dot.addEventListener('click', () => {
+                        currentIndex = i;
+                        updateGallery();
+                        resetInterval();
+                    });
+                    navContainer.appendChild(dot);
+                });
+            }
+            
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % galleryItems.length;
+                updateGallery();
+            }
+
+            function resetInterval() {
+                clearInterval(intervalId);
+                intervalId = setInterval(nextImage, 4000);
+            }
+
+            if (galleryItems.length > 0) {
+                setupNav();
+                updateGallery();
+                resetInterval();
+            }
+        });
+    </script>
+
+</body>
+</html>
