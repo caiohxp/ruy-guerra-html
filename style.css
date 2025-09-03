@@ -187,3 +187,49 @@ h4 {
     background-color: var(--primary-red);
     color: #fff;
 }
+
+/* Estilos da Cronologia */
+.timeline-container {
+    position: relative;
+    padding-left: 2rem;
+    margin-left: 1rem;
+    border-left: 3px solid var(--border-color);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.7rem;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid var(--bg-main);
+}
+
+.timeline-item.personal::before { background-color: var(--personal-color); }
+.timeline-item.professional::before { background-color: var(--primary-red); }
+.timeline-item.context::before { background-color: var(--context-color); }
+
+.timeline-year {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.timeline-item.personal .timeline-year { color: var(--personal-color); }
+.timeline-item.professional .timeline-year { color: var(--primary-red); }
+.timeline-item.context .timeline-year { color: var(--context-color); }
+
+.timeline-content {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
