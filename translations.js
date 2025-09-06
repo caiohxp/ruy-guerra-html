@@ -64,7 +64,1339 @@ const translations = {
 </ul>
 `,
         archive_title: "Acervo",
-        archive_content: "Conteúdo do acervo em breve...",
+        archive_content: `
+<p class="basico">
+    Uma parte da documentação pessoal acumulada por Ruy Guerra foi depositada, desde os anos 1989/1990, no <b>Museu de Arte Moderna do Rio de Janeiro (MAM)</b> e uma segunda parte, desde o segundo semestre de 2021, comprada pelo <b>Instituto Moreira Salles (IMS)</b> e depositada em seu arquivo do Rio de Janeiro.
+</p>
+<p class="basico">No <b>Arquivo Nacional</b> no Rio de Janeiro podem ser encontrados alguns de seus filmes:</p>
+<p class="basico"><b>Sweet Hunters</b> - uma cópia com legendas em francês;</p>
+<p class="basico"><b>A Queda</b> - uma cópia com legendas em espanhol, um negativo do som somente e um trailer;</p>
+<p class="basico"><b>Mueda, Memória e Massacre</b> - uma cópia sem legendas.</p>
+<p class="basico"><b>Erendira</b> - uma cópia sem legendas e uma cópia com legendas em francês;</p>
+<p class="basico"><b>Ópera do Malandro</b> - uma cópia sem legendas;</p>
+<p class="basico"><b>Bela Palomera</b> - uma cópia sem legendas;</p>
+<p class="basico"><b>Kuarup</b> - uma cópia sem legendas.</p>
+<p class="basico">
+    A <b>Cinemateca Brasileira em São Paulo</b> possui uma cópia restaurada de <b>Os Fuzis</b>, versão nacional autorizada pelo produtor Jarbas Barbosa que, por ter sofrido um corte de vários minutos, Ruy não assina.
+</p>
+`,
+        longas_title: "Longas-metragens",
+        longas_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/longasv.jpg" alt="Longas-metragens" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Filme 1 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_cafagestes-cartaz.jpg" alt="Os Cafajestes (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Cafajestes (Brasil - 1962)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 100 min<br>
+                    <strong>Elenco:</strong> Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho</p>
+                </div>
+            </div>
+            <!-- Filme 2 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_fuzis-cartaz2.jpg" alt="Os Fuzis (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Miguel Torres<br>
+                    <strong>Duração:</strong> 103 min<br>
+                    <strong>Elenco:</strong> Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff</p>
+                </div>
+            </div>
+            <!-- Filme 3 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/tendres_chasseurs.jpg" alt="Sweet Hunters" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Sweet Hunters (França - 1969)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 102 min<br>
+                    <strong>Elenco:</strong> Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden</p>
+                </div>
+            </div>
+            <!-- Filme 4 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_deuses_e_os_mortos.jpg" alt="Os Deuses e os Mortos" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Deuses e os Mortos (Brasil - 1970)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 97 min<br>
+                    <strong>Elenco:</strong> Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia</p>
+                </div>
+            </div>
+            <!-- Filme 5 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/a_queda.jpg" alt="A Queda" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra, Nelson Xavier<br>
+                    <strong>Duração:</strong> 110 min<br>
+                    <strong>Elenco:</strong> Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves</p>
+                </div>
+            </div>
+            <!-- Filme 6 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/mueda_memoria_e_massacre.jpg" alt="Mueda: Memória e Massacre" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Mueda: Memória e Massacre (Moçambique - 1979/80)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 80 min<br>
+                    <strong>Elenco:</strong> Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema</p>
+                </div>
+            </div>
+            <!-- Filme 7 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/la_lettre_volee.jpg" alt="Histoires Extraordinaires: la lettre volée" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gerard Zingg, Ruy Guerra<br>
+                    <strong>Produção:</strong> FR3, Films du Triangle, TCV, RTP<br>
+                    <strong>Duração:</strong> 52 min, 16 mm, cor<br>
+                    <strong>Argumentação:</strong> Adaptação do texto original de Edgar Allan Poe</p>
+                </div>
+            </div>
+            <!-- Filme 8 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/erendira.jpg" alt="Erendira (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Erendira (Brasil, México, França, Alemanha - 1982)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gabriel García Márquez<br>
+                    <strong>Duração:</strong> 103 min<br>
+                    <strong>Elenco:</strong> Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck</p>
+                </div>
+            </div>
+            <!-- Filme 9 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/opera_do_malandro.jpg" alt="Ópera do Malandro (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Ópera do Malandro (Brasil, França - 1985)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra<br>
+                    <strong>Duração:</strong> 100 min<br>
+                    <strong>Elenco:</strong> Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez</p>
+                </div>
+            </div>
+            <!-- Filme 10 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/a_bela_palomera.jpg" alt="A Fábula da Bela Palomera (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">A Fábula da Bela Palomera (Brasil, Espanha - 1987)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Gabriel García Márquez<br>
+                    <strong>Duração:</strong> 90 min<br>
+                    <strong>Elenco:</strong> Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré</p>
+                </div>
+            </div>
+            <!-- Filme 11 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/kuarup.jpg" alt="Kuarup (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Kuarup (Brasil - 1989)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Antonio Callado (romance), Ruy Guerra, Rudy Langemann<br>
+                    <strong>Duração:</strong> 115 min<br>
+                    <strong>Elenco:</strong> Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença</p>
+                </div>
+            </div>
+            <!-- Filme 12 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/me-alquilo-para-sonar.jpg" alt="Me Alquilo Para Soñar" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Me Alquilo Para Soñar (Espanha - 1991/92)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra<br>
+                    <strong>Produção:</strong> Ing, TVE - Espanha<br>
+                    <strong>Fotografia:</strong> Raul Perez Ureta<br>
+                    <strong>Montagem:</strong> Julia Salvador<br>
+                    <strong>Música:</strong> Mario Dali<br>
+                    <strong>Elenco:</strong> Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros</p>
+                </div>
+            </div>
+            <!-- Filme 13 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/estorvo.jpg" alt="Estorvo (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Estorvo (Brasil - 2000)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Chico Buarque de Hollanda (romance), Ruy Guerra<br>
+                    <strong>Duração:</strong> 95 min<br>
+                    <strong>Elenco:</strong> Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira</p>
+                </div>
+            </div>
+            <!-- Filme 14 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/monsanto.jpg" alt="Monsanto (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Monsanto (Portugal - 2000)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Vicente Alves do Ó<br>
+                    <strong>Duração:</strong> 90 min<br>
+                    <strong>Elenco:</strong> Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho</p>
+                </div>
+            </div>
+            <!-- Filme 15 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/portugal_sa.jpg" alt="Portugal S/A (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Portugal S/A (Portugal - 2003)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Carlos Vale Ferraz<br>
+                    <strong>Duração:</strong> 95 min<br>
+                    <strong>Elenco:</strong> Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira</p>
+                </div>
+            </div>
+            <!-- Filme 16 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/o_veneno_da_madrugada.jpg" alt="O Veneno da Madrugada (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Tairone Feitosa<br>
+                    <strong>Duração:</strong> 118 min<br>
+                    <strong>Elenco:</strong> Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto</p>
+                </div>
+            </div>
+            <!-- Filme 17 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/quase_memoria.jpg" alt="Quase Memória (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Quase Memória (Brasil - 2015)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Bruno Laet, Diogo de Oliveira<br>
+                    <strong>Duração:</strong> 132 min<br>
+                    <strong>Elenco:</strong> Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro</p>
+                </div>
+            </div>
+            <!-- Filme 18 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/aos-pedacos.jpg" alt="Aos Pedaços (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Aos Pedaços (Brasil - 2020)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Luciana Mazzotti<br>
+                    <strong>Duração:</strong> 93 min<br>
+                    <strong>Elenco:</strong> Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach</p>
+                </div>
+            </div>
+        </div>
+    </main>`,
+        curtas_title: "Curtas-metragens",
+        curtas_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/curtasv.jpg" alt="Curtas-metragens" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Curta 1 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Quand Le Soleil Dort</h2>
+                <p class="text-sm mb-2">1954, França, 10 min, 35mm, p&b</p>
+                <p>
+                    Prova final de Ruy Guerra no curso de cinema do IDHEC (França). Durante a II Guerra Mundial, um grupo de soldados alemães vigia prisioneiros da resistência italiana.<br>
+                    <strong>Argumento:</strong> Baseado no romance Le Hommes et Les Autres de Elio Vitorini<br>
+                    <strong>Roteiro:</strong> J. Duval<br>
+                    <strong>Diálogos:</strong> Elio Vitorini<br>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> V. Cerep<br>
+                    <strong>Fotografia:</strong> M. Mundiviller<br>
+                    <strong>Montagem:</strong> M. Duchesne<br>
+                    <strong>Elenco:</strong> Pierre Francis James, Bruno Balt, Maria B. Leite, Eugene Berthier, Elen Estange, Frank Estange, Ruy Belos, Bernard Revon
+                </p>
+            </div>
+            <!-- Curta 2 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Orós</h2>
+                <p class="text-sm mb-2">1959, Brasil</p>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> Carlos Niemeyer
+                </p>
+            </div>
+            <!-- Curta 3 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Cavalo de Oxumaré</h2>
+                <p class="text-sm mb-2">1960, Brasil</p>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> Carlos Niemeyer<br>
+                    <strong>Elenco:</strong> Irma Alvarez e Haroldo Costa
+                </p>
+                <div class="mt-4">
+                    <img src="images/longas/irma_alvarez.jpg" alt="Irma Alvarez" class="w-32 rounded-lg mb-2">
+                    <div class="text-sm italic">Irma Alvarez</div>
+                    <img src="images/longas/cavalo_oxumare.jpg" alt="Ruy Guerra e Miguel Torres" class="w-48 rounded-lg mt-2">
+                    <div class="text-sm italic">Ruy Guerra e seu parceiro Miguel Torres, início dos anos 60</div>
+                </div>
+            </div>
+            <!-- Curta 4 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Chanson pour traverser une rivière</h2>
+                <p class="text-sm mb-2">1966, Bretanha, França</p>
+                <p>
+                    Episódio para o filme Loin du Vietnam, de Chris Marker.<br>
+                    <strong>Direção:</strong> Ruy Guerra
+                </p>
+            </div>
+            <!-- Curta 5 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Operação Búfalo</h2>
+                <p class="text-sm mb-2">1978, Moçambique, 25 min, 16mm, p&b</p>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique<br>
+                    <strong>Fotografia:</strong> Fernando Silva, Ruy Guerra<br>
+                    <strong>Montagem:</strong> Enoque Mate, Moira Forjaz<br>
+                    <strong>Música:</strong> J. Muscavel, Sox, Pedro Bem, Sigauque, Grupo Musical da Zona de Marromeu<br>
+                    <strong>Locução:</strong> Gulamo Khan
+                </p>
+            </div>
+            <!-- Curta 6 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Danças Moçambicanas</h2>
+                <p class="text-sm mb-2">1979, Moçambique, 35mm, cor</p>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique
+                </p>
+            </div>
+            <!-- Curta 7 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Um Povo Nunca Morre</h2>
+                <p class="text-sm mb-2">1980, Moçambique, 18 min, 16mm, cor</p>
+                <p>
+                    <strong>Roteiro:</strong> Licínio de Azevedo<br>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique<br>
+                    <strong>Fotografia:</strong> Edgar Moura, Ahmed Ali, Bonifácio Simbine, João Costa, Luis Simão, Ruy Guerra<br>
+                    <strong>Música:</strong> Obadias, Fernando Sofane<br>
+                    <strong>Locução:</strong> Gulamo Khan
+                </p>
+            </div>
+            <!-- Curta 8 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Talk To Me</h2>
+                <p class="text-sm mb-2">1984, EUA, 6 min, videoclipe</p>
+                <p>
+                    Videoclipe da banda <span class="italic">I am Sian</span>.<br>
+                    <strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Produtora:</strong> David Sonnenberg / Guerra Filmes LTDA<br>
+                    <strong>Elenco:</strong> Claudia Ohana, Paula Maria, Evandro Carvalho, Juan Chomze, Dama de Lara, Nayra Fernandes, Jorge Lino, Lé Meireles, Nestor Fernandes, Jorge Lino, Nestor Capueira e outros
+                </p>
+            </div>
+            <!-- Curta 9 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Obvious Child</h2>
+                <p class="text-sm mb-2">1990, EUA, 5 min, 35mm, cor, videoclipe</p>
+                <p>
+                    Videoclipe da música Obvious Child, do álbum <span class="italic">Rythm of The Saints</span>, de Paul Simon. Filmado em Salvador com o grupo <span class="italic">Olodum</span>.<br>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> Roberlo Backer, Peregrine INC, Warner Music
+                </p>
+            </div>
+            <!-- Curta 10 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Carta portuguesa a Sarajevo</h2>
+                <p class="text-sm mb-2">1994, França e Inglaterra, 3 min, cor</p>
+                <p>
+                    <strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Produção:</strong> Prod. Point Du Jour / Arte / BBC2 / Saga<br>
+                    <strong>Idéia original:</strong> Patrice Barrat
+                </p>
+            </div>
+        </div>
+    </main>`,
+        actor_title: "Ator",
+        actor_content: `
+<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/atorv.jpg" alt="Ator" class="w-60 rounded-lg shadow-lg">
+        </div>
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Filme 1 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">SOS Noronha (Brasil - 1957)</h2>
+                <img src="images/longas/s-o-s_noronha.jpg" alt="S.O.S Noronha" class="w-32 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Georges Rouquier<br>
+                    <strong>Roteiro:</strong> Pierre Viré (romance), Georges Rouquier, Thomas Narcejac, Pierre Boileau<br>
+                    <strong>Duração:</strong> 100 min<br>
+                    <strong>Elenco:</strong> Jean Marais, Daniel Ivernel, Yves Massard, Vanja Orico, José Lewgoy, Ruy Guerra, Altit, Mario Bernardi, Jacques Demy
+                </p>
+                <img src="images/longas/sos_noronha.jpg" alt="Ruy Guerra em SOS Noronha" class="w-48 rounded-lg mt-4">
+                <div class="text-sm italic">Jean Marais, Daniel Ivernel, José Lewgoy, Ruy Guerra</div>
+            </div>
+            <!-- Filme 2 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Mendigos (Brasil - 1963)</h2>
+                <img src="images/longas/osMendigos/cartaz.jpg" alt="Os Mendigos (cartaz)" class="w-32 rounded-lg mb-2">
+                <p>
+                    <strong>Direção e roteiro:</strong> Flávio Migliaccio<br>
+                    <strong>Duração:</strong> 82 min<br>
+                    <strong>Elenco:</strong> participação especial de Ruy Guerra (mendigo cego)
+                </p>
+                <img src="images/longas/osMendigos/os_mendigos-1.jpg" alt="Ruy Guerra em Os Mendigos" class="w-48 rounded-lg mt-4">
+                <div class="text-sm italic">Ruy Guerra em Os Mendigos</div>
+                <img src="images/longas/osMendigos/os_mendigos-2.jpg" alt="cena do filme Os Mendigos" class="w-48 rounded-lg mt-2">
+                <div class="text-sm italic">Cena do filme Os Mendigos</div>
+            </div>
+            <!-- Filme 3 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Benito Cereno (França - 1969)</h2>
+                <img src="images/longas/benito-cereno.jpg" alt="cena do filme Benito Cereno" class="w-48 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Serge Roullet<br>
+                    <strong>Duração:</strong> longa-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra, Georges Selmark, Tamour Diop, Gino Turini, Philippe Nourry, Jacques Mercier
+                </p>
+                <div class="text-sm italic">Ruy Guerra como Benito Cereno</div>
+            </div>
+            <!-- Filme 4 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Le Maître du Temps (França, Brasil - 1969)</h2>
+                <p>
+                    <strong>Direção:</strong> Jean Daniel Poullet<br>
+                    <strong>Duração:</strong> longa-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+            </div>
+            <!-- Filme 5 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Aguirre, a Cólera dos Deuses (Alemanha - 1972)</h2>
+                <img src="images/longas/aguirre.jpg" alt="Aguirre, a cólera dos deuses" class="w-32 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Werner Herzog<br>
+                    <strong>Duração:</strong> 93 min<br>
+                    <strong>Elenco:</strong> Klaus Kinski, Ruy Guerra, Helena Rojo
+                </p>
+                <img src="images/longas/aguirre2.jpg" alt="Ruy Guerra em Aguirre" class="w-48 rounded-lg mt-4">
+                <div class="text-sm italic">Ruy Guerra no intervalo das filmagens</div>
+            </div>
+            <!-- Filme 6 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Sóis da Ilha de Páscoa (França - 1972)</h2>
+                <img src="images/longas/les_soleils_de_l_ile_de_paques.jpg" alt="Les soleils de l'ile de paques" class="w-32 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Pierre Kast<br>
+                    <strong>Duração:</strong> longa-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+            </div>
+            <!-- Filme 7 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Nifrapo (Brasil - 1985)</h2>
+                <p>
+                    <strong>Direção:</strong> Ricardo Bravo<br>
+                    <strong>Duração:</strong> curta-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+            </div>
+            <!-- Filme 8 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Retrato do Artista com o 38 na Mão (Brasil - 2000)</h2>
+                <img src="images/longas/retrato-artista-38-mao.jpg" alt="Ruy Guerra em Retrato do artista com o 38 na mão" class="w-48 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Paulo Halm<br>
+                    <strong>Duração:</strong> curta-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+                <div class="text-sm italic">Ruy Guerra em Retrato do artista com o 38 na mão</div>
+            </div>
+            <!-- Filme 9 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Casa de Areia (Brasil - 2005)</h2>
+                <img src="images/longas/casa_de_areia.jpg" alt="Casa de areia (2005)" class="w-32 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Andrucha Waddington<br>
+                    <strong>Duração:</strong> 115 min<br>
+                    <strong>Elenco:</strong> Fernanda Montenegro, Fernanda Torres, Ruy Guerra, Seu Jorge, Luiz Melodia, Enrique Diaz, Stênio Garcia, Emiliano Queiroz, João Acaiabe, Camilla Facundes, Haroldo Costa, Jorge Mautner, Nélson Jacobina
+                </p>
+                <img src="images/longas/casa_de_areia-2.jpg" alt="cena do filme Casa de Areia" class="w-48 rounded-lg mt-4">
+                <div class="text-sm italic">Ruy Guerra em Casa de Areia</div>
+            </div>
+            <!-- Filme 10 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Acossada (Brasil - 2005)</h2>
+                <p>
+                    <strong>Direção:</strong> Karen Black, Karen Akerman<br>
+                    <strong>Duração:</strong> 7 min<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+            </div>
+            <!-- Filme 11 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">5 Vezes Favela - agora por nós mesmos (Brasil - 2012)</h2>
+                <img src="images/longas/5x-favela.jpg" alt="Cinco vezes favela - agora por nós mesmos" class="w-48 rounded-lg mb-2">
+                <p>
+                    <strong>Produção:</strong> Carlos Diegues, Renata de Almeida Magalhães<br>
+                    <strong>Duração:</strong> longa-metragem<br>
+                    <strong>Elenco:</strong> Ruy Guerra e outros
+                </p>
+                <div class="text-sm italic">Ruy Guerra em Cinco Vezes Favela - Agora por Nós Mesmos</div>
+            </div>
+            <!-- Filme 12 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Sangue Azul (Brasil - 2014)</h2>
+                <img src="images/longas/sangue_azul.jpg" alt="Ruy Guerra em Sangue Azul, de Lírio Ferreira" class="w-48 rounded-lg mb-2">
+                <p>
+                    <strong>Direção:</strong> Lírio Ferreira<br>
+                    <strong>Duração:</strong> longa-metragem<br>
+                    <strong>Elenco:</strong> Daniel de Oliveira, Sandra Corveloni, Ney Latorraca, Matheus Natchergaele, Aramis Trindade, Ruy Guerra, entre outros
+                </p>
+                <div class="text-sm italic">Filmagens</div>
+            </div>
+        </div>
+    </main>`,
+        roteirista_title: "Roteirista",
+        roteirista_content: `
+<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/roteiristav.jpg" alt="Roteirista" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Roteirista</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Roteirista 1 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Cafajestes (Brasil - 1962)</h2>
+                <p>
+                    <strong>Argumento original e Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação e Diálogo:</strong> Ruy Guerra com Miguel Torres
+                </p>
+            </div>
+            <!-- Roteirista 2 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
+                <p>
+                    <strong>Argumento original e Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação e Diálogo:</strong> Ruy Guerra com Miguel Torres
+                </p>
+            </div>
+            <!-- Roteirista 3 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Balada da Página Três (Brasil - 1968)</h2>
+                <p>
+                    <strong>Direção:</strong> Luiz Rosemberg Filho<br>
+                    <strong>Argumento original e Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Elenco:</strong> Sindoval Aguiar, Chacrinha, Adriana Prieto, Echio Reis, Velico
+                </p>
+            </div>
+            <!-- Roteirista 4 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Sweet Hunters (França - 1969)</h2>
+                <p>
+                    <strong>Argumento original e Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação e Diálogo:</strong> Ruy Guerra com Philipe Dumarçay
+                </p>
+            </div>
+            <!-- Roteirista 5 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Deuses e os Mortos (Brasil - 1970)</h2>
+                <p>
+                    <strong>Argumento original, Roteiro e Diálogo:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra com Paulo José e Flávio Imperial
+                </p>
+            </div>
+            <!-- Roteirista 6 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Aventuras de um Detetive Português (Brasil, Portugal - 1975)</h2>
+                <p>
+                    <strong>Direção:</strong> Stefan Wohl<br>
+                    <strong>Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra<br>
+                    <strong>Elenco:</strong> Raul Solnado, Jorge Dória, Mara Rúbia, Grande Otelo, Nelson Dantas, Betty Saady, Fregolente, Fábio Sabag, Albino Pinheiro, Moacyr Deriquém, Sílvia Dizitser, Rogério Steinberg, Arthur Duarte, Ester de Abreu, Estelita Bell, Jackson de Souza, Martim Francisco, Edgar da Rocha Miranda
+                </p>
+            </div>
+            <!-- Roteirista 7 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
+                <p>
+                    <strong>Argumento original e Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra com Nelson Xavier<br>
+                    <strong>Diálogos:</strong> Improvisados
+                </p>
+            </div>
+            <!-- Roteirista 8 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Mueda: Memória e Massacre (Moçambique - 1979/80)</h2>
+                <p>
+                    <strong>Argumento e Roteiro:</strong> Ruy Guerra
+                </p>
+            </div>
+            <!-- Roteirista 9 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Erendira (Brasil, México, França, Alemanha - 1982)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> original de Gabriel García Márquez
+                </p>
+            </div>
+            <!-- Roteirista 10 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Ópera do Malandro (Brasil, França - 1985)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra com Chico Buarque e Orlando Senna<br>
+                    <strong>Diálogos:</strong> Chico Buarque
+                </p>
+            </div>
+            <!-- Roteirista 11 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">A Fábula da Bela Palomera (Brasil, Espanha - 1987)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> original de Gabriel García Márquez<br>
+                    <strong>Co-Adaptação e Diálogos:</strong> Ruy Guerra com Gabriel García Márquez
+                </p>
+            </div>
+            <!-- Roteirista 12 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Kuarup (Brasil - 1989)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação e Roteiro:</strong> Ruy Guerra
+                </p>
+            </div>
+            <!-- Roteirista 13 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Me Alquilo Para Soñar (Espanha - 1991/92)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> original de Gabriel García Márquez<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra com Claudio McDowell
+                </p>
+            </div>
+            <!-- Roteirista 14 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Guerra Particular (Brasil - 1999)</h2>
+                <p>
+                    Argumento original que serviu de base para o livro "A Guerra do Fim do Mundo" de Mario Vargas Llosa. (Filme não realizado)<br>
+                    <strong>Argumento original:</strong> Ruy Guerra<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra
+                </p>
+            </div>
+            <!-- Roteirista 15 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Estorvo (Brasil - 2000)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, baseado no romance homônimo de Chico Buarque de Hollanda
+                </p>
+            </div>
+            <!-- Roteirista 16 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, baseado no romance "La mala hora" de Gabriel García Márquez<br>
+                    <strong>Co-Adaptação:</strong> Ruy Guerra com Tairone Feitosa, colaboração de Leonardo Gudel
+                </p>
+            </div>
+        </div>
+    </main>`,
+        montador_title: "Montador",
+        montador_content: `
+<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/montadorv.jpg" alt="Montador" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Montador</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Montador 1 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Cinco Vezes Favela - Escola de Samba, Alegria de Viver (Brasil - 1962)</h2>
+                <p>
+                    <strong>Direção:</strong> Carlos Diegues<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 2 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">História da Praia (Brasil - 1962)</h2>
+                <p>
+                    <strong>Direção:</strong> Fernando Amaral<br>
+                    <strong>Duração:</strong> curta-metragem
+                </p>
+            </div>
+            <!-- Montador 3 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Esse Mundo é Meu (Brasil - 1963)</h2>
+                <p>
+                    <strong>Direção:</strong> Sérgio Ricardo<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 4 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 5 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Heitor dos Prazeres (Brasil - 1965)</h2>
+                <p>
+                    <strong>Direção:</strong> Antonio Carlos Fontoura<br>
+                    <strong>Duração:</strong> curta-metragem
+                </p>
+            </div>
+            <!-- Montador 6 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Série de documentários semanais (França - 1966/68)</h2>
+                <p>
+                    Montagem para a ORTF.
+                </p>
+            </div>
+            <!-- Montador 7 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Deuses e Os Mortos (Brasil - 1970)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 8 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Marcados para Viver (Brasil - 1976)</h2>
+                <p>
+                    <strong>Direção:</strong> Maria do Rosário Nascimento Silva<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 9 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 10 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Mueda, Memória e Massacre (Moçambique - 1979)</h2>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 11 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">O Judeu (Brasil, Portugal - 1995)</h2>
+                <p>
+                    <strong>Direção:</strong> Jom Tob Azulay<br>
+                    <strong>Duração:</strong> longa-metragem
+                </p>
+            </div>
+            <!-- Montador 12 -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Supervisão de roteiros e montagem (Portugal - 1995)</h2>
+                <p>
+                    Para a produtora “D&D Audiovisuais” (TV) Portugal.
+                </p>
+            </div>
+        </div>
+    </main>`,
+        festivais_title: "Festivais e Premiações",
+        festivais_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/festivaisv.jpg" alt="Festivais e Premiações" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Festivais e Premiações</h1>
+        <div class="space-y-8">
+            <!-- Os Cafajestes -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Cafajestes <span class="text-base font-normal">Brasil - 1962</span></h2>
+                <h3 class="font-semibold mt-2">1962 - Prêmios Saci do Estado de São Paulo, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Saci Melhor Direção</li>
+                    <li>Saci Melhor Argumento Original Ruy Guerra e Miguel Torres</li>
+                    <li>Saci Melhor Fotografia Toni Rabattoni</li>
+                    <li>Saci Melhor Música Luiz Bonfá</li>
+                    <li>Saci Melhor Atriz Norma Bengell</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1963 - Festival de Berlim, Alemanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Participação oficial representando o Brasil</li>
+                </ul>
+            </div>
+            <!-- Os Fuzis -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Fuzis <span class="text-base font-normal">Brasil - 1964</span></h2>
+                <h3 class="font-semibold mt-2">1964 - Festival de Berlim, Alemanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Urso de Prata - Prêmio Especial do Juri</li>
+                </ul>
+                <img src="images/longas/urso_de_prata.jpg" alt="Ruy Guerra premiado com o Urso de Prata, Berlim" class="w-96 rounded-lg my-4">
+                <div class="text-sm italic">Ruy Guerra sendo premiado com o Urso de Prata, Berlim</div>
+                <h3 class="font-semibold mt-2">1964 - Festival de Cinema Brasileiro de Teresópolis</h3>
+                <h3 class="font-semibold mt-2">1964 - Festival de Pesaro, Itália</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Fotografia, Ricardo Aronovich</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1965 - Festival de Acapulco, México</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Cabeza de Palanque</li>
+                </ul>
+                <h3 class="font-semibold mt-2">Cahiers du Cinéma, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Selecionado na lista de críticos europeus como um dos dez melhores filmes da história do cinema</li>
+                </ul>
+            </div>
+            <!-- Sweet Hunters -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Sweet Hunters <span class="text-base font-normal">França, Brasil, Panamá - 1969</span></h2>
+                <h3 class="font-semibold mt-2">1969 - Festival de Veneza, Itália</h3>
+                <div class="text-sm italic">(festival sem premiação competitiva)</div>
+                <ul class="list-disc ml-6">
+                    <li>Medalha de Ouro por Participação Especial</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1970 - Festival de Cannes, França</h3>
+                <div class="text-sm italic">(Quinzaine des Realizateurs)</div>
+                <h3 class="font-semibold mt-2">1970 - Festival dos Festivais, Inglaterra</h3>
+                <div class="text-sm italic">(não competitivo, Londres - Inglaterra)</div>
+            </div>
+            <!-- Os Deuses e os Mortos -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Os Deuses e os Mortos <span class="text-base font-normal">Brasil - 1970</span></h2>
+                <h3 class="font-semibold mt-2">1970 Festival de Brasília</h3>
+                <ul class="list-disc ml-6">
+                    <li>Candango de Ouro, Melhor Filme, Melhor Ator Othon Bastos, Melhor Atriz Dina Sfat, Melhor Fotografia Dib Lutfi, Melhor Cenografia Marcos Weintock, Melhor Música Milton Nascimento</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1970 - Prêmios do Estado do Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Coruja de Ouro, Melhor Atriz Ífala Nandi, Melhor Fotografia Dib Lutfi, Atriz Coadjuvante Mara Rubia, Ator Coadjuvante Nelson Xavier</li>
+                    <li>Golfinho de Ouro pela "Melhor Criação do Ano"</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1970 - Festival de Berlim, Alemanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição oficial representando o Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1970 - Festival de Cartago, Tunísia</h3>
+                <h3 class="font-semibold mt-2">1971 - Xème Rencontre Internacionale du Cinema et de Jeunesse de Grenoble, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Realização, Melhor Fotografia Dib Lutfi</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1971 - XIII Semana Internacional de Cine In Color de Barcelona</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Dama dei Paraguas pelo Melhor Filme, Espanha</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1971 - Participação na Semaine Positif, Paris, França</h3>
+                <h3 class="font-semibold mt-2">1971 - XIX Festival deI Cine, San Sebastian, Espanha</h3>
+                <h3 class="font-semibold mt-2">1971 - Festival de Cannes, França</h3>
+                <div class="text-sm italic">(Quinzaine des Realizateurs)</div>
+                <h3 class="font-semibold mt-2">1971 - Cahiers du Cinéma, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Selecionado pela revista francesa Cahiers du Cinema como um dos sete melhores filmes do ano</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1974 - Prêmio de Qualidade INC (Brasil)</h3>
+            </div>
+            <!-- A Queda -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">A Queda <span class="text-base font-normal">Brasil - 1977</span></h2>
+                <h3 class="font-semibold mt-2">1978 - Festival de Berlim, Alemanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Urso de Prata - Prêmio Especial do Juri</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1978 - CNNB Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Margarida de Prata, Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1978 - Festival de Brasília</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Ator Nelson Xavier, Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1979 - Federação Cineclubes do Rio de Janeiro, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio São Saruê</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1980 - Festival Biarritz, França</h3>
+                <h3 class="font-semibold mt-2">1981 - Festival de Edinburgh, Inglaterra</h3>
+                <h3 class="font-semibold mt-2">1981 - Semana de Positif, Paris, França</h3>
+            </div>
+            <!-- Mueda - Memória e Massacre -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Mueda - Memória e Massacre <span class="text-base font-normal">Moçambique - 1979/80</span></h2>
+                <h3 class="font-semibold mt-2">1980 - Festival de Tashkent, Rússia (ex-URSS)</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio União da Amizade dos Povos</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1980 - Prêmio Filme e Cultura</h3>
+                <h3 class="font-semibold mt-2">1981 - Festival de Rotterdam, Holanda</h3>
+                <h3 class="font-semibold mt-2">1981 - Forum do Jovem Cinema, Festival de Berlim, Alemanha</h3>
+                <h3 class="font-semibold mt-2">1981 - Semana Cinema Terceiro Mundo, Lisboa, Portugal</h3>
+                <h3 class="font-semibold mt-2">1982 - Jornadas Cinematográficas de Amiens, França</h3>
+                <h3 class="font-semibold mt-2">1983 - Confrontation Perpignan, França</h3>
+            </div>
+            <!-- Erendira -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Erendira <span class="text-base font-normal">Brasil, México, França, Alemanha - 1982</span></h2>
+                <h3 class="font-semibold mt-2">1984 - Festival de Chicago, USA</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Melhor Atriz Irene Papas</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1985 - Cine Clube, São Paulo</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Filme Brasileiro escolhido pelo público</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1983 - Festival de Cannes, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição Oficial representando o México</li>
+                </ul>
+                <img src="images/longas/ruy-gabo-cannes-erendira.jpg" alt="Ruy Guerra, Gabriel García Márquez, Festival de Cannes, Erendira" class="w-96 rounded-lg my-4">
+                <div class="text-sm italic">Ruy Guerra e Gabriel García Márquez</div>
+                <h3 class="font-semibold mt-2">1983 - Festival Latino Americano (Hours-Concours), Cuba</h3>
+                <h3 class="font-semibold mt-2">1983 - Festival de New York, USA</h3>
+                <h3 class="font-semibold mt-2">1983 - Festival de Toronto, Canadá</h3>
+                <h3 class="font-semibold mt-2">1984 - Festival de Cartagena (Hours-Concours), Colombia</h3>
+                <h3 class="font-semibold mt-2">1984 - 8ª Mostra Internacional de Cinema de São Paulo, Brasil</h3>
+            </div>
+            <!-- Ópera do Malandro -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Ópera do Malandro <span class="text-base font-normal">Brasil, França - 1985</span></h2>
+                <h3 class="font-semibold mt-2">1986 - Prêmio do Estado do Rio de Janeiro, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Golfinho de Ouro (Cinema)</li>
+                </ul>
+                <img src="images/longas/chico-buarque_jack-lang.jpg" alt="Chico Buarque com Jack Lang, A Ópera do Malandro" class="w-96 rounded-lg my-4">
+                <div class="text-sm italic">O ministro da cultura francês Jack Lang, a primeira dama da França Danielle Mitterand e Chico Buarque durante as filmagens</div>
+                <h3 class="font-semibold mt-2">1986 - III Festival do Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio de Melhor Direção, Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1986 - Festival Latino Americano Havana, Cuba</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Especial do Juri</li>
+                    <li>Prêmio Melhor Trilha Sonora Chico Buarque</li>
+                    <li>Prêmio Melhor Montagem Mair Tavares, Ide Lacreta</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1988 - Ouinzaine des Realisateurs, Cannes, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Avant - Première Square de Choisy, França</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1988 - 24º New York Film Festival, USA</h3>
+                <h3 class="font-semibold mt-2">1987 - Miami Film Festival, USA</h3>
+                <h3 class="font-semibold mt-2">1987 - Festival Internacional de Cinema de Washington DC., USA</h3>
+                <h3 class="font-semibold mt-2">1987 - Semana da Associação de Técnicos de Cinema, Brasil</h3>
+                <h3 class="font-semibold mt-2">1987 - 2 Festival Internacional de Cine de Expressão Ibérica, Espanha</h3>
+                <h3 class="font-semibold mt-2">1987 - Mostra de Cinema Latino Americano, Peru</h3>
+                <h3 class="font-semibold mt-2">1987 - Festival de Cinema de Istambul, Turquia</h3>
+                <h3 class="font-semibold mt-2">1988 - Semana Cinema Latino Americano - Fundación del Nuevo Cine Latino Americano, Cuba</h3>
+                <h3 class="font-semibold mt-2">2005 - Festival das Águas, Hors-concours, Corumbá, Brasil</h3>
+            </div>
+            <!-- A Fábula da Bela Palomera -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">A Fábula da Bela Palomera <span class="text-base font-normal">Brasil - 1987</span></h2>
+                <h3 class="font-semibold mt-2">1988 - 25º Festival Internacional de Television</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prague d'Or (Prêmio da Imprensa)</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1988 - Festival de Munique, Alemanha</h3>
+                <h3 class="font-semibold mt-2">1988 - 21º Festival de Brasília (Hour-Concours), Brasil</h3>
+                <h3 class="font-semibold mt-2">1988 - XXXIII Semana Internacional de Valladolid, Espanha</h3>
+                <h3 class="font-semibold mt-2">1988 - Mostra de Cinema em São Paulo, Brasil</h3>
+                <h3 class="font-semibold mt-2">1989 - 13º Hong Kong International Film Festival</h3>
+                <h3 class="font-semibold mt-2">1990 - Festival Latino Americano, Providence, USA</h3>
+            </div>
+            <!-- Kuarup -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Kuarup <span class="text-base font-normal">Brasil - 1989</span></h2>
+                <h3 class="font-semibold mt-2">1988 - Prêmio Casa de Ias Americas, Cuba</h3>
+                <h3 class="font-semibold mt-2">1988 - Festival of Festivais, Toronto (Canadá)</h3>
+                <h3 class="font-semibold mt-2">1989 - Festival de Cannes, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição oficial representando o Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1989 - XV Festival de Cine Ibero Americano de Huelva, Espanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Radio Nacional de Espana, Espanha</li>
+                    <li>Prêmio ASECAN (Associação dei Escritor Cinematografico de Andaluzia), Melhor Filme, Espanha</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1989 - Festival Latino Americano de Havana</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio FICC (Federação Internacional de Cine Clube), Cuba, Melhor Filme</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1990 - Cinco Indicações no 10 Prêmio Bel Metal, Brasil</h3>
+            </div>
+            <!-- Estorvo -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Estorvo <span class="text-base font-normal">Brasil - 2000</span></h2>
+                <h3 class="font-semibold mt-2">2000 - Festival de Cannes, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição oficial representando o Brasil</li>
+                </ul>
+                <img src="images/longas/cannes.jpg" alt="Ruy Guerra sendo entrevistado em Cannes" class="w-96 rounded-lg my-4">
+                <div class="text-sm italic">Ruy Guerra sendo entrevistado em Cannes</div>
+                <h3 class="font-semibold mt-2">2000 - Festival de Gramado, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Fotografia Marcelo Durst</li>
+                    <li>Melhor Trilha Sonora Egberto Gismonti</li>
+                </ul>
+                <img src="images/longas/kikito.jpg" alt="Ruy Guerra recebendo o Kikito em Gramado" class="w-64 rounded-lg my-4">
+                <div class="text-sm italic">Ruy Guerra sendo premiado com o Kikito</div>
+                <h3 class="font-semibold mt-2">2000 - Festival de Huelva, Espanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Diretor</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2001 - Associação Paulista de Críticos de Arte, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio APCA de Melhor Diretor</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2002 - Festival de Rabat, Marrocos</h3>
+                <h3 class="font-semibold mt-2">2002 - Festival de Nova Delhi, Índia</h3>
+                <h3 class="font-semibold mt-2">2002 - V FICA-Festival Internacional de Cinema e Vídeo Ambiental, Brasil</h3>
+            </div>
+            <!-- O Veneno da Madrugada -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">O Veneno da Madrugada <span class="text-base font-normal">Brasil, Argentina, Portugal - 2004/2005</span></h2>
+                <h3 class="font-semibold mt-2">2005 - Festival de Brasília, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio de Melhor Fotografia, Walter Carvalho</li>
+                    <li>Melhor Direção de Arte, Marcos Flaksman</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2005 - Festival de Havana, Cuba</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio de Melhor Fotografia, Walter Carvalho</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2005 - Festival de San Sebastian, Espanha</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição oficial representando o Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2005 - Festival de Biarritz, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Competição oficial representando o Brasil</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2006 - Festival Iberoamericano de Cine de Santa Cruz de la Sierra, Bolívia</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor filme</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2008 - 1st Cine Fest Brasil/Madrid, Espanha</h3>
+            </div>
+            <!-- Quase Memória -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Quase Memória <span class="text-base font-normal">Brasil, 2015</span></h2>
+                <h3 class="font-semibold mt-2">2015 - Festival do Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Especial do Jury</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2016 - 19º Festival internacional de Cinema de Punta del Este</h3>
+                <ul class="list-disc ml-6">
+                    <li>Premio de melhor direção</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2016 - Festival Internacional de Cinema de Moscow</h3>
+                <ul class="list-disc ml-6">
+                    <li>Menção Honrosa</li>
+                </ul>
+            </div>
+            <!-- Aos Pedaços -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Aos Pedaços <span class="text-base font-normal">Brasil - 2020</span></h2>
+                <h3 class="font-semibold mt-2">2020 - 48º Festival de Gramado, Brasil</h3>
+                <ul class="list-disc ml-6">
+                    <li>Melhor Direção</li>
+                    <li>Melhor Fotografia</li>
+                    <li>Melhor Desenho de Som</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2020 - Rotterdam Film FESTIVAL</h3>
+                <ul class="list-disc ml-6">
+                    <li>Participação com exibição em fevereiro/2020</li>
+                </ul>
+            </div>
+            <!-- Prêmios e Homenagens -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Prêmios e Homenagens</h2>
+                <h3 class="font-semibold mt-2">1987 - Grau de Comendador da Ordem do Mérito</h3>
+                <ul class="list-disc ml-6">
+                    <li>Outorgada pelo Presidente Mário Soares (Portugal)</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1987 - Governo do Estado do Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Golfinho de Ouro do Cinema</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1993 - Festival de Trieste (Itália)</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio pela obra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2000 - Festival Iberoamericano de Cine de Santa Cruz (Bolívia)</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Tatá Tumpa por “Excelencia y aporte al Cine Iberoamericano”</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2002 - Festival de Cinema, Vídeo e Cine de Curitiba</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio “Ruy Guerra”</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2003 - 8º Festival de Cinema Universitário (UFF/CCBB)</h3>
+                <ul class="list-disc ml-6">
+                    <li>Homenagem ao Professor Ruy Guerra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2003 - Jornal O Estado de S. Paulo e Serasa S/A</h3>
+                <ul class="list-disc ml-6">
+                    <li>Prêmio Multicultural - Cinema</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2004 - Festival Internacional de Cine de San Sebastian</h3>
+                <ul class="list-disc ml-6">
+                    <li>Presidente do Juri “Horizontes”</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2008 - Ordem ao Mérito Cultural (Brasil)</h3>
+                <ul class="list-disc ml-6">
+                    <li>Grau de Comendador</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2009 - Homenagem da ABDeC (Associação Brasileira de Documentaristas e Curtametragistas Rio de Janeiro)</h3>
+                <h3 class="font-semibold mt-2">2010 - Premio Kikito de Cristal – Festival de Gramado</h3>
+                <ul class="list-disc ml-6">
+                    <li>Homenagem pelo conjunto da obra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2011 - Mostra Comemorativa dos 80 anos de Ruy Guerra na Cinemateca de São Paulo</h3>
+                <ul class="list-disc ml-6">
+                    <li>Exibição de seus filmes entre os dias 18 a 25 de agosto</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2012 - Homenagem Especial 6º Festival Dockanemo Maputo, Moçambique (setembro)</h3>
+            </div>
+            <!-- Retrospectivas -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Retrospectivas</h2>
+                <h3 class="font-semibold mt-2">1981 - Festival de Cinema de Biarritz, França</h3>
+                <ul class="list-disc ml-6">
+                    <li>Retrospectiva Ruy Guerra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1998 - Cinemateca de Lisboa</h3>
+                <ul class="list-disc ml-6">
+                    <li>Retrospectiva de toda a obra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1998 - Centro Cultural Banco do Brasil (CCBB) Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Retrospectiva de toda a obra</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2005 - Cineclube SESC-SP</h3>
+                <ul class="list-disc ml-6">
+                    <li>Mostra “O cinema de Ruy Guerra”</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2006 - Centro Cultural Banco do Brasil CCBB São Paulo</h3>
+                <ul class="list-disc ml-6">
+                    <li>Retrospectiva de toda a obra - Ruy Guerra, Filmar e Viver</li>
+                </ul>
+            </div>
+            <!-- Participação como Jurado -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Participação como Jurado</h2>
+                <h3 class="font-semibold mt-2">1980 - Jornadas da Bahia, Brasil</h3>
+                <h3 class="font-semibold mt-2">1980 - Festival de Cinema de Gramado, Brasil</h3>
+                <h3 class="font-semibold mt-2">1980 - Festival de Cinema em Cartagena, Colombia</h3>
+                <h3 class="font-semibold mt-2">1981 - 1º Concurso de Fotografia, Moçambique</h3>
+                <h3 class="font-semibold mt-2">1981 - 2º Concurso de Fotografia, Moçambique</h3>
+                <h3 class="font-semibold mt-2">1981 - Festival de Arte e Areia, Paraíba, Brasil</h3>
+                <h3 class="font-semibold mt-2">1981 - Festival de Cinema de Biarritz, França</h3>
+                <h3 class="font-semibold mt-2">1982 - Festival de Cinema de Biarritz, França</h3>
+                <h3 class="font-semibold mt-2">1982 - 1º Seminário de Audio Visual, Moçambique</h3>
+                <h3 class="font-semibold mt-2">1994 - Laboratório de Guiones, Sundance, México</h3>
+                <ul class="list-disc ml-6">
+                    <li>Assessor</li>
+                </ul>
+                <h3 class="font-semibold mt-2">1996 Workshop de roteiros Sundance, Búzios</h3>
+                <ul class="list-disc ml-6">
+                    <li>Assessor</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2003 - Festival de Curta Metragem da Universidade Gama Filho</h3>
+                <ul class="list-disc ml-6">
+                    <li>Presidente</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2004 - Festival do Rio de Janeiro</h3>
+                <ul class="list-disc ml-6">
+                    <li>Presidente do Juri</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2006 – Festival de Gramado</h3>
+                <ul class="list-disc ml-6">
+                    <li>Presidente do Juri Latino americano</li>
+                </ul>
+                <h3 class="font-semibold mt-2">2010 - Festival de Mar Del Plata, Argentina</h3>
+            </div>
+            <!-- Participação como Palestrante -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold">Participação como Palestrante</h2>
+                <h3 class="font-semibold mt-2">1976 - Universidad Autónoma do México, México</h3>
+                <h3 class="font-semibold mt-2">1978 - 1ª Feira de Livro Progressista, República Popular de Angola</h3>
+                <h3 class="font-semibold mt-2">1982 - 1ª Assembléia Mundial de Realizadores (Funchal)</h3>
+                <h3 class="font-semibold mt-2">1985 - Jornadas Democráticas do Presidente Raoul Alfonsín, Buenos Aires</h3>
+            </div>
+        </div>
+    </main>`,
+        theater_title: "Teatro",
+        theater_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/teatrov.jpg" alt="Teatro" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Teatro</h1>
+        <div class="space-y-8">
+            <!-- Shows de música -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h2 class="text-xl font-bold mb-2">Shows de música: direção entre 1964 e 1970</h2>
+                <div>
+                    <h3 class="font-semibold">Francis Hime e Dori Caymmi <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Recital de Samba <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    Com Baden Powell, Alaíde Costa, Dulce Nunes e Oscar Castro Neves.</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Poeira de Estrelas <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    Espetáculo para o Sindicato dos Artistas e Técnicos.</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Clube da Esquina <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    Com Milton Nascimento, Lo Borges, entre outros.</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Chico Buarque e Maria Bethânia no Canecão <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Grupo de Criação <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    Parceria com Caetano Veloso.</p>
+                </div>
+            </div>
+            <!-- Woyzeck -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Woyzeck, de G. Bruchner <span class="text-base font-normal">1972, Rio de Janeiro, Brasil</span></h3>
+                <p>
+                    <strong>Tradução de Texto e Letras Originais:</strong> Ruy Guerra<br>
+                    <strong>Direção:</strong> Marília Pedroso<br>
+                    <strong>Canções:</strong> Edu Lobo
+                </p>
+            </div>
+            <!-- Tempo e Contratempo -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Tempo e Contratempo <span class="text-base font-normal">1972, Brasil</span></h3>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    Com Chico Buarque e MPB4.
+                </p>
+            </div>
+            <!-- O Homem de la Mancha -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">O Homem de la Mancha <span class="text-base font-normal">1973, Rio de Janeiro, Brasil</span></h3>
+                <p>
+                    Peça teatral original de Dale Wasserman.<br>
+                    <strong>Versão letras de música:</strong> Ruy Guerra em parceria Chico Buarque<br>
+                    <strong>Direção:</strong> Flávio Rangel
+                </p>
+            </div>
+            <!-- Calabar -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Calabar, O Elogio da Traição <span class="text-base font-normal">1974, Brasil</span></h3>
+                <p>
+                    Texto original e letras de Chico Buarque e Ruy Guerra (censurada).
+                </p>
+                <div class="mt-4">
+                    <img class="w-80 rounded-lg mb-2" src="images/longas/calabar.jpg" alt="Ruy Guerra e Chico Buarque, Calabar">
+                    <div class="text-sm italic">Ruy Guerra e Chico Buarque</div>
+                    <img class="w-80 rounded-lg mt-2" src="images/longas/calabar-capa.jpg" alt="Calabar: Chico Buarque e Ruy Guerra">
+                </div>
+            </div>
+            <!-- Festa do Avante -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Festa do Avante <span class="text-base font-normal">1975, Lisboa</span></h3>
+                <p>
+                    <strong>Direção:</strong> Ruy Guerra<br>
+                    Com Chico Buarque, Edu Lobo, Simone e MPB4.
+                </p>
+            </div>
+            <!-- Trivial Simples -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Trivial Simples <span class="text-base font-normal">1976, Brasil</span></h3>
+                <p>
+                    Peça Teatral Original de Nelson Xavier.<br>
+                    <strong>Direção:</strong> Ruy Guerra
+                </p>
+            </div>
+            <!-- Fábrica de Chocolate -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Fábrica de Chocolate <span class="text-base font-normal">1979, Brasil</span></h3>
+                <p>
+                    Peça Teatral Original de Mário Prata.<br>
+                    <strong>Direção:</strong> Ruy Guerra
+                </p>
+                <img class="w-80 rounded-lg mt-4" src="images/longas/fabrica_de_chocolate.jpg" alt="Mário Prata - Fábrica de Chocolate">
+            </div>
+            <!-- Dom Quixote de Lugar Nenhum -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Dom Quixote de Lugar Nenhum <span class="text-base font-normal">2007/08, Brasil</span></h3>
+                <p>
+                    <strong>Autor:</strong> Ruy Guerra<br>
+                    <strong>Elenco:</strong> Edson Celulari
+                </p>
+                <img class="w-96 rounded-lg mt-4" src="images/longas/dom_quixote_de_lugar_nenhum.jpg" alt="Dom Quixote de lugar nenhum - peça">
+            </div>
+            <!-- Os Exilados -->
+            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <h3 class="font-semibold">Os Exilados <span class="text-base font-normal">2012, Brasil</span></h3>
+                <p>
+                    Peça Teatral Original de James Joyce.<br>
+                    <strong>Direção:</strong> Ruy Guerra
+                </p>
+                <img class="w-80 rounded-lg mt-4" src="images/longas/os_exilados-2.jpg" alt="Ruy Guerra e Franciely Freduzeski da peça Os exilados">
+                <div class="text-sm italic">Ruy Guerra e a atriz Franciely Freduzeski de Os Exilados</div>
+                <img class="w-full rounded-lg mt-4" src="images/longas/exilados-trupe.jpg" alt="Ruy Guerra e os atores da peça Os exilados">
+                <div class="text-sm italic">Ruy Guerra e os atores da peça Os exilados</div>
+            </div>
+        </div>
+    </main>`,
+        workshops_title: "Workshops",
+        workshops_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/oficinasv.jpg" alt="Oficinas" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Oficinas</h1>
+        <div class="mb-8">
+            <img src="images/oficinas.jpg" alt="Oficina de Ruy Guerra" class="w-96 rounded-lg mx-auto mb-4">
+            <p class="text-center text-base">
+                Ruy Guerra, ao longo de sua vida profissional, tem ministrado cursos, oficinas e palestras em várias partes do Brasil e no exterior. Para mais informações, use nosso <a href="contato.html" class="underline text-blue-700">formulário de contato</a>.
+            </p>
+        </div>
+        <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20 mb-8">
+            <h2 class="text-xl font-bold mb-4">Docência Cinematográfica</h2>
+            <ul class="list-disc ml-6 space-y-2">
+                <li><strong>1964</strong> - Museu de Arte Moderna do Rio de Janeiro (MAM): Curso de Direção cinematográfica (interrompido pelo golpe de Estado)</li>
+                <li><strong>1988</strong> - Workshop de Roteiro, com Gabriel García Márquez, “Escola dos Três Mundos” em San Antonio de los Baños, Cuba. Desde 1988 pertence ao quadro de Professores de cinema da “Escola dos Três Mundos”</li>
+                <li><strong>1996</strong> - Workshop de Roteiros “Sundance” (Brasil): Assessor</li>
+                <li><strong>1997</strong> - Oficinas de Linguagem Cinematográfica e Realização Cinematográfica: Brasília, Belém do Pará, Porto Alegre, Guaranhuns, Instituto Dragão do Mar (Fortaleza), Vitória, Goiás, entre outros</li>
+                <li><strong>1997</strong> - Oficina de Roteiros de Curtametragem, CCBB Rio de Janeiro: Assessor</li>
+                <li><strong>1998 a 2000</strong> - Universidade Estácio de Sá: Fundador, Supervisor e Professor (Linguagem Cinematográfica) do Curso de Cinema</li>
+                <li><strong>2001 a 2008</strong> - Universidade Gama Filho: Fundador, Diretor e Professor (Linguagem Cinematográfica) do Curso de Cinema</li>
+                <li><strong>2007</strong> - São José do Rio Preto: Oficina cinematográfica</li>
+                <li><strong>2007</strong> - Mangaratiba: Oficina cinematográfica</li>
+                <li><strong>2008</strong> - Teatro Poeira, Rio de Janeiro: Artista Residente, Oficina “Muito além do Cinema”</li>
+                <li><strong>2008</strong> - ArtCênicas, Rio de Janeiro: Oficina “Câmera, ator, personagem”</li>
+                <li><strong>2008</strong> - Cachoeira do Macacu: Oficina cinematográfica</li>
+                <li><strong>2008</strong> - Paraty: Oficina cinematográfica</li>
+                <li><strong>2008/2009</strong> - Coordenador do Centro de Estudos e Pesquisa do Instituto Darcy Ribeiro: “O Pensar e o Fazer”</li>
+                <li><strong>2009</strong> - Campinas/Tainá: Oficina cinematográfica</li>
+                <li><strong>2010</strong> - Brasília: Oficina cinematográfica</li>
+                <li><strong>Desde 2010</strong>: Professor residente de “Linguagem Fílmica” do Centro de Estudos e Pesquisa do Instituto Darcy Ribeiro</li>
+                <li><strong>2011</strong> - Palestras: Universidade Lusófona, Lisboa, Portugal</li>
+            </ul>
+        </div>
+        <div class="mb-8 text-center">
+            <img src="images/mestres_do_cinema_brasileiro.png" alt="Mestres do cinema brasileiro - Ruy Guerra" class="w-full max-w-2xl rounded-lg mx-auto mb-2">
+            <div class="text-sm italic">Oficina realizada em Minas Gerais, 2013</div>
+        </div>
+    </main>`,
         home_p1: `Ruy Guerra nasceu a 22/08/1931 em <span class="text-highlight">Moçambique</span>, colónia africana portuguesa às margens do Oceano Índico. Desde jovem foi um apaixonado pela palavra e pela imagem. Escreveu poesias, contos, críticas cinematográficas para a imprensa da capital Lourenço Marques; assíduo frequentador das matinés de cinema, filmou documentário sobre o cotidiano dos trabalhadores das docas desse porto importante da África Austral.`,
         home_p2: `Aos vinte anos foi para Paris onde se formou cineasta. Desembarcou no Rio de Janeiro em julho de 1958; fez do Brasil seu país de adoção. Seus dois primeiros filmes – <span class="text-highlight">Os Cafajestes</span> (1962) e <span class="text-highlight">Os Fuzis</span> (1964, Urso de Prata de Berlim) – logo o tornaram conhecido no cenário cinematográfico brasileiro e mundial. Foi o primeiro cineasta do grupo do <span class="text-highlight">Cinema Novo</span> a filmar fora do Brasil (França, em 1968).`,
         home_p3: `No Rio de Janeiro dos anos 1960/1970 foi parceiro letrista de músicos jovens que se projetavam, entre outros <span class="text-highlight">Edu Lobo, Francis Hime, Milton Nascimento, Chico Buarque</span>. Com o último escreveu e realizou o musical <span class="text-highlight">Calabar: o elogio da traição</span>, proibido pela censura da ditadura militar em 1973. Ainda de Chico filmou o musical A Ópera do Malandro em 1985 e em 2000 o livro Estorvo. Foi o realizador que mais levou à tela trabalhos de <span class="text-highlight">Gabriel García Márquez</span>, de quem ficou amigo desde 1972.`,
@@ -404,8 +1736,213 @@ const translations = {
                     <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="https://placehold.co/480x320/d8cbb7/5a4a3b?text=Ruy+in+Atacama" alt="Ruy Guerra no deserto do Atacama"><p class="text-sm italic mt-2">Chile, 2014</p></div>
                 </div>
             `,
-        filmography_title: "Filmography",
-        filmography_subtitle: "Feature Films",
+        longas_title: "Longas-metragens",
+        longas_content: `<main class="max-w-5xl mx-auto p-6">
+        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+            <img src="images/longasv.jpg" alt="Longas-metragens" class="w-60 rounded-lg shadow-lg">
+        </div>
+        <h1 class="text-4xl font-bold mb-8 text-center">Longas-metragens</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Filme 1 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_cafagestes-cartaz.jpg" alt="Os Cafajestes (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Cafajestes (Brasil - 1962)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 100 min<br>
+                    <strong>Elenco:</strong> Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho</p>
+                </div>
+            </div>
+            <!-- Filme 2 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_fuzis-cartaz2.jpg" alt="Os Fuzis (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Miguel Torres<br>
+                    <strong>Duração:</strong> 103 min<br>
+                    <strong>Elenco:</strong> Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff</p>
+                </div>
+            </div>
+            <!-- Filme 3 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/tendres_chasseurs.jpg" alt="Sweet Hunters" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Sweet Hunters (França - 1969)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 102 min<br>
+                    <strong>Elenco:</strong> Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden</p>
+                </div>
+            </div>
+            <!-- Filme 4 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/os_deuses_e_os_mortos.jpg" alt="Os Deuses e os Mortos" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Os Deuses e os Mortos (Brasil - 1970)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 97 min<br>
+                    <strong>Elenco:</strong> Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia</p>
+                </div>
+            </div>
+            <!-- Filme 5 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/a_queda.jpg" alt="A Queda" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra, Nelson Xavier<br>
+                    <strong>Duração:</strong> 110 min<br>
+                    <strong>Elenco:</strong> Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves</p>
+                </div>
+            </div>
+            <!-- Filme 6 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/mueda_memoria_e_massacre.jpg" alt="Mueda: Memória e Massacre" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Mueda: Memória e Massacre (Moçambique - 1979/80)</h2>
+                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
+                    <strong>Duração:</strong> 80 min<br>
+                    <strong>Elenco:</strong> Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema</p>
+                </div>
+            </div>
+            <!-- Filme 7 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/la_lettre_volee.jpg" alt="Histoires Extraordinaires: la lettre volée" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gerard Zingg, Ruy Guerra<br>
+                    <strong>Produção:</strong> FR3, Films du Triangle, TCV, RTP<br>
+                    <strong>Duração:</strong> 52 min, 16 mm, cor<br>
+                    <strong>Argumentação:</strong> Adaptação do texto original de Edgar Allan Poe</p>
+                </div>
+            </div>
+            <!-- Filme 8 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/erendira.jpg" alt="Erendira (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Erendira (Brasil, México, França, Alemanha - 1982)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gabriel García Márquez<br>
+                    <strong>Duração:</strong> 103 min<br>
+                    <strong>Elenco:</strong> Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck</p>
+                </div>
+            </div>
+            <!-- Filme 9 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/opera_do_malandro.jpg" alt="Ópera do Malandro (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Ópera do Malandro (Brasil, França - 1985)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra<br>
+                    <strong>Duração:</strong> 100 min<br>
+                    <strong>Elenco:</strong> Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez</p>
+                </div>
+            </div>
+            <!-- Filme 10 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/a_bela_palomera.jpg" alt="A Fábula da Bela Palomera (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">A Fábula da Bela Palomera (Brasil, Espanha - 1987)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Gabriel García Márquez<br>
+                    <strong>Duração:</strong> 90 min<br>
+                    <strong>Elenco:</strong> Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré</p>
+                </div>
+            </div>
+            <!-- Filme 11 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/kuarup.jpg" alt="Kuarup (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Kuarup (Brasil - 1989)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Antonio Callado (romance), Ruy Guerra, Rudy Langemann<br>
+                    <strong>Duração:</strong> 115 min<br>
+                    <strong>Elenco:</strong> Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença</p>
+                </div>
+            </div>
+            <!-- Filme 12 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/me-alquilo-para-sonar.jpg" alt="Me Alquilo Para Soñar" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Me Alquilo Para Soñar (Espanha - 1991/92)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra<br>
+                    <strong>Produção:</strong> Ing, TVE - Espanha<br>
+                    <strong>Fotografia:</strong> Raul Perez Ureta<br>
+                    <strong>Montagem:</strong> Julia Salvador<br>
+                    <strong>Música:</strong> Mario Dali<br>
+                    <strong>Elenco:</strong> Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros</p>
+                </div>
+            </div>
+            <!-- Filme 13 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/estorvo.jpg" alt="Estorvo (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Estorvo (Brasil - 2000)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Chico Buarque de Hollanda (romance), Ruy Guerra<br>
+                    <strong>Duração:</strong> 95 min<br>
+                    <strong>Elenco:</strong> Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira</p>
+                </div>
+            </div>
+            <!-- Filme 14 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/monsanto.jpg" alt="Monsanto (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Monsanto (Portugal - 2000)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Vicente Alves do Ó<br>
+                    <strong>Duração:</strong> 90 min<br>
+                    <strong>Elenco:</strong> Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho</p>
+                </div>
+            </div>
+            <!-- Filme 15 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/portugal_sa.jpg" alt="Portugal S/A (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Portugal S/A (Portugal - 2003)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Carlos Vale Ferraz<br>
+                    <strong>Duração:</strong> 95 min<br>
+                    <strong>Elenco:</strong> Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira</p>
+                </div>
+            </div>
+            <!-- Filme 16 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/o_veneno_da_madrugada.jpg" alt="O Veneno da Madrugada (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Tairone Feitosa<br>
+                    <strong>Duração:</strong> 118 min<br>
+                    <strong>Elenco:</strong> Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto</p>
+                </div>
+            </div>
+            <!-- Filme 17 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/quase_memoria.jpg" alt="Quase Memória (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Quase Memória (Brasil - 2015)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Bruno Laet, Diogo de Oliveira<br>
+                    <strong>Duração:</strong> 132 min<br>
+                    <strong>Elenco:</strong> Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro</p>
+                </div>
+            </div>
+            <!-- Filme 18 -->
+            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                <img src="images/longas/aos-pedacos.jpg" alt="Aos Pedaços (cartaz)" class="w-32 rounded-lg">
+                <div>
+                    <h2 class="text-xl font-bold">Aos Pedaços (Brasil - 2020)</h2>
+                    <p><strong>Direção:</strong> Ruy Guerra<br>
+                    <strong>Roteiro:</strong> Ruy Guerra, Luciana Mazzotti<br>
+                    <strong>Duração:</strong> 93 min<br>
+                    <strong>Elenco:</strong> Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach</p>
+                </div>
+            </div>
+        </div>
+    </main>`,
         actor_title: "Actor",
         actor_p1: `Besides directing, Ruy Guerra also made his mark...`,
         writings_title: "Writings",
