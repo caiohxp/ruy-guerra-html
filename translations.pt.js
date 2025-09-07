@@ -11,6 +11,223 @@ export const pt = {
     nav_writings: "Escritos",
     nav_around_the_world: "Pelo Mundo",
     nav_contact: "Contato",
+    home_p1: `Ruy Guerra nasceu a 22/08/1931 em <span class="text-highlight">Moçambique</span>, colónia africana portuguesa às margens do Oceano Índico. Desde jovem foi um apaixonado pela palavra e pela imagem. Escreveu poesias, contos, críticas cinematográficas para a imprensa da capital Lourenço Marques; assíduo frequentador das matinés de cinema, filmou documentário sobre o cotidiano dos trabalhadores das docas desse porto importante da África Austral.`,
+    home_p2: `Aos vinte anos foi para Paris onde se formou cineasta. Desembarcou no Rio de Janeiro em julho de 1958; fez do Brasil seu país de adoção. Seus dois primeiros filmes – <span class="text-highlight">Os Cafajestes</span> (1962) e <span class="text-highlight">Os Fuzis</span> (1964, Urso de Prata de Berlim) – logo o tornaram conhecido no cenário cinematográfico brasileiro e mundial. Foi o primeiro cineasta do grupo do <span class="text-highlight">Cinema Novo</span> a filmar fora do Brasil (França, em 1968).`,
+    home_p3: `No Rio de Janeiro dos anos 1960/1970 foi parceiro letrista de músicos jovens que se projetavam, entre outros <span class="text-highlight">Edu Lobo, Francis Hime, Milton Nascimento, Chico Buarque</span>. Com o último escreveu e realizou o musical <span class="text-highlight">Calabar: o elogio da traição</span>, proibido pela censura da ditadura militar em 1973. Ainda de Chico filmou o musical A Ópera do Malandro em 1985 e em 2000 o livro Estorvo. Foi o realizador que mais levou à tela trabalhos de <span class="text-highlight">Gabriel García Márquez</span>, de quem ficou amigo desde 1972.`,
+    home_p4: `Andou meio mundo atrás de sua paixão por filmar; em meados de 1990 voltou a se fixar no Rio de Janeiro, onde nasceram e vivem seus 3 filhos e 3 netos.`,
+    bio_title: "Quem é Ruy Guerra?",
+    bio_content1: `
+                <div class="text-base leading-relaxed space-y-4">
+                <p>Em meados da década de 1970, Ruy Guerra se auto explicava em poema:</p>
+                    <blockquote class="my-4 pl-4 border-l-4 border-gray-400 italic text-center space-y-2">
+                    <p>Vivo sobre um corpo de mulher<br>que faz de mim gato e sapato<br>que me foge e me desfolha<br>e brinca de gato e rato</p>
+                        <p>Vivo sobre três continentes<br>e isso não me contêm<br>a raiva que trago nos dentes<br>não sei se me faz mal ou bem</p>
+                        <p>Vivo à sombra de um túnel<br>do outro lado do sol<br>e nesta clave difícil<br>me sustento num bemol</p>
+                        </blockquote>
+                        </div><br><br><br>
+                        `,
+    bio_content2: `<div class="text-base leading-relaxed space-y-4">
+                        <p>Ruy Guerra é um nome conhecido para os que se interessam por cinema. Em tempos renovadores do Cinema Novo, anos 1960, esse africano desembarcou no Rio de Janeiro direto de Paris, onde se formara cineasta. Hoje é um dos mitos sobreviventes do grupo, dos mais notórios, tendo sido o primeiro deles a filmar fora do Brasil. É também conhecido por quem curte música popular brasileira dos anos 1960/70, quando ele fez parcerias com jovens músicos. Ruy veio para o Rio de Janeiro em 1958, seu porto seguro até hoje. A vinda ao Brasil era um desejo manifestado anos antes em cartas ao pai, irmão e amigos.</p>
+                        <p>Tem atualmente (agosto 2014) 83 anos, bem vividos mundo afora e conserva uma energia de dar inveja a gente mais jovem. Muitos dizem que traz essa força de seu país de origem, Moçambique, na África Austral, à beira do Oceano Índico; é filho de portugueses que foram tentar a vida na colónia e se aclimataram na capital Lourenço Marques, formando família. Desde seus 10 anos Ruy foi louco por escrever, louco por cinema e por filmar. Durante a segunda metade dos anos 1940 publicou na imprensa vários contos, artigos e poesias e até hoje fala constantemente de sua vocação frustrada de escritor, reafirmando o desejo de escrever um romance.</p>
+                        <p>Desde adolescente Ruy compreende o fazer cinema como uma forma de pensar e apresentar as relações político-sociais. Lourenço Marques era o porto do Índico mais importante da África Austral e boa parte do comércio do sul do continente passava por lá. Aos 16 anos, com uma câmara de 8 mm. emprestada por um amigo, filmou a realidade portuária do Cais Gorjão, retratando a vida dos trabalhadores negros. Filmou-os descansando embaixo de vagões, alimentando-se, dormindo sob trens; para Ruy aquelas imagens ‘me lembravam campos de concentração’. Segundo um analista, já como amador Ruy ‘flertava com a denúncia social’.</p>
+                    <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/ruy_guerra-por_lara.jpg" alt="foto de Ruy Guerra enviada por sua irm Lara"><p class="text-sm italic mt-2">Em Moçambique</p></div>
+                    <p>Na casa paterna e no Liceu Salazar, escola pública que frequentou, Ruy recebeu uma educação luso-europeia. Segundo ele e colegas, foram educados por professores ‘degredados de Portugal pela Ditadura’, ‘cabeças pensantes críticas’ que os faziam ler muito, o que acabou por tornar muitos deles rebeldes ao status quo. Havia uma certa recusa à produção cultural da ditadura salazarista e o que vinha do Brasil nessa área era muito importante, não só por que o Brasil era ex-colónia portuguesa que realizara sua independência, mas pelas semelhanças com a cultura e espaço brasileiros ( clima, presença do negro, aromas e sabores ...). A literatura brasileira, revistas, muitas vezes eram censuradas, tendo que entrar por baixo do pano, muito marcantes nessa geração chamada da ‘diáspora’. Em entrevista Ruy afirma: ‘Alguns acabaram constituindo uma geração que em sua maioria deixou o país e se distinguiu no campo das artes, filosofia (...) devido ao contexto político e social em que nascemos e fomos criados (...) não por acaso ou por condições psicológicas individuais apenas’. Essa parte de sua geração fez da cultura a via de sua revolta política contra o colonialismo e o racismo. Preocupado com as relações de dominação e subordinação na colónia, passou por interrogatórios e detenções feitas pela policia da ditadura portuguesa em razão de suas atitudes independentes no Liceu, em razões de suas atividades e de seu grupo, acabando por ter um processo que o impediu de voltar a Portugal por alguns anos.</p>
+                    <p>Aos 20 anos foi estudar cinema em Paris. Chegou na capital francesa em um momento muito quente para o cinema, pois jovens cineastas tentavam impor seu cinema de autor contra um cinema da grande indústria tradicional. Formou-se profissionalmente nesse período - inicio dos anos 1950 – em que o cinema tradicional estava sob o impacto de uma renovação, com as primeiras marolas do surgimento da Nouvelle Vague. Rememora o movimento como constituído por jovens intelectuais franceses dos quais ele, como imigrante estrangeiro, se sentia muito diferente: ‘ ( a Nouvelle Vague) sempre teve uma marcada posição direitista e eu (..) tinha uma posição nitidamente de esquerda ... condenava aos intelectuais franceses justamente um apolitismo extremamente político, nunca falavam da guerra da Argélia, nem dos imigrantes’. Cursou o IDHEC (Institut des Hautes Études Cinématographiques), sendo visto por colegas como ótimo aluno, mais preparado que os outros, embora um permanente contestador. Fez ainda por dois anos um curso de ator no Thèatre National de Paris (TNP).</p>
+                    <p>Na capital francesa aproximou-se de brasileiros com os quais acabou vindo tentar sua chance num Novo Mundo que esperava conquistar através de seu entusiasmo por seu trabalho. Trazia na bagagem o primeiro roteiro escrito logo após se formar e que tinha tentado por muitas formas implementar no Velho Mundo, a Europa; roteiro que depois vai se tornar Os Fuzis, Urso de Prata no Festival de Berlim em 1964, um dos filmes mais marcantes desse momento.</p>
+                    <div class="my-6 text-center"><img class="mx-auto max-w-2xl w-full rounded shadow-lg" src="images/cinema-novo_grupo.jpg" alt="cinema novo no Brasil"><p class="text-sm italic mt-2">Reunião de cineastas para um programa da TV francesa Carnets Brésiliens, Copacabana, 1966</p></div>
+                    <p>Afirma brincando que nasceu cineasta com o Cinema Novo mas não nele, em meio aos jovens entre os quais, apesar das costumeiras rivalidades e choques, havia uma estreita colaboração em função dos filmes que faziam. Era um cinema de busca de identidade: ‘Estávamos interessados em produzir filmes que retratassem a realidade do povo, os conflitos políticos e sociais, que fugissem às regras de produção e aos dogmatismos da estética do cinema industrial.’ Ruy porém não pratica a arte como arma de propaganda revolucionária; sua filmografia dificilmente poderá ser vista como didática. Foi parte de uma geração que, nos anos 1960, quiz mudar o mundo pelo que acreditava ser o melhor para a sociedade; também, alguns deles e Ruy entre eles, por sua prática de vida.</p>
+                    <p>Ao longo dos anos, trabalhou em diversas funçõs ligadas à tela (fotógrafo, assistente de direção, diretor, roteirista, ator, montador, produtor executivo, conselheiro executivo e artístico ou professor). Declarou-se recentemente como ‘um artista tipicamente produto do subdesenvolvimento’, levado a exercer várias formas de arte para subsistir. Usou de todos seus dons com a palavra; além da composição de poemas, letras de músicas, escreveu e dirigiu teatro, e por cinco anos redigiu crónicas semanais para o Caderno Dois do jornal O Estado de S.Paulo.</p>
+                    <p>Durante certo tempo a viver da escrita de letras de músicas para amigos músicos da zona Sul carioca como Sergio Ricardo, Edu Lobo, Chico Buarque de Holanda, Francis Hime, Carlos Lyra, Luiz Eça e Milton Nascimento. Letrista de mão cheia, fez por volta de 100 letras que abandonavam o teor ‘o barquinho e a flor’ da Bossa Nova por uma temática mais forte, de teor social. A situação complicada para viver de seu cinema o levou também a trabalhar com o teatro. Dirigiu shows musicais de seus amigos e, quando convidado, algumas peças ao longo dos anos. Ainda para o teatro escreveu em parceria com Chico Buarque ‘Calabar: o elogio da traição’, peça foi interditada pela censura da ditadura militar. Como inúmeros outros, muitas vezes Chico Buarque e Ruy tiveram diversos problemas com as letras.</p>
+                    <p>Muitas vezes classificado como cineasta político, muito se orgulha dessa marca maior. Desde sua adolescência ser político tem para ele um sentido amplo: ‘ estar envolvido com as problemáticas de sua época. Afirma várias vezes: ‘Tenho um olhar políico sobre a realidade, de um ponto de vista cultural’. Ao longo de sua vida Ruy ostentou esse posicionamento político com P maiúsculo, não tendo sido nunca um militante ou membro de partido político. Ruy se vê e é visto, como um homem à esquerda a partir de suas falas, suas atitudes de vida, suas expressões no campo artístico e educacional. Para ele qualquer estética é política, pois traz necessariamente embutida uma visão de mundo, ancorando-se em um conjunto de valores que apresenta, defende ou condena. Em 1997, a analista de cinema M. do Rosário Caetano observou que ele conservava a ‘retórica sessentista politizadissima’ e parecia não acreditar no fim das ideologias; em falas e escritos recentes Ruy parece confirmar essa afirmação.</p>
+                    <p>Nos anos 1960/70 trabalhou por diversas vezes em França no cinema e para a televisão. Foi bastante ligado ao grupo da revista de cinema Positif. Em 1965 a revista francesa Cahiers de Cinema – que dava enorme destaque ao Cinema Novo Brasileiro - resume os temas de seus filmes: a crueldade, a violência, o racismo, o tempo que não acaba... Segundo Ruy, ‘Quem analisa meus filmes já disse que há uma espécie de obsessão pelas áreas de poder e os mecanismos repressivos, seja no ambiente familiar, nas estruturas sociais ou no governo.’</p>
+                    <p>A revolução socialista da nova República Popular de Moçambique, vitoriosa em 1975 sob a chefia de Samora Machel, atribuiu em seu início um papel fundamental ao cinema na construção da identidade nacional. Parte importante na tentativa de unir em uma nação diversas tribos, cuja cultura se baseava na tradição oral. Instado por ex-colegas no governo, Ruy passou a colaborar ativamente na criação do Instituto Nacional de Cinema de Moçambique (INC) e na formação de quadros para cinema; dava aulas práticas e trouxe para Maputo (ex Lourenço Marques )muitos especialistas nas mais variadas atividades da área. Viveu intensamente a experiência de independência e descolonização da terra onde nascera; seus filmes africanos são de natureza essencialmente política.</p>
+                    <p>Sua posição de esquerda fica clara também em suas relações com Cuba, onde viveu por alguns períodos. A partir do aparecimento do Festival Internacional do Novo Cinema Latino-Americano em 1979, seus filmes são lá apresentados. Desde 1988 fez parte do quadro de professores da conhecida "Escuela Internacional de Cine y TV", em San Antonio de Los Baños, a 30 km de Havana. Participou de projetos e roteiros com aquele que seu tornou seu amigo pessoal: Gabriel García Márquez – o Gabo - um dos fundadores da Escuela. Foi o maior realizador de filmes de Gabo: Erêndira, La bela Palomera, Veneno da Madrugada e Me alquilo para Soñar (mini-série para a televisão espanhola, totalmente filmado em Havana). Lá rodou no final dos anos 1990 um filme adaptado de um romance de Chico Buarque, Estorvo, tendo como o personagem principal o ator cubano Jorge Perrugoria e uma equipe formada em boa parte por técnicos cubanos.</p>
+                    <div class="my-6 text-center"><img class="mx-auto max-w-2xl w-full rounded shadow-lg" src="images/com-gabo.jpg" alt="Ruy Guerra com Gabriel García Márquez"><p class="text-sm italic mt-2">Ruy Guerra e Gabriel García Márquez na filmagem de Erêndira, Mexico, 1982</p></div>
+                    <p>Cineastas brasileiros e latino-americanos por vezes ficam décadas sem conseguir filmar, pois enfrentam dificuldades económicas permanentes e por vezes dificuldades conjunturais em razão do momento político. Ruy conseguiu filmar longas, médias e curtas metragens no Brasil, na França, em Portugal, na Espanha, no México, em Cuba. Afirma muita vezes :‘Não fiz todos os filmes que queria, mas queria fazer todos os filmes que fiz.’ No inicio do século XXI é convidado para escrever para o teatro sobre o D Quixote, criando um musical chamado Don Quixote de lugar nenhum, uma adaptação do personagem ao Nordeste brasileiro.</p>
+                    <p>E quando não pode filmar, ensina, atividade na qual muito se empenhou, organizando cursos de cinema no Rio de Janeiro desde os anos 1990. Suas atividades de professor se desdobraram nos últimos 10-12 anos em cursos, palestras e oficinas. Em entrevista afirmou: ‘Digo na primeira aula: Se você vem aqui para fazer filme norte-americano é fácil. Vamos para o bar e em uma hora, eu falo tudo que você precisa saber.’(...) Falo para eles que não vale a pena perder dois anos e meio para fazer filmes como os norte-americanos. Agora, se o cara quer fazer filme brasileiro, ele vai passar dois anos remando na faculdade e vai continuar remando, não sairá da faculdade sabendo não. É outra coisa: é busca, é se vincular à realidade, é saber quem você é. Ressalta como fundamental ‘abrir as cabeças dos jovens para o ato de pensar a arte, a formação cultural (...) para que uma pessoa assuma uma responsabilidade tão grande (...) para com esse meio de expressão que é a meu ver extremamente vital e importante, política e esteticamente importante’.</p>
+                    <p>Falando sobre filmes e mercado, toma posição clara: ‘As equações da sociedade estão todas mal feitas e você vive com essas equações equivocadas. Um filme não tem que dar 10 milhões de espectadores. Um filme tem que ser visto por X pessoas que podem tirar desse filme alguma coisa importante para a vida delas. É diferente. Porque desses milhões de espectadores geralmente não tem dez que tirem do filme alguma coisa importante para a vida delas. Elas consumiram aquele filme como um produto, como um ‘fast food’. (...) É importante dizer que ver esses filmes norte-americanos é a mesma coisa que frequentar o Macdonald’s. Não tem diferença nenhuma.(...)É preciso cuidado, muito cuidado’.</p>
+                    <p>O estudo e a prática de uma linguagem cinematográfica sempre renovada é uma constante em seu fazer cinema. Destaca como imprescindível essa procura de uma renovação: ‘Algo fundamental para mim é encontrar estruturas que rompam com os conceitos padrões, basicamente da estrutura hegemónica norte-americana, que acredito serem redutores da realidade e não servirem para a nossa cultura. (...). Essa recusa, esse fator recusa, acho que está presente ainda hoje. Muitos filmes estão equivocados, mas acho que isso está presente mesmo nesses filmes que estão equivocados.’</p>
+                    <p>Tem vivido em vários continentes e países, sendo apontado como ‘um cidadão do mundo’. Seu percurso de vida não se separa de sua produção artística, pois foi a busca dessa mesma o fio condutor de seus deslocamentos no espaço e da continuidade de suas atividades no tempo. Define-se:‘meio africano, meio português, meio brasileiro, um tanto latino, meio perdido, 100% o que nesse coquetel de angústias’?</p>
+                    <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/atacama.jpg" alt="Ruy Guerra no deserto do Atacama"><p class="text-sm italic mt-2">No deserto do Atacama (Chile, 2014)</p></div> `,
+    chronology_title: "Cronologia",
+    chronology_content: `
+        <div class="timeline-item personal">
+            <div class="timeline-year">1931</div>
+            <div class="timeline-content"><p>22/08 - nascimento em Lourenço Marques, Moçambique, colônia portuguesa na África Austral</p></div>
+        </div>
+        <div class="timeline-item context">
+            <div class="timeline-year">1933-1974</div>
+            <div class="timeline-content"><p>Estado Novo, ditadura de Antônio Salazar em Portugal</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1936-1937</div>
+            <div class="timeline-content"><p>viagem a Portugal com a família, aos 3/4 anos</p></div>
+        </div>
+        <div class="timeline-item context">
+            <div class="timeline-year">1939-1945</div>
+            <div class="timeline-content"><p>Segunda Guerra Mundial</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1951</div>
+            <div class="timeline-content"><p>21/06 - morte da mãe em desastre de avião da Pan American Airlines sobre a Libéria</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">1952</div>
+            <div class="timeline-content"><p>em março, ida de navio para Portugal</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">1952</div>
+            <div class="timeline-content"><p>alguns meses depois breve visita com pai e irmão em Londres e depois Paris</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1952-1954</div>
+            <div class="timeline-content"><p>Paris: profissionalização no IDHEC – Institut des Hautes Études Cinématographiques</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1954</div>
+            <div class="timeline-content"><p>primeiro curta metragem no IDHEC, roteiro e direção de <i>Quand le soleil dort</i>, inspirado no romance de Uomini o No, de Elio Vittorini</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1954-1955</div>
+            <div class="timeline-content"><p>curso de ator no Théâtre National de Paris</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1955</div>
+            <div class="timeline-content"><p>assistência de direção - estagiário em <i>Chiens perdus sans collier</i>, de Jean Delannoy</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1955</div>
+            <div class="timeline-content"><p>21/09 - morte do pai em Lourenço Marques</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1956</div>
+            <div class="timeline-content"><p>Madrid – estada de quase um ano</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1957</div>
+            <div class="timeline-content"><p>quase um ano em Atenas, Grécia</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1957</div>
+            <div class="timeline-content"><p>Córsega: ator e assistente de direção estagiário em <i>SOS Noronha</i>, de Georges Rouquier</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">1958</div>
+            <div class="timeline-content"><p>09/07 – desembarque no Rio de Janeiro</p></div>
+        </div>
+        <div class="timeline-item context">
+            <div class="timeline-year">1958</div>
+            <div class="timeline-content"><p>Revolução Cubana sob liderança de Fidel Castro</p></div>
+        </div>
+        <div class="timeline-item context">
+            <div class="timeline-year">1959</div>
+            <div class="timeline-content"><p>início da Nouvelle Vague na França com os filmes <i>Os Incompreendidos</i> de François Truffaut e <i>Acossado</i> de Jean Luc Godard</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1962</div>
+            <div class="timeline-content"><p>primeiro longa metragem <i>Os Cafajestes</i> (Rio de Janeiro e Cabo Frio)</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">1961-1963</div>
+            <div class="timeline-content"><p>relacionamento com Nara Leão</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1963-1973</div>
+            <div class="timeline-content"><p>uma década de mais de cem letras de músicas e direção de espetáculos musicais</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1963</div>
+            <div class="timeline-content"><p>filmagem do 2º longa metragem <i>Os Fuzis</i> em Milagres, Bahia</p></div>
+        </div>
+        <div class="timeline-item context">
+            <div class="timeline-year">1964</div>
+            <div class="timeline-content"><p>golpe civil militar inicia ditadura militar brasileira</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1964</div>
+            <div class="timeline-content"><p>visibilidade internacional do Cinema Novo com a tríade: <i>Deus e o Diabo</i>, <i>Vidas Secas</i> e <i>Os Fuzis</i></p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">1970</div>
+            <div class="timeline-content"><p>longa metragem <i>Os deuses e os mortos</i>, filmado no sul do estado da Bahia</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1971</div>
+            <div class="timeline-content"><p>19/11 - nascimento de uma filha com Leila Diniz, Janaina Diniz Guerra</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1972</div>
+            <div class="timeline-content"><p>14/06 - explosão do avião onde viajava Leila Diniz, morta aos 27 anos</p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">1973</div>
+            <div class="timeline-content"><p>autoria de texto e letras de músicas no espetáculo teatral <i>Calabar: o elogio da traição</i>, em parceria com Chico Buarque – censurado</p></div>
+        </div>
+         <div class="timeline-item context">
+            <div class="timeline-year">1974</div>
+            <div class="timeline-content"><p>Revolução dos Cravos, fim da ditadura em Portugal</p></div>
+        </div>
+         <div class="timeline-item context">
+            <div class="timeline-year">1975</div>
+            <div class="timeline-content"><p>FRELIMO toma o poder em Maputo com Samora Machel</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">1975</div>
+            <div class="timeline-content"><p>Viagem a Maputo para a festa da independência moçambicana, depois de ausência de 25 anos</p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">1976</div>
+            <div class="timeline-content"><p>longa metragem A Queda, 2º Urso de Prata de Berlim</p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">1979-1980</div>
+            <div class="timeline-content"><p>longa metragem documentário/ficcional Mueda, Memória, Massacre, Maputo</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1982</div>
+            <div class="timeline-content"><p>relacionamento com Cláudia Ohana</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1983</div>
+            <div class="timeline-content"><p>longa metragem Erendira, inspirado em Gabriel García Márquez, México</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">1983</div>
+            <div class="timeline-content"><p>10/10: nascimento da 2ª filha, Dandara, com Cláudia Ohana</p></div>
+        </div>
+         <div class="timeline-item context">
+            <div class="timeline-year">1985</div>
+            <div class="timeline-content"><p>Fundação em Cuba da Escuela Internacional de Cine y Televisión San Antonio de Los Baños</p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">1985</div>
+            <div class="timeline-content"><p>longa metragem Ópera do Malandro, inspirada em peça musical de Chico Buarque, Rio de Janeiro</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">1989</div>
+            <div class="timeline-content"><p>longa metragem Kuarup - inspirado em romance do mesmo nome de Antônio Callado, filmado na região do Xingu e em Recife</p></div>
+        </div>
+        <div class="timeline-item personal">
+            <div class="timeline-year">2000</div>
+            <div class="timeline-content"><p>descoberta e acolhimento do filho Adriano, então com 20 anos</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">2000</div>
+            <div class="timeline-content"><p>casamento com Luciana Mazzotti</p></div>
+        </div>
+        <div class="timeline-item professional">
+            <div class="timeline-year">2000</div>
+            <div class="timeline-content"><p>longa metragem Estorvo, inspirado em Chico Buarque, Cuba e Rio de Janeiro</p></div>
+        </div>
+         <div class="timeline-item professional">
+            <div class="timeline-year">2005-2006</div>
+            <div class="timeline-content"><p>longa metragem O veneno na Madrugada inspirado em La Mala Hora, de Gabriel García Márquez, Xerém, Rio de Janeiro e Buenos Aires</p></div>
+        </div>
+         <div class="timeline-item personal">
+            <div class="timeline-year">2005</div>
+            <div class="timeline-content"><p>Nascimento do primeiro neto, Martim, da filha Dandara</p></div>
+        </div>
+    `,
     works_about_title: "Trabalhos Sobre",
     works_about_content: `
 <ul class="teses">
@@ -62,6 +279,88 @@ export const pt = {
     <li>XAVIER, Ismail: “Os deuses e os mortos: Maldição dos deuses ou maldição da História”, artigo, Ilha do Desterro, Florianópolis No 32, 1997</li>
 </ul>
 `,
+    news_title: "Notícias",
+    news_content: `<main class="max-w-5xl mx-auto p-6">
+    <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+        <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
+        <img src="images/noticiasv.jpg" alt="Notícias" class="w-60 rounded-lg shadow-lg">
+    </div>
+    <h1 class="text-3xl font-bold mb-6 text-center">Ruy Guerra faz 90 anos</h1>
+    <p class="news mb-8">
+        Ruy Guerra completou 90 anos em 2021. Homenagens começaram no 26º Festival Internacional de Documentários – Tudo Verdade, organizado em São Paulo por Amir Labaki, de 8 a 18 de abril. A exibição foi nacional e virtual devido à pandemia. Foram exibidos dois de seus cinco documentários africanos: <b>Mueda Memória e Massacre</b> e <b>Os Comprometidos – Atas de um processo de descolonização</b>. Ruy também deu uma aula magistral, entrevistado por Adilson Mendes (autor de livro de entrevistas) e Diogo Oliveira (diretor de <i>O Homem que Matou John Wayne</i>).
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Sob Pressão</h1>
+    <p class="news mb-8">
+        No segundo semestre de 2020, a pedido de Andrucha Waddington, Ruy escreveu a letra da música "Sob Pressão" para a série homônima da TV Globo. A música foi composta por Gilberto Gil e gravada por Gil e Chico Buarque.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Último filme: Aos Pedaços</h1>
+    <p class="news mb-8">
+        "Aos Pedaços", filmado em Cataguases em 2018, foi exibido no Rotterdam Film Festival em janeiro/fevereiro de 2020 e no 48º Festival de Gramado em setembro de 2020, recebendo prêmios de melhor direção, fotografia e desenho de som.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Doutor Honoris Causa</h1>
+    <p class="news mb-8">
+        Em 28 de junho de 2018, Ruy Guerra recebeu o título de Doutor Honoris Causa da Universidade Federal do Rio de Janeiro (UFRJ), entregue pelo reitor Roberto Leher no Colégio Brasileiro de Altos Estudos.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Quase Memória: estreia nacional</h1>
+    <p class="news mb-8">
+        Estreou comercialmente em 19 de abril de 2018. Sinopse: Carlos é um homem condenado aos desassossegos da memória que se encontra consigo mesmo em uma dobra de tempo. Recebem um pacote estranho, que só poderia ter sido enviado por seu pai, Ernesto, morto há anos. Nessa dobra do tempo, há um Carlos que lembra e outro que esquece, em divertidas memórias ao lado desse pai genialmente louco.<br>
+        Adaptado da obra de Carlos Heitor Cony.<br>
+        Trailer oficial: <a href="https://www.youtube.com/watch?v=p1ZDPkheiLA" target="_blank">https://www.youtube.com/watch?v=p1ZDPkheiLA</a>
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Ruy Guerra em Conversa com Bial</h1>
+    <p class="news mb-8">
+        Em 2 de outubro de 2017, Ruy Guerra participou do programa Conversa com Bial, na TV Globo. A entrevista está disponível no Globo Play e YouTube.<br>
+        No 12º Festival Aruanda do Audiovisual Brasileiro, em João Pessoa, Paraíba, foi homenageado de honra, com exibição de filmes, mesa-redonda e divulgação da biografia "Ruy Guerra paixão escancarada", por Vavy Pacheco Borges.<br>
+        <a href="https://www.youtube.com/watch?v=rMl1S0t8nts" target="_blank">Assista aqui</a>
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Uma biografia de Ruy</h1>
+    <p class="news mb-8">
+        <b>RUY GUERRA paixão escancarada</b>, escrita por Vavy Pacheco Borges após longa pesquisa, foi lançada pela editora BOMTEMPO em São Paulo (08/08/2017, Livraria da Vila) e no Rio de Janeiro (21/08/2017, Livraria Travessa).
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Festival Africa's - Cinema e Revolução</h1>
+    <p class="news mb-8">
+        Em novembro de 2016, no Cinema Belas Artes em São Paulo, ocorreu o Festival Africa's - Cinema e Revolução, com exibição de quatro curtas de Ruy Guerra e o longa <b>Mueda, Memória e Massacre</b>, seguidos de debate com o diretor.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">La Furia Umana</h1>
+    <p class="news mb-8">
+        Homenagem a Ruy Guerra no periódico de cinema <a href="http://www.lafuriaumana.it/" target="_blank">La Furia Umana</a>.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Exibições</h1>
+    <p class="news mb-8">
+        "Quase Memória" foi exibido no 38th Moscow International Film Festival, recebendo duas menções honrosas: do júri de críticos russos e da Federação dos cineclubes russos.<br>
+        "O Homem que matou John Wayne" foi exibido no Amsterdam Film Festival 2016, recebendo o prêmio Van Gogh de Melhor Montagem.<br>
+        <img src="images/filme_jw-2016.jpg" class="w-full max-w-2xl rounded-lg my-4" alt="Exibição do filme O Homem que matou John Wayne">
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">O Homem que matou John Wayne</h1>
+    <p class="news mb-8">
+        O documentário sobre arte e cinema de Ruy Guerra estreou no Brasil em abril de 2016 no Festival Tudo é Verdade, com sessões especiais em São Paulo e Rio de Janeiro.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Quase Memória</h1>
+    <p class="news mb-8">
+        "Quase Memória", o mais recente filme de Ruy Guerra, foi exibido na 39ª Mostra Internacional de Cinema de São Paulo (outubro de 2016), no Festival do Rio de Janeiro (Prêmio Especial do Jury) e no 19º Festival Internacional de Punta del Este (prêmio de melhor direção e menção honrosa para fotografia).<br>
+        <img src="images/punta_del_este-2016.jpg" class="w-full max-w-2xl rounded-lg my-4" alt="Festival de Cinema Punta del Este">
+        <a href="https://www.facebook.com/pages/Quase-Mem%C3%B3ria/313511105520432?sk=info" target="_blank">Facebook</a>
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">37º Festival del Cine Latinoamericano de Havana</h1>
+    <p class="news mb-8">
+        No 37º Festival del Cine Latinoamericano de Havana (dezembro de 2015), Ruy Guerra foi homenageado com o Coral de Honor, com exibição de filmes e exposição de fotos. O documentário "O Homem que matou John Wayne", dirigido por Diogo de Oliveira e Bruno Laet, foi exibido pela primeira vez.
+    </p>
+
+    <h1 class="text-2xl font-bold mb-2">Colóquio Internacional - Ruy Guerra e o Pensamento Crítico das Imagens</h1>
+    <p class="news mb-8">
+        Realizado em Paris nos dias 8 e 9 de outubro, com apoio da Fundação Calouste Gulbenkian e do INHA. <a href="coloquio_Ruy_Guerra-2015.pdf" target="_blank">Documento completo</a> | <a`,
     archive_title: "Acervo",
     archive_content: `
 <p class="basico">
@@ -1391,305 +1690,6 @@ export const pt = {
             <div class="text-sm italic">Oficina realizada em Minas Gerais, 2013</div>
         </div>
     </main>`,
-    home_p1: `Ruy Guerra nasceu a 22/08/1931 em <span class="text-highlight">Moçambique</span>, colónia africana portuguesa às margens do Oceano Índico. Desde jovem foi um apaixonado pela palavra e pela imagem. Escreveu poesias, contos, críticas cinematográficas para a imprensa da capital Lourenço Marques; assíduo frequentador das matinés de cinema, filmou documentário sobre o cotidiano dos trabalhadores das docas desse porto importante da África Austral.`,
-    home_p2: `Aos vinte anos foi para Paris onde se formou cineasta. Desembarcou no Rio de Janeiro em julho de 1958; fez do Brasil seu país de adoção. Seus dois primeiros filmes – <span class="text-highlight">Os Cafajestes</span> (1962) e <span class="text-highlight">Os Fuzis</span> (1964, Urso de Prata de Berlim) – logo o tornaram conhecido no cenário cinematográfico brasileiro e mundial. Foi o primeiro cineasta do grupo do <span class="text-highlight">Cinema Novo</span> a filmar fora do Brasil (França, em 1968).`,
-    home_p3: `No Rio de Janeiro dos anos 1960/1970 foi parceiro letrista de músicos jovens que se projetavam, entre outros <span class="text-highlight">Edu Lobo, Francis Hime, Milton Nascimento, Chico Buarque</span>. Com o último escreveu e realizou o musical <span class="text-highlight">Calabar: o elogio da traição</span>, proibido pela censura da ditadura militar em 1973. Ainda de Chico filmou o musical A Ópera do Malandro em 1985 e em 2000 o livro Estorvo. Foi o realizador que mais levou à tela trabalhos de <span class="text-highlight">Gabriel García Márquez</span>, de quem ficou amigo desde 1972.`,
-    home_p4: `Andou meio mundo atrás de sua paixão por filmar; em meados de 1990 voltou a se fixar no Rio de Janeiro, onde nasceram e vivem seus 3 filhos e 3 netos.`,
-    bio_title: "Quem é Ruy Guerra?",
-    bio_content1: `
-                <div class="text-base leading-relaxed space-y-4">
-                <p>Em meados da década de 1970, Ruy Guerra se auto explicava em poema:</p>
-                    <blockquote class="my-4 pl-4 border-l-4 border-gray-400 italic text-center space-y-2">
-                    <p>Vivo sobre um corpo de mulher<br>que faz de mim gato e sapato<br>que me foge e me desfolha<br>e brinca de gato e rato</p>
-                        <p>Vivo sobre três continentes<br>e isso não me contêm<br>a raiva que trago nos dentes<br>não sei se me faz mal ou bem</p>
-                        <p>Vivo à sombra de um túnel<br>do outro lado do sol<br>e nesta clave difícil<br>me sustento num bemol</p>
-                        </blockquote>
-                        </div><br><br><br>
-                        `,
-    bio_content2: `<div class="text-base leading-relaxed space-y-4">
-                        <p>Ruy Guerra é um nome conhecido para os que se interessam por cinema. Em tempos renovadores do Cinema Novo, anos 1960, esse africano desembarcou no Rio de Janeiro direto de Paris, onde se formara cineasta. Hoje é um dos mitos sobreviventes do grupo, dos mais notórios, tendo sido o primeiro deles a filmar fora do Brasil. É também conhecido por quem curte música popular brasileira dos anos 1960/70, quando ele fez parcerias com jovens músicos. Ruy veio para o Rio de Janeiro em 1958, seu porto seguro até hoje. A vinda ao Brasil era um desejo manifestado anos antes em cartas ao pai, irmão e amigos.</p>
-                        <p>Tem atualmente (agosto 2014) 83 anos, bem vividos mundo afora e conserva uma energia de dar inveja a gente mais jovem. Muitos dizem que traz essa força de seu país de origem, Moçambique, na África Austral, à beira do Oceano Índico; é filho de portugueses que foram tentar a vida na colónia e se aclimataram na capital Lourenço Marques, formando família. Desde seus 10 anos Ruy foi louco por escrever, louco por cinema e por filmar. Durante a segunda metade dos anos 1940 publicou na imprensa vários contos, artigos e poesias e até hoje fala constantemente de sua vocação frustrada de escritor, reafirmando o desejo de escrever um romance.</p>
-                        <p>Desde adolescente Ruy compreende o fazer cinema como uma forma de pensar e apresentar as relações político-sociais. Lourenço Marques era o porto do Índico mais importante da África Austral e boa parte do comércio do sul do continente passava por lá. Aos 16 anos, com uma câmara de 8 mm. emprestada por um amigo, filmou a realidade portuária do Cais Gorjão, retratando a vida dos trabalhadores negros. Filmou-os descansando embaixo de vagões, alimentando-se, dormindo sob trens; para Ruy aquelas imagens ‘me lembravam campos de concentração’. Segundo um analista, já como amador Ruy ‘flertava com a denúncia social’.</p>
-                    <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/ruy_guerra-por_lara.jpg" alt="foto de Ruy Guerra enviada por sua irm Lara"><p class="text-sm italic mt-2">Em Moçambique</p></div>
-                    <p>Na casa paterna e no Liceu Salazar, escola pública que frequentou, Ruy recebeu uma educação luso-europeia. Segundo ele e colegas, foram educados por professores ‘degredados de Portugal pela Ditadura’, ‘cabeças pensantes críticas’ que os faziam ler muito, o que acabou por tornar muitos deles rebeldes ao status quo. Havia uma certa recusa à produção cultural da ditadura salazarista e o que vinha do Brasil nessa área era muito importante, não só por que o Brasil era ex-colónia portuguesa que realizara sua independência, mas pelas semelhanças com a cultura e espaço brasileiros ( clima, presença do negro, aromas e sabores ...). A literatura brasileira, revistas, muitas vezes eram censuradas, tendo que entrar por baixo do pano, muito marcantes nessa geração chamada da ‘diáspora’. Em entrevista Ruy afirma: ‘Alguns acabaram constituindo uma geração que em sua maioria deixou o país e se distinguiu no campo das artes, filosofia (...) devido ao contexto político e social em que nascemos e fomos criados (...) não por acaso ou por condições psicológicas individuais apenas’. Essa parte de sua geração fez da cultura a via de sua revolta política contra o colonialismo e o racismo. Preocupado com as relações de dominação e subordinação na colónia, passou por interrogatórios e detenções feitas pela policia da ditadura portuguesa em razão de suas atitudes independentes no Liceu, em razões de suas atividades e de seu grupo, acabando por ter um processo que o impediu de voltar a Portugal por alguns anos.</p>
-                    <p>Aos 20 anos foi estudar cinema em Paris. Chegou na capital francesa em um momento muito quente para o cinema, pois jovens cineastas tentavam impor seu cinema de autor contra um cinema da grande indústria tradicional. Formou-se profissionalmente nesse período - inicio dos anos 1950 – em que o cinema tradicional estava sob o impacto de uma renovação, com as primeiras marolas do surgimento da Nouvelle Vague. Rememora o movimento como constituído por jovens intelectuais franceses dos quais ele, como imigrante estrangeiro, se sentia muito diferente: ‘ ( a Nouvelle Vague) sempre teve uma marcada posição direitista e eu (..) tinha uma posição nitidamente de esquerda ... condenava aos intelectuais franceses justamente um apolitismo extremamente político, nunca falavam da guerra da Argélia, nem dos imigrantes’. Cursou o IDHEC (Institut des Hautes Études Cinématographiques), sendo visto por colegas como ótimo aluno, mais preparado que os outros, embora um permanente contestador. Fez ainda por dois anos um curso de ator no Thèatre National de Paris (TNP).</p>
-                    <p>Na capital francesa aproximou-se de brasileiros com os quais acabou vindo tentar sua chance num Novo Mundo que esperava conquistar através de seu entusiasmo por seu trabalho. Trazia na bagagem o primeiro roteiro escrito logo após se formar e que tinha tentado por muitas formas implementar no Velho Mundo, a Europa; roteiro que depois vai se tornar Os Fuzis, Urso de Prata no Festival de Berlim em 1964, um dos filmes mais marcantes desse momento.</p>
-                    <div class="my-6 text-center"><img class="mx-auto max-w-2xl w-full rounded shadow-lg" src="images/cinema-novo_grupo.jpg" alt="cinema novo no Brasil"><p class="text-sm italic mt-2">Reunião de cineastas para um programa da TV francesa Carnets Brésiliens, Copacabana, 1966</p></div>
-                    <p>Afirma brincando que nasceu cineasta com o Cinema Novo mas não nele, em meio aos jovens entre os quais, apesar das costumeiras rivalidades e choques, havia uma estreita colaboração em função dos filmes que faziam. Era um cinema de busca de identidade: ‘Estávamos interessados em produzir filmes que retratassem a realidade do povo, os conflitos políticos e sociais, que fugissem às regras de produção e aos dogmatismos da estética do cinema industrial.’ Ruy porém não pratica a arte como arma de propaganda revolucionária; sua filmografia dificilmente poderá ser vista como didática. Foi parte de uma geração que, nos anos 1960, quiz mudar o mundo pelo que acreditava ser o melhor para a sociedade; também, alguns deles e Ruy entre eles, por sua prática de vida.</p>
-                    <p>Ao longo dos anos, trabalhou em diversas funçõs ligadas à tela (fotógrafo, assistente de direção, diretor, roteirista, ator, montador, produtor executivo, conselheiro executivo e artístico ou professor). Declarou-se recentemente como ‘um artista tipicamente produto do subdesenvolvimento’, levado a exercer várias formas de arte para subsistir. Usou de todos seus dons com a palavra; além da composição de poemas, letras de músicas, escreveu e dirigiu teatro, e por cinco anos redigiu crónicas semanais para o Caderno Dois do jornal O Estado de S.Paulo.</p>
-                    <p>Durante certo tempo a viver da escrita de letras de músicas para amigos músicos da zona Sul carioca como Sergio Ricardo, Edu Lobo, Chico Buarque de Holanda, Francis Hime, Carlos Lyra, Luiz Eça e Milton Nascimento. Letrista de mão cheia, fez por volta de 100 letras que abandonavam o teor ‘o barquinho e a flor’ da Bossa Nova por uma temática mais forte, de teor social. A situação complicada para viver de seu cinema o levou também a trabalhar com o teatro. Dirigiu shows musicais de seus amigos e, quando convidado, algumas peças ao longo dos anos. Ainda para o teatro escreveu em parceria com Chico Buarque ‘Calabar: o elogio da traição’, peça foi interditada pela censura da ditadura militar. Como inúmeros outros, muitas vezes Chico Buarque e Ruy tiveram diversos problemas com as letras.</p>
-                    <p>Muitas vezes classificado como cineasta político, muito se orgulha dessa marca maior. Desde sua adolescência ser político tem para ele um sentido amplo: ‘ estar envolvido com as problemáticas de sua época. Afirma várias vezes: ‘Tenho um olhar políico sobre a realidade, de um ponto de vista cultural’. Ao longo de sua vida Ruy ostentou esse posicionamento político com P maiúsculo, não tendo sido nunca um militante ou membro de partido político. Ruy se vê e é visto, como um homem à esquerda a partir de suas falas, suas atitudes de vida, suas expressões no campo artístico e educacional. Para ele qualquer estética é política, pois traz necessariamente embutida uma visão de mundo, ancorando-se em um conjunto de valores que apresenta, defende ou condena. Em 1997, a analista de cinema M. do Rosário Caetano observou que ele conservava a ‘retórica sessentista politizadissima’ e parecia não acreditar no fim das ideologias; em falas e escritos recentes Ruy parece confirmar essa afirmação.</p>
-                    <p>Nos anos 1960/70 trabalhou por diversas vezes em França no cinema e para a televisão. Foi bastante ligado ao grupo da revista de cinema Positif. Em 1965 a revista francesa Cahiers de Cinema – que dava enorme destaque ao Cinema Novo Brasileiro - resume os temas de seus filmes: a crueldade, a violência, o racismo, o tempo que não acaba... Segundo Ruy, ‘Quem analisa meus filmes já disse que há uma espécie de obsessão pelas áreas de poder e os mecanismos repressivos, seja no ambiente familiar, nas estruturas sociais ou no governo.’</p>
-                    <p>A revolução socialista da nova República Popular de Moçambique, vitoriosa em 1975 sob a chefia de Samora Machel, atribuiu em seu início um papel fundamental ao cinema na construção da identidade nacional. Parte importante na tentativa de unir em uma nação diversas tribos, cuja cultura se baseava na tradição oral. Instado por ex-colegas no governo, Ruy passou a colaborar ativamente na criação do Instituto Nacional de Cinema de Moçambique (INC) e na formação de quadros para cinema; dava aulas práticas e trouxe para Maputo (ex Lourenço Marques )muitos especialistas nas mais variadas atividades da área. Viveu intensamente a experiência de independência e descolonização da terra onde nascera; seus filmes africanos são de natureza essencialmente política.</p>
-                    <p>Sua posição de esquerda fica clara também em suas relações com Cuba, onde viveu por alguns períodos. A partir do aparecimento do Festival Internacional do Novo Cinema Latino-Americano em 1979, seus filmes são lá apresentados. Desde 1988 fez parte do quadro de professores da conhecida "Escuela Internacional de Cine y TV", em San Antonio de Los Baños, a 30 km de Havana. Participou de projetos e roteiros com aquele que seu tornou seu amigo pessoal: Gabriel García Márquez – o Gabo - um dos fundadores da Escuela. Foi o maior realizador de filmes de Gabo: Erêndira, La bela Palomera, Veneno da Madrugada e Me alquilo para Soñar (mini-série para a televisão espanhola, totalmente filmado em Havana). Lá rodou no final dos anos 1990 um filme adaptado de um romance de Chico Buarque, Estorvo, tendo como o personagem principal o ator cubano Jorge Perrugoria e uma equipe formada em boa parte por técnicos cubanos.</p>
-                    <div class="my-6 text-center"><img class="mx-auto max-w-2xl w-full rounded shadow-lg" src="images/com-gabo.jpg" alt="Ruy Guerra com Gabriel García Márquez"><p class="text-sm italic mt-2">Ruy Guerra e Gabriel García Márquez na filmagem de Erêndira, Mexico, 1982</p></div>
-                    <p>Cineastas brasileiros e latino-americanos por vezes ficam décadas sem conseguir filmar, pois enfrentam dificuldades económicas permanentes e por vezes dificuldades conjunturais em razão do momento político. Ruy conseguiu filmar longas, médias e curtas metragens no Brasil, na França, em Portugal, na Espanha, no México, em Cuba. Afirma muita vezes :‘Não fiz todos os filmes que queria, mas queria fazer todos os filmes que fiz.’ No inicio do século XXI é convidado para escrever para o teatro sobre o D Quixote, criando um musical chamado Don Quixote de lugar nenhum, uma adaptação do personagem ao Nordeste brasileiro.</p>
-                    <p>E quando não pode filmar, ensina, atividade na qual muito se empenhou, organizando cursos de cinema no Rio de Janeiro desde os anos 1990. Suas atividades de professor se desdobraram nos últimos 10-12 anos em cursos, palestras e oficinas. Em entrevista afirmou: ‘Digo na primeira aula: Se você vem aqui para fazer filme norte-americano é fácil. Vamos para o bar e em uma hora, eu falo tudo que você precisa saber.’(...) Falo para eles que não vale a pena perder dois anos e meio para fazer filmes como os norte-americanos. Agora, se o cara quer fazer filme brasileiro, ele vai passar dois anos remando na faculdade e vai continuar remando, não sairá da faculdade sabendo não. É outra coisa: é busca, é se vincular à realidade, é saber quem você é. Ressalta como fundamental ‘abrir as cabeças dos jovens para o ato de pensar a arte, a formação cultural (...) para que uma pessoa assuma uma responsabilidade tão grande (...) para com esse meio de expressão que é a meu ver extremamente vital e importante, política e esteticamente importante’.</p>
-                    <p>Falando sobre filmes e mercado, toma posição clara: ‘As equações da sociedade estão todas mal feitas e você vive com essas equações equivocadas. Um filme não tem que dar 10 milhões de espectadores. Um filme tem que ser visto por X pessoas que podem tirar desse filme alguma coisa importante para a vida delas. É diferente. Porque desses milhões de espectadores geralmente não tem dez que tirem do filme alguma coisa importante para a vida delas. Elas consumiram aquele filme como um produto, como um ‘fast food’. (...) É importante dizer que ver esses filmes norte-americanos é a mesma coisa que frequentar o Macdonald’s. Não tem diferença nenhuma.(...)É preciso cuidado, muito cuidado’.</p>
-                    <p>O estudo e a prática de uma linguagem cinematográfica sempre renovada é uma constante em seu fazer cinema. Destaca como imprescindível essa procura de uma renovação: ‘Algo fundamental para mim é encontrar estruturas que rompam com os conceitos padrões, basicamente da estrutura hegemónica norte-americana, que acredito serem redutores da realidade e não servirem para a nossa cultura. (...). Essa recusa, esse fator recusa, acho que está presente ainda hoje. Muitos filmes estão equivocados, mas acho que isso está presente mesmo nesses filmes que estão equivocados.’</p>
-                    <p>Tem vivido em vários continentes e países, sendo apontado como ‘um cidadão do mundo’. Seu percurso de vida não se separa de sua produção artística, pois foi a busca dessa mesma o fio condutor de seus deslocamentos no espaço e da continuidade de suas atividades no tempo. Define-se:‘meio africano, meio português, meio brasileiro, um tanto latino, meio perdido, 100% o que nesse coquetel de angústias’?</p>
-                    <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/atacama.jpg" alt="Ruy Guerra no deserto do Atacama"><p class="text-sm italic mt-2">No deserto do Atacama (Chile, 2014)</p></div> `,
-    chronology_title: "Cronologia",
-    chronology_content: `
-        <div class="timeline-item personal">
-            <div class="timeline-year">1931</div>
-            <div class="timeline-content"><p>22/08 - nascimento em Lourenço Marques, Moçambique, colônia portuguesa na África Austral</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1933-1974</div>
-            <div class="timeline-content"><p>Estado Novo, ditadura de Antônio Salazar em Portugal</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1936-1937</div>
-            <div class="timeline-content"><p>viagem a Portugal com a família, aos 3/4 anos</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1939-1945</div>
-            <div class="timeline-content"><p>Segunda Guerra Mundial</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1951</div>
-            <div class="timeline-content"><p>21/06 - morte da mãe em desastre de avião da Pan American Airlines sobre a Libéria</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1952</div>
-            <div class="timeline-content"><p>em março, ida de navio para Portugal</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1952</div>
-            <div class="timeline-content"><p>alguns meses depois breve visita com pai e irmão em Londres e depois Paris</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1952-1954</div>
-            <div class="timeline-content"><p>Paris: profissionalização no IDHEC – Institut des Hautes Études Cinématographiques</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1954</div>
-            <div class="timeline-content"><p>primeiro curta metragem no IDHEC, roteiro e direção de <i>Quand le soleil dort</i>, inspirado no romance de Uomini o No, de Elio Vittorini</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1954-1955</div>
-            <div class="timeline-content"><p>curso de ator no Théâtre National de Paris</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1955</div>
-            <div class="timeline-content"><p>assistência de direção - estagiário em <i>Chiens perdus sans collier</i>, de Jean Delannoy</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1955</div>
-            <div class="timeline-content"><p>21/09 - morte do pai em Lourenço Marques</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1956</div>
-            <div class="timeline-content"><p>Madrid – estada de quase um ano</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1957</div>
-            <div class="timeline-content"><p>quase um ano em Atenas, Grécia</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1957</div>
-            <div class="timeline-content"><p>Córsega: ator e assistente de direção estagiário em <i>SOS Noronha</i>, de Georges Rouquier</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1958</div>
-            <div class="timeline-content"><p>09/07 – desembarque no Rio de Janeiro</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1958</div>
-            <div class="timeline-content"><p>Revolução Cubana sob liderança de Fidel Castro</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1959</div>
-            <div class="timeline-content"><p>início da Nouvelle Vague na França com os filmes <i>Os Incompreendidos</i> de François Truffaut e <i>Acossado</i> de Jean Luc Godard</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1962</div>
-            <div class="timeline-content"><p>primeiro longa metragem <i>Os Cafajestes</i> (Rio de Janeiro e Cabo Frio)</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1961-1963</div>
-            <div class="timeline-content"><p>relacionamento com Nara Leão</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1963-1973</div>
-            <div class="timeline-content"><p>uma década de mais de cem letras de músicas e direção de espetáculos musicais</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1963</div>
-            <div class="timeline-content"><p>filmagem do 2º longa metragem <i>Os Fuzis</i> em Milagres, Bahia</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1964</div>
-            <div class="timeline-content"><p>golpe civil militar inicia ditadura militar brasileira</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1964</div>
-            <div class="timeline-content"><p>visibilidade internacional do Cinema Novo com a tríade: <i>Deus e o Diabo</i>, <i>Vidas Secas</i> e <i>Os Fuzis</i></p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1970</div>
-            <div class="timeline-content"><p>longa metragem <i>Os deuses e os mortos</i>, filmado no sul do estado da Bahia</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1971</div>
-            <div class="timeline-content"><p>19/11 - nascimento de uma filha com Leila Diniz, Janaina Diniz Guerra</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1972</div>
-            <div class="timeline-content"><p>14/06 - explosão do avião onde viajava Leila Diniz, morta aos 27 anos</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1973</div>
-            <div class="timeline-content"><p>autoria de texto e letras de músicas no espetáculo teatral <i>Calabar: o elogio da traição</i>, em parceria com Chico Buarque – censurado</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1974</div>
-            <div class="timeline-content"><p>Revolução dos Cravos, fim da ditadura em Portugal</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1975</div>
-            <div class="timeline-content"><p>FRELIMO toma o poder em Maputo com Samora Machel</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1975</div>
-            <div class="timeline-content"><p>Viagem a Maputo para a festa da independência moçambicana, depois de ausência de 25 anos</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1976</div>
-            <div class="timeline-content"><p>longa metragem A Queda, 2º Urso de Prata de Berlim</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1979-1980</div>
-            <div class="timeline-content"><p>longa metragem documentário/ficcional Mueda, Memória, Massacre, Maputo</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1982</div>
-            <div class="timeline-content"><p>relacionamento com Cláudia Ohana</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1983</div>
-            <div class="timeline-content"><p>longa metragem Erendira, inspirado em Gabriel García Márquez, México</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1983</div>
-            <div class="timeline-content"><p>10/10: nascimento da 2ª filha, Dandara, com Cláudia Ohana</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1985</div>
-            <div class="timeline-content"><p>Fundação em Cuba da Escuela Internacional de Cine y Televisión San Antonio de Los Baños</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1985</div>
-            <div class="timeline-content"><p>longa metragem Ópera do Malandro, inspirada em peça musical de Chico Buarque, Rio de Janeiro</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1989</div>
-            <div class="timeline-content"><p>longa metragem Kuarup - inspirado em romance do mesmo nome de Antônio Callado, filmado na região do Xingu e em Recife</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>descoberta e acolhimento do filho Adriano, então com 20 anos</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>casamento com Luciana Mazzotti</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>longa metragem Estorvo, inspirado em Chico Buarque, Cuba e Rio de Janeiro</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">2005-2006</div>
-            <div class="timeline-content"><p>longa metragem O veneno na Madrugada inspirado em La Mala Hora, de Gabriel García Márquez, Xerém, Rio de Janeiro e Buenos Aires</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">2005</div>
-            <div class="timeline-content"><p>Nascimento do primeiro neto, Martim, da filha Dandara</p></div>
-        </div>
-    `,
-    news_title: "Notícias",
-    news_content: `<main class="max-w-5xl mx-auto p-6">
-    <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-        <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-        <img src="images/noticiasv.jpg" alt="Notícias" class="w-60 rounded-lg shadow-lg">
-    </div>
-    <h1 class="text-3xl font-bold mb-6 text-center">Ruy Guerra faz 90 anos</h1>
-    <p class="news mb-8">
-        Ruy Guerra completou 90 anos em 2021. Homenagens começaram no 26º Festival Internacional de Documentários – Tudo Verdade, organizado em São Paulo por Amir Labaki, de 8 a 18 de abril. A exibição foi nacional e virtual devido à pandemia. Foram exibidos dois de seus cinco documentários africanos: <b>Mueda Memória e Massacre</b> e <b>Os Comprometidos – Atas de um processo de descolonização</b>. Ruy também deu uma aula magistral, entrevistado por Adilson Mendes (autor de livro de entrevistas) e Diogo Oliveira (diretor de <i>O Homem que Matou John Wayne</i>).
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Sob Pressão</h1>
-    <p class="news mb-8">
-        No segundo semestre de 2020, a pedido de Andrucha Waddington, Ruy escreveu a letra da música "Sob Pressão" para a série homônima da TV Globo. A música foi composta por Gilberto Gil e gravada por Gil e Chico Buarque.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Último filme: Aos Pedaços</h1>
-    <p class="news mb-8">
-        "Aos Pedaços", filmado em Cataguases em 2018, foi exibido no Rotterdam Film Festival em janeiro/fevereiro de 2020 e no 48º Festival de Gramado em setembro de 2020, recebendo prêmios de melhor direção, fotografia e desenho de som.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Doutor Honoris Causa</h1>
-    <p class="news mb-8">
-        Em 28 de junho de 2018, Ruy Guerra recebeu o título de Doutor Honoris Causa da Universidade Federal do Rio de Janeiro (UFRJ), entregue pelo reitor Roberto Leher no Colégio Brasileiro de Altos Estudos.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Quase Memória: estreia nacional</h1>
-    <p class="news mb-8">
-        Estreou comercialmente em 19 de abril de 2018. Sinopse: Carlos é um homem condenado aos desassossegos da memória que se encontra consigo mesmo em uma dobra de tempo. Recebem um pacote estranho, que só poderia ter sido enviado por seu pai, Ernesto, morto há anos. Nessa dobra do tempo, há um Carlos que lembra e outro que esquece, em divertidas memórias ao lado desse pai genialmente louco.<br>
-        Adaptado da obra de Carlos Heitor Cony.<br>
-        Trailer oficial: <a href="https://www.youtube.com/watch?v=p1ZDPkheiLA" target="_blank">https://www.youtube.com/watch?v=p1ZDPkheiLA</a>
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Ruy Guerra em Conversa com Bial</h1>
-    <p class="news mb-8">
-        Em 2 de outubro de 2017, Ruy Guerra participou do programa Conversa com Bial, na TV Globo. A entrevista está disponível no Globo Play e YouTube.<br>
-        No 12º Festival Aruanda do Audiovisual Brasileiro, em João Pessoa, Paraíba, foi homenageado de honra, com exibição de filmes, mesa-redonda e divulgação da biografia "Ruy Guerra paixão escancarada", por Vavy Pacheco Borges.<br>
-        <a href="https://www.youtube.com/watch?v=rMl1S0t8nts" target="_blank">Assista aqui</a>
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Uma biografia de Ruy</h1>
-    <p class="news mb-8">
-        <b>RUY GUERRA paixão escancarada</b>, escrita por Vavy Pacheco Borges após longa pesquisa, foi lançada pela editora BOMTEMPO em São Paulo (08/08/2017, Livraria da Vila) e no Rio de Janeiro (21/08/2017, Livraria Travessa).
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Festival Africa's - Cinema e Revolução</h1>
-    <p class="news mb-8">
-        Em novembro de 2016, no Cinema Belas Artes em São Paulo, ocorreu o Festival Africa's - Cinema e Revolução, com exibição de quatro curtas de Ruy Guerra e o longa <b>Mueda, Memória e Massacre</b>, seguidos de debate com o diretor.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">La Furia Umana</h1>
-    <p class="news mb-8">
-        Homenagem a Ruy Guerra no periódico de cinema <a href="http://www.lafuriaumana.it/" target="_blank">La Furia Umana</a>.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Exibições</h1>
-    <p class="news mb-8">
-        "Quase Memória" foi exibido no 38th Moscow International Film Festival, recebendo duas menções honrosas: do júri de críticos russos e da Federação dos cineclubes russos.<br>
-        "O Homem que matou John Wayne" foi exibido no Amsterdam Film Festival 2016, recebendo o prêmio Van Gogh de Melhor Montagem.<br>
-        <img src="images/filme_jw-2016.jpg" class="w-full max-w-2xl rounded-lg my-4" alt="Exibição do filme O Homem que matou John Wayne">
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">O Homem que matou John Wayne</h1>
-    <p class="news mb-8">
-        O documentário sobre arte e cinema de Ruy Guerra estreou no Brasil em abril de 2016 no Festival Tudo é Verdade, com sessões especiais em São Paulo e Rio de Janeiro.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Quase Memória</h1>
-    <p class="news mb-8">
-        "Quase Memória", o mais recente filme de Ruy Guerra, foi exibido na 39ª Mostra Internacional de Cinema de São Paulo (outubro de 2016), no Festival do Rio de Janeiro (Prêmio Especial do Jury) e no 19º Festival Internacional de Punta del Este (prêmio de melhor direção e menção honrosa para fotografia).<br>
-        <img src="images/punta_del_este-2016.jpg" class="w-full max-w-2xl rounded-lg my-4" alt="Festival de Cinema Punta del Este">
-        <a href="https://www.facebook.com/pages/Quase-Mem%C3%B3ria/313511105520432?sk=info" target="_blank">Facebook</a>
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">37º Festival del Cine Latinoamericano de Havana</h1>
-    <p class="news mb-8">
-        No 37º Festival del Cine Latinoamericano de Havana (dezembro de 2015), Ruy Guerra foi homenageado com o Coral de Honor, com exibição de filmes e exposição de fotos. O documentário "O Homem que matou John Wayne", dirigido por Diogo de Oliveira e Bruno Laet, foi exibido pela primeira vez.
-    </p>
-
-    <h1 class="text-2xl font-bold mb-2">Colóquio Internacional - Ruy Guerra e o Pensamento Crítico das Imagens</h1>
-    <p class="news mb-8">
-        Realizado em Paris nos dias 8 e 9 de outubro, com apoio da Fundação Calouste Gulbenkian e do INHA. <a href="coloquio_Ruy_Guerra-2015.pdf" target="_blank">Documento completo</a> | <a`,
     actor_title: "Ator",
     actor_p1: `Além de dirigir, Ruy Guerra também marcou presença...`,
     writings_title: "Escritos",
