@@ -61,7 +61,7 @@
                             data-lang-key="nav_longas">Longas</a>
                         <a class="nav-link dropdown-link block px-4 py-2" data-section="curtas"
                             data-lang-key="nav_curtas">Curtas</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="entrevistas"
+                        <a class="nav-link dropdown-link block px-4 py-2" data-section="interviews"
                             data-lang-key="nav_interviews">Entrevistas</a>
                         <a class="nav-link dropdown-link block px-4 py-2" data-section="actor"
                             data-lang-key="nav_actor">Ator</a>
@@ -190,6 +190,12 @@
                 </div>
             </section>
 
+            <section id="interviews" class="content-section">
+                <h2 class="text-4xl font-bold mb-6" data-lang-key="interviews_title"></h2>
+                <div data-lang-key="interviews_content">
+                </div>
+            </section>
+
             <section id="actor" class="content-section">
                 <h2 class="text-4xl font-bold mb-6" data-lang-key="actor_title"></h2>
                 <div data-lang-key="actor_content">
@@ -213,13 +219,13 @@
                 <div data-lang-key="festivais_content">
                 </div>
             </section>
-            
+
             <section id="teatro" class="content-section">
                 <h2 class="text-4xl font-bold mb-6" data-lang-key="theater_title">Teatro</h2>
                 <div data-lang-key="theater_content">
                 </div>
             </section>
-            
+
             <section id="poesias" class="content-section">
                 <h2 class="text-4xl font-bold mb-6" data-lang-key="poesias_title">Poesias</h2>
                 <div data-lang-key="poesias_content">
@@ -238,18 +244,42 @@
                 </div>
             </section>
 
-            <section id="contato" class="content-section">
-                <h2 class="text-4xl font-bold mb-6" data-lang-key="contact_title">Contato</h2>
-                <p class="mb-6" data-lang-key="contact_p1">Para informações sobre a obra, licenciamento de filmes ou
-                    projetos...</p>
-                <div class="bg-[#d8cbb7] p-6 rounded-lg max-w-md border border-black/20">
-                    <p><strong data-lang-key="contact_press">Assessoria de Imprensa:</strong> <a
-                            href="mailto:imprensa@ruyguerra.com" class="hover:underline"
-                            style="color: var(--link-color);">imprensa@ruyguerra.com</a></p>
-                    <p class="mt-2"><strong data-lang-key="contact_agent">Agente:</strong> <a
-                            href="mailto:agente@ruyguerra.com" class="hover:underline"
-                            style="color: var(--link-color);">agente@ruyguerra.com</a></p>
-                </div>
+            <section id="contato" class="content-section max-w-4xl mx-auto py-12 px-6">
+                <h1 class="text-3xl font-bold mb-8 text-center">Entre em Contato</h1>
+
+                <!-- Formulário -->
+                <form class="bg-[#d8cbb7] p-6 rounded-lg shadow-lg space-y-4 border border-black/20">
+                    <div>
+                        <label for="nome" class="block font-semibold">Nome</label>
+                        <input type="text" id="nome" name="nome"
+                            class="w-full p-2 border rounded-lg focus:ring focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block font-semibold">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full p-2 border rounded-lg focus:ring focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label for="mensagem" class="block font-semibold">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"
+                            class="w-full p-2 border rounded-lg focus:ring focus:outline-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
+                        Enviar
+                    </button>
+                </form>
+
+                <!-- Créditos -->
+                <section class="mt-12 bg-white p-6 rounded-lg shadow border border-black/10">
+                    <h2 class="text-2xl font-bold mb-4">Créditos</h2>
+                    <p><strong>Pesquisa e Organização:</strong> Vavy Pacheco Borges</p>
+                    <p class="mt-2"><strong>Fotos:</strong> Acervo Ruy Guerra<br>
+                        Fotos gentilmente cedidas ao Acervo Vavy Pacheco Borges</p>
+                    <p class="mt-2"><strong>Webdesign e Programação:</strong> Marina Milos</p>
+                </section>
             </section>
 
         </main>

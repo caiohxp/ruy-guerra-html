@@ -46,185 +46,55 @@ const chronology = [
 ];
 
 const longas = [
-    {
-        titulo: "Os Cafajestes (Brasil - 1962)",
-        imagem: "images/longas/os_cafagestes-cartaz.jpg",
-        detalhes: {
-            "Direção e roteiro": "Ruy Guerra",
-            "Duração": "100 min",
-            "Elenco": "Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho"
-        }
-    },
-    {
-        titulo: "Os Fuzis (Brasil - 1964)",
-        imagem: "images/longas/os_fuzis-cartaz2.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Ruy Guerra, Miguel Torres",
-            "Duração": "103 min",
-            "Elenco": "Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff"
-        }
-    },
-    {
-        titulo: "Sweet Hunters (França - 1969)",
-        imagem: "images/longas/tendres_chasseurs.jpg",
-        detalhes: {
-            "Direção e roteiro": "Ruy Guerra",
-            "Duração": "102 min",
-            "Elenco": "Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden"
-        }
-    },
-    {
-        titulo: "Os Deuses e os Mortos (Brasil - 1970)",
-        imagem: "images/longas/os_deuses_e_os_mortos.jpg",
-        detalhes: {
-            "Direção e roteiro": "Ruy Guerra",
-            "Duração": "97 min",
-            "Elenco": "Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia"
-        }
-    },
-    {
-        titulo: "A Queda (Brasil - 1977)",
-        imagem: "images/longas/a_queda.jpg",
-        detalhes: {
-            "Direção e roteiro": "Ruy Guerra, Nelson Xavier",
-            "Duração": "110 min",
-            "Elenco": "Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves"
-        }
-    },
-    {
-        titulo: "Mueda: Memória e Massacre (Moçambique - 1979/80)",
-        imagem: "images/longas/mueda_memoria_e_massacre.jpg",
-        detalhes: {
-            "Direção e roteiro": "Ruy Guerra",
-            "Duração": "80 min",
-            "Elenco": "Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema"
-        }
-    },
-    {
-        titulo: "Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)",
-        imagem: "images/longas/la_lettre_volee.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Gerard Zingg, Ruy Guerra",
-            "Produção": "FR3, Films du Triangle, TCV, RTP",
-            "Duração": "52 min, 16 mm, cor",
-            "Argumentação": "Adaptação do texto original de Edgar Allan Poe"
-        }
-    },
-    {
-        titulo: "Erendira (Brasil, México, França, Alemanha - 1982)",
-        imagem: "images/longas/erendira.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Gabriel García Márquez",
-            "Duração": "103 min",
-            "Elenco": "Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck"
-        }
-    },
-    {
-        titulo: "Ópera do Malandro (Brasil, França - 1985)",
-        imagem: "images/longas/opera_do_malandro.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra",
-            "Duração": "100 min",
-            "Elenco": "Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez"
-        }
-    },
-    {
-        titulo: "A Fábula da Bela Palomera (Brasil, Espanha - 1987)",
-        imagem: "images/longas/a_bela_palomera.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Ruy Guerra, Gabriel García Márquez",
-            "Duração": "90 min",
-            "Elenco": "Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré"
-        }
-    },
-    {
-        titulo: "Kuarup (Brasil - 1989)",
-        imagem: "images/longas/kuarup.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Antonio Callado (romance), Ruy Guerra, Rudy Langemann",
-            "Duração": "115 min",
-            "Elenco": "Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença"
-        }
-    },
-    {
-        titulo: "Me Alquilo Para Soñar (Espanha - 1991/92)",
-        imagem: "images/longas/me-alquilo-para-sonar.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra",
-            "Produção": "Ing, TVE - Espanha",
-            "Fotografia": "Raul Perez Ureta",
-            "Montagem": "Julia Salvador",
-            "Música": "Mario Dali",
-            "Elenco": "Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros"
-        }
-    },
-    {
-        titulo: "Estorvo (Brasil - 2000)",
-        imagem: "images/longas/estorvo.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Chico Buarque de Hollanda (romance), Ruy Guerra",
-            "Duração": "95 min",
-            "Elenco": "Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira"
-        }
-    },
-    {
-        titulo: "Monsanto (Portugal - 2000)",
-        imagem: "images/longas/monsanto.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Vicente Alves do Ó",
-            "Duração": "90 min",
-            "Elenco": "Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho"
-        }
-    },
-    {
-        titulo: "Portugal S/A (Portugal - 2003)",
-        imagem: "images/longas/portugal_sa.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Carlos Vale Ferraz",
-            "Duração": "95 min",
-            "Elenco": "Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira"
-        }
-    },
-    {
-        titulo: "O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)",
-        imagem: "images/longas/o_veneno_da_madrugada.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Ruy Guerra, Tairone Feitosa",
-            "Duração": "118 min",
-            "Elenco": "Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto"
-        }
-    },
-    {
-        titulo: "Quase Memória (Brasil - 2015)",
-        imagem: "images/longas/quase_memoria.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Ruy Guerra, Bruno Laet, Diogo de Oliveira",
-            "Duração": "132 min",
-            "Elenco": "Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro"
-        }
-    },
-    {
-        titulo: "Aos Pedaços (Brasil - 2020)",
-        imagem: "images/longas/aos-pedacos.jpg",
-        detalhes: {
-            "Direção": "Ruy Guerra",
-            "Roteiro": "Ruy Guerra, Luciana Mazzotti",
-            "Duração": "93 min",
-            "Elenco": "Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach"
-        }
-    }
+    { titulo: "Os Cafajestes (Brasil - 1962)", imagem: "images/longas/os_cafagestes-cartaz.jpg", detalhes: { "Direção e roteiro": "Ruy Guerra", "Duração": "100 min", "Elenco": "Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho" } },
+    { titulo: "Os Fuzis (Brasil - 1964)", imagem: "images/longas/os_fuzis-cartaz2.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Ruy Guerra, Miguel Torres", "Duração": "103 min", "Elenco": "Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff" } },
+    { titulo: "Sweet Hunters (França - 1969)", imagem: "images/longas/tendres_chasseurs.jpg", detalhes: { "Direção e roteiro": "Ruy Guerra", "Duração": "102 min", "Elenco": "Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden" } },
+    { titulo: "Os Deuses e os Mortos (Brasil - 1970)", imagem: "images/longas/os_deuses_e_os_mortos.jpg", detalhes: { "Direção e roteiro": "Ruy Guerra", "Duração": "97 min", "Elenco": "Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia" } },
+    { titulo: "A Queda (Brasil - 1977)", imagem: "images/longas/a_queda.jpg", detalhes: { "Direção e roteiro": "Ruy Guerra, Nelson Xavier", "Duração": "110 min", "Elenco": "Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves" } },
+    { titulo: "Mueda: Memória e Massacre (Moçambique - 1979/80)", imagem: "images/longas/mueda_memoria_e_massacre.jpg", detalhes: { "Direção e roteiro": "Ruy Guerra", "Duração": "80 min", "Elenco": "Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema" } },
+    { titulo: "Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)", imagem: "images/longas/la_lettre_volee.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Gerard Zingg, Ruy Guerra", "Produção": "FR3, Films du Triangle, TCV, RTP", "Duração": "52 min, 16 mm, cor", "Argumentação": "Adaptação do texto original de Edgar Allan Poe" } },
+    { titulo: "Erendira (Brasil, México, França, Alemanha - 1982)", imagem: "images/longas/erendira.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Gabriel García Márquez", "Duração": "103 min", "Elenco": "Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck" } },
+    { titulo: "Ópera do Malandro (Brasil, França - 1985)", imagem: "images/longas/opera_do_malandro.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra", "Duração": "100 min", "Elenco": "Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez" } },
+    { titulo: "A Fábula da Bela Palomera (Brasil, Espanha - 1987)", imagem: "images/longas/a_bela_palomera.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Ruy Guerra, Gabriel García Márquez", "Duração": "90 min", "Elenco": "Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré" } },
+    { titulo: "Kuarup (Brasil - 1989)", imagem: "images/longas/kuarup.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Antonio Callado (romance), Ruy Guerra, Rudy Langemann", "Duração": "115 min", "Elenco": "Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença" } },
+    { titulo: "Me Alquilo Para Soñar (Espanha - 1991/92)", imagem: "images/longas/me-alquilo-para-sonar.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra", "Produção": "Ing, TVE - Espanha", "Fotografia": "Raul Perez Ureta", "Montagem": "Julia Salvador", "Música": "Mario Dali", "Elenco": "Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros" } },
+    { titulo: "Estorvo (Brasil - 2000)", imagem: "images/longas/estorvo.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Chico Buarque de Hollanda (romance), Ruy Guerra", "Duração": "95 min", "Elenco": "Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira" } },
+    { titulo: "Monsanto (Portugal - 2000)", imagem: "images/longas/monsanto.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Vicente Alves do Ó", "Duração": "90 min", "Elenco": "Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho" } },
+    { titulo: "Portugal S/A (Portugal - 2003)", imagem: "images/longas/portugal_sa.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Carlos Vale Ferraz", "Duração": "95 min", "Elenco": "Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira" } },
+    { titulo: "O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)", imagem: "images/longas/o_veneno_da_madrugada.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Ruy Guerra, Tairone Feitosa", "Duração": "118 min", "Elenco": "Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto" } },
+    { titulo: "Quase Memória (Brasil - 2015)", imagem: "images/longas/quase_memoria.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Ruy Guerra, Bruno Laet, Diogo de Oliveira", "Duração": "132 min", "Elenco": "Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro" } },
+    { titulo: "Aos Pedaços (Brasil - 2020)", imagem: "images/longas/aos-pedacos.jpg", detalhes: { "Direção": "Ruy Guerra", "Roteiro": "Ruy Guerra, Luciana Mazzotti", "Duração": "93 min", "Elenco": "Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach" } }
+];
+
+const curtas = [
+    { titulo: "Quand Le Soleil Dort", info: "1954, França, 10 min, 35mm, p&b", descricao: "Prova final de Ruy Guerra no curso de cinema do IDHEC (França). Durante a II Guerra Mundial, um grupo de soldados alemães vigia prisioneiros da resistência italiana.", detalhes: { "Argumento": "Baseado no romance Le Hommes et Les Autres de Elio Vitorini", "Roteiro": "J. Duval", "Diálogos": "Elio Vitorini", "Direção": "Ruy Guerra", "Produção": "V. Cerep", "Fotografia": "M. Mundiviller", "Montagem": "M. Duchesne", "Elenco": "Pierre Francis James, Bruno Balt, Maria B. Leite, Eugene Berthier, Elen Estange, Frank Estange, Ruy Belos, Bernard Revon" } },
+    { titulo: "Orós", info: "1959, Brasil", detalhes: { "Direção": "Ruy Guerra", "Produção": "Carlos Niemeyer" } },
+    { titulo: "Cavalo de Oxumaré", info: "1960, Brasil", detalhes: { "Direção": "Ruy Guerra", "Produção": "Carlos Niemeyer", "Elenco": "Irma Alvarez e Haroldo Costa" }, imagens: [{ src: "images/longas/irma_alvarez.jpg", alt: "Irma Alvarez", legenda: "Irma Alvarez" }, { src: "images/longas/cavalo_oxumare.jpg", alt: "Ruy Guerra e Miguel Torres", legenda: "Ruy Guerra e seu parceiro Miguel Torres, início dos anos 60" }] },
+    { titulo: "Chanson pour traverser une rivière", info: "1966, Bretanha, França", descricao: "Episódio para o filme Loin du Vietnam, de Chris Marker.", detalhes: { "Direção": "Ruy Guerra" } },
+    { titulo: "Operação Búfalo", info: "1978, Moçambique, 25 min, 16mm, p&b", detalhes: { "Direção": "Ruy Guerra", "Produção": "INC - Instituto Nacional de Cinema de Moçambique", "Fotografia": "Fernando Silva, Ruy Guerra", "Montagem": "Enoque Mate, Moira Forjaz", "Música": "J. Muscavel, Sox, Pedro Bem, Sigauque, Grupo Musical da Zona de Marromeu", "Locução": "Gulamo Khan" } },
+    { titulo: "Danças Moçambicanas", info: "1979, Moçambique, 35mm, cor", detalhes: { "Direção": "Ruy Guerra", "Produção": "INC - Instituto Nacional de Cinema de Moçambique" } },
+    { titulo: "Um Povo Nunca Morre", info: "1980, Moçambique, 18 min, 16mm, cor", detalhes: { "Roteiro": "Licínio de Azevedo", "Direção": "Ruy Guerra", "Produção": "INC - Instituto Nacional de Cinema de Moçambique", "Fotografia": "Edgar Moura, Ahmed Ali, Bonifácio Simbine, João Costa, Luis Simão, Ruy Guerra", "Música": "Obadias, Fernando Sofane", "Locução": "Gulamo Khan" } },
+    { titulo: "Talk To Me", info: "1984, EUA, 6 min, videoclipe", descricao: "Videoclipe da banda <i>I am Sian</i>.", detalhes: { "Direção e roteiro": "Ruy Guerra", "Produtora": "David Sonnenberg / Guerra Filmes LTDA", "Elenco": "Claudia Ohana, Paula Maria, Evandro Carvalho, Juan Chomze, Dama de Lara, Nayra Fernandes, Jorge Lino, Lé Meireles, Nestor Fernandes, Jorge Lino, Nestor Capueira e outros" } },
+    { titulo: "Obvious Child", info: "1990, EUA, 5 min, 35mm, cor, videoclipe", descricao: "Videoclipe da música Obvious Child, do álbum <i>Rythm of The Saints</i>, de Paul Simon. Filmado em Salvador com o grupo <i>Olodum</i>.", detalhes: { "Direção": "Ruy Guerra", "Produção": "Roberlo Backer, Peregrine INC, Warner Music" } },
+    { titulo: "Carta portuguesa a Sarajevo", info: "1994, França e Inglaterra, 3 min, cor", detalhes: { "Direção e roteiro": "Ruy Guerra", "Produção": "Prod. Point Du Jour / Arte / BBC2 / Saga", "Idéia original": "Patrice Barrat" } }
+];
+
+const entrevistas = [
+    { titulo: 'Aos 90 anos cineasta Ruy Guerra escreve seu primeiro romance, critica desmonte da cultura e afirma "Vamos sair deste buraco"', data: '06/09/2021', autor: 'Ruan de Souza Gabriel', fonte: 'O Globo', local: 'Brasil' },
+    { titulo: 'Diretor de cinema destaca a importância da sétima arte na Amazônia', data: '30/01/2014', autor: 'Jony Clay Borges', fonte: 'A Crítica', local: 'Manaus - Brasil' },
+    { titulo: '“Fazer e desfazer, tudo é fazer” (Os filmes de minha vida, vol.5 – Cinema é sonho)', data: '2013', fonte: 'Mostra Internacional de Cinema SP / Imprensa Oficial', local: 'São Paulo - Brasil' },
+    { titulo: 'Ruy Guerra: cidadão de várias pátrias, passageiro de várias revoluções', data: '2012', fonte: 'Revista Atlântica Nº21', local: 'Portugal' },
+    { titulo: 'Ruy Guerra, o cineasta da palavra', data: '23/05/2011', autor: 'Rafael Antunes e António Costa', local: 'Lisboa - Portugal' },
+    { titulo: '“Trabalhar com o oculto e com o que já se esqueceu”', data: '08/2006', autor: 'José Carlos Avellar, Geraldo Sarno e Sergio Sanz', fonte: 'Mostra Cultural de Cinema Banco do Brasil', local: 'São Paulo - Brasil' },
+    { titulo: 'De volta ao campo de batalha', data: '2005', autor: 'Neusa Barbosa', fonte: 'Revista Bine\'Art' },
+    { titulo: '28º Festival de Cinema de Gramado: "Temos direito à universidade"', data: '03/08/2000', fonte: 'Agência Estado' },
+    { titulo: 'Entrevista em Retrospectiva Ruy Guerra', data: '1999', autor: 'Nuno Sena', local: 'Lisboa - Portugal' },
+    { titulo: 'O idioma como pátria e o sentimento do mundo', data: '1997', autor: 'Ana Maria Galano', fonte: 'LINGUAMAR - Funarte', local: 'Brasil' },
+    { titulo: 'Entretien avec... Ruy Guerra: "Ma rencontre avec García Márquez"', data: '24/11/1983', fonte: 'Les Nouvelles Littéraires', local: 'França' },
+    { titulo: 'Ruy Guerra abre o verbo', data: '11/1976', autor: 'Ivalda Freitas, Henrique Faulhaber e Caio Rubens', fonte: 'Cine-Olho (PUC RJ)', local: 'Rio de Janeiro - Brasil' },
+    { titulo: 'Entretien avec Ruy Guerra: À propos des "Fusils"', data: '13/04/1967', fonte: 'Le Monde', local: 'França' },
+    { titulo: 'Entretien avec Ruy Guerra', data: '1966', autor: 'Robert Benayoun, Michel Ciment, Jacques Demeure, Michèle Firk, Paul-Louis Thirard', fonte: 'Revista Positif', local: 'França' },
+    { titulo: 'Entretien avec Ruy Guerra', data: '1966', autor: 'Jean-André Fieschi e Jean Narboni', fonte: 'Cahiers du Cinéma', local: 'Paris - França' }
 ];
 
 const musicas = [
@@ -256,128 +126,40 @@ const musicas = [
     { titulo: "Pouco me importa", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" }
 ];
 
+const teatro = [
+    { type: 'group', titulo: 'Shows de música: direção entre 1964 e 1970', items: [{ titulo: 'Francis Hime e Dori Caymmi', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra' } }, { titulo: 'Recital de Samba', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Baden Powell, Alaíde Costa, Dulce Nunes e Oscar Castro Neves.' } }, { titulo: 'Poeira de Estrelas', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Descrição': 'Espetáculo para o Sindicato dos Artistas e Técnicos.' } }, { titulo: 'Clube da Esquina', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Milton Nascimento, Lo Borges, entre outros.' } }, { titulo: 'Chico Buarque e Maria Bethânia no Canecão', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra' } }, { titulo: 'Grupo de Criação', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Descrição': 'Parceria com Caetano Veloso.' } }] },
+    { type: 'single', titulo: 'Woyzeck, de G. Bruchner', ano: '1972', local: 'Rio de Janeiro, Brasil', detalhes: { 'Tradução de Texto e Letras Originais': 'Ruy Guerra', 'Direção': 'Marília Pedroso', 'Canções': 'Edu Lobo' } },
+    { type: 'single', titulo: 'Tempo e Contratempo', ano: '1972', local: 'Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Chico Buarque e MPB4.' } },
+    { type: 'single', titulo: 'O Homem de la Mancha', ano: '1973', local: 'Rio de Janeiro, Brasil', detalhes: { 'Descrição': 'Peça teatral original de Dale Wasserman.', 'Versão letras de música': 'Ruy Guerra em parceria Chico Buarque', 'Direção': 'Flávio Rangel' } },
+    { type: 'single', titulo: 'Calabar, O Elogio da Traição', ano: '1974', local: 'Brasil', detalhes: { 'Descrição': 'Texto original e letras de Chico Buarque e Ruy Guerra (censurada).' }, imagens: [{ src: 'images/longas/calabar.jpg', alt: 'Ruy Guerra e Chico Buarque, Calabar', legenda: 'Ruy Guerra e Chico Buarque' }, { src: 'images/longas/calabar-capa.jpg', alt: 'Calabar: Chico Buarque e Ruy Guerra' }] },
+    { type: 'single', titulo: 'Festa do Avante', ano: '1975', local: 'Lisboa', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Chico Buarque, Edu Lobo, Simone e MPB4.' } },
+    { type: 'single', titulo: 'Trivial Simples', ano: '1976', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de Nelson Xavier.', 'Direção': 'Ruy Guerra' } },
+    { type: 'single', titulo: 'Fábrica de Chocolate', ano: '1979', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de Mário Prata.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/fabrica_de_chocolate.jpg', alt: 'Mário Prata - Fábrica de Chocolate' }] },
+    { type: 'single', titulo: 'Dom Quixote de Lugar Nenhum', ano: '2007/08', local: 'Brasil', detalhes: { 'Autor': 'Ruy Guerra', 'Elenco': 'Edson Celulari' }, imagens: [{ src: 'images/longas/dom_quixote_de_lugar_nenhum.jpg', alt: 'Dom Quixote de lugar nenhum - peça' }] },
+    { type: 'single', titulo: 'Os Exilados', ano: '2012', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de James Joyce.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/os_exilados-2.jpg', alt: 'Ruy Guerra e Franciely Freduzeski da peça Os exilados', legenda: 'Ruy Guerra e a atriz Franciely Freduzeski de Os Exilados' }, { src: 'images/longas/exilados-trupe.jpg', alt: 'Ruy Guerra e os atores da peça Os exilados', legenda: 'Ruy Guerra e os atores da peça Os exilados' }] }
+];
+
 const poesias = [
-    {
-        titulo: "Definição",
-        data: "1986",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    },
-    {
-        titulo: "Escuta, Fidel",
-        data: "18/11/1981",
-        autor: "Ruy Guerra",
-        local: "Maputo - Moçambique"
-    },
-    {
-        titulo: "Por que não a RUDYARD",
-        data: "18/11/1981",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    },
-    {
-        titulo: "Meu país",
-        data: "1981",
-        autor: "Ruy Guerra",
-        local: "Moçambique"
-    },
-    {
-        titulo: "E tu, lua?",
-        data: "1981",
-        autor: "Ruy Guerra",
-        local: "Moçambique"
-    },
-    {
-        titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne",
-        data: "1980",
-        autor: "Ruy Guerra",
-        local: "Moçambique"
-    },
-    {
-        titulo: "Lendo Borges",
-        data: "1971",
-        autor: "Ruy Guerra",
-        local: "Rio de Janeiro - Brasil"
-    },
-    {
-        titulo: "Não sei onde me começo...",
-        data: "1962",
-        autor: "Ruy Guerra",
-        local: "Rio de Janeiro - Brasil"
-    },
-    {
-        titulo: "Não posso cantar os olhos de minha amada...",
-        data: "1961",
-        autor: "Ruy Guerra",
-        local: "Rio de Janeiro - Brasil"
-    },
-    {
-        titulo: "Lendo um poema de ontem, sempre para ti",
-        data: "11/1960",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    },
-    {
-        titulo: "E assim sendo",
-        data: "1960",
-        autor: "Ruy Guerra",
-        local: "Rio de Janeiro - Brasil"
-    },
-    {
-        titulo: "Na mesa do bar",
-        data: "1960",
-        autor: "Ruy Guerra",
-        local: "Rio de Janeiro - Brasil"
-    },
-    {
-        titulo: "Ah esta rouquidão dentro de mim!",
-        data: "15/03/1956",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    },
-    {
-        titulo: "Apenas",
-        data: "1956",
-        autor: "Ruy Guerra",
-        local: "Madri - Espanha"
-    },
-    {
-        titulo: "Intelectualismo e fome",
-        data: "1956",
-        autor: "Ruy Guerra",
-        local: "Paris - França"
-    },
-    {
-        titulo: "Hoje morreu meu Pai",
-        data: "1956",
-        autor: "Ruy Guerra",
-        local: "Madri - Espanha"
-    },
-    {
-        titulo: "Herança",
-        data: "1954",
-        autor: "Ruy Guerra",
-        local: "Paris - França"
-    },
-    {
-        titulo: "Ode",
-        data: "1947",
-        autor: "Ruy Guerra",
-        local: "Moçambique",
-        fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16"
-    },
-    {
-        titulo: "Para ler, sem dar muita importância",
-        data: "Indefinida",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    },
-    {
-        titulo: "Prólogo, como um epitáfio",
-        data: "Indefinida",
-        autor: "Ruy Guerra",
-        local: "Indefinido"
-    }
+    { titulo: "Definição", data: "1986", autor: "Ruy Guerra", local: "Indefinido" },
+    { titulo: "Escuta, Fidel", data: "18/11/1981", autor: "Ruy Guerra", local: "Maputo - Moçambique" },
+    { titulo: "Por que não a RUDYARD", data: "18/11/1981", autor: "Ruy Guerra", local: "Indefinido" },
+    { titulo: "Meu país", data: "1981", autor: "Ruy Guerra", local: "Moçambique" },
+    { titulo: "E tu, lua?", data: "1981", autor: "Ruy Guerra", local: "Moçambique" },
+    { titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne", data: "1980", autor: "Ruy Guerra", local: "Moçambique" },
+    { titulo: "Lendo Borges", data: "1971", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
+    { titulo: "Não sei onde me começo...", data: "1962", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
+    { titulo: "Não posso cantar os olhos de minha amada...", data: "1961", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
+    { titulo: "Lendo um poema de ontem, sempre para ti", data: "11/1960", autor: "Ruy Guerra", local: "Indefinido" },
+    { titulo: "E assim sendo", data: "1960", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
+    { titulo: "Na mesa do bar", data: "1960", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
+    { titulo: "Ah esta rouquidão dentro de mim!", data: "15/03/1956", autor: "Ruy Guerra", local: "Indefinido" },
+    { titulo: "Apenas", data: "1956", autor: "Ruy Guerra", local: "Madri - Espanha" },
+    { titulo: "Intelectualismo e fome", data: "1956", autor: "Ruy Guerra", local: "Paris - França" },
+    { titulo: "Hoje morreu meu Pai", data: "1956", autor: "Ruy Guerra", local: "Madri - Espanha" },
+    { titulo: "Herança", data: "1954", autor: "Ruy Guerra", local: "Paris - França" },
+    { titulo: "Ode", data: "1947", autor: "Ruy Guerra", local: "Moçambique", fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16" },
+    { titulo: "Para ler, sem dar muita importância", data: "Indefinida", autor: "Ruy Guerra", local: "Indefinido" },
+    { titulo: "Prólogo, como um epitáfio", data: "Indefinida", autor: "Ruy Guerra", local: "Indefinido" }
 ];
 
 export const pt = {
@@ -601,126 +383,38 @@ export const pt = {
             </div>`,
     curtas_title: "Curtas-metragens",
     curtas_content: `<main class="max-w-5xl mx-auto p-6">
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Curta 1 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Quand Le Soleil Dort</h2>
-                <p class="text-sm mb-2">1954, França, 10 min, 35mm, p&b</p>
-                <p>
-                    Prova final de Ruy Guerra no curso de cinema do IDHEC (França). Durante a II Guerra Mundial, um grupo de soldados alemães vigia prisioneiros da resistência italiana.<br>
-                    <strong>Argumento:</strong> Baseado no romance Le Hommes et Les Autres de Elio Vitorini<br>
-                    <strong>Roteiro:</strong> J. Duval<br>
-                    <strong>Diálogos:</strong> Elio Vitorini<br>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> V. Cerep<br>
-                    <strong>Fotografia:</strong> M. Mundiviller<br>
-                    <strong>Montagem:</strong> M. Duchesne<br>
-                    <strong>Elenco:</strong> Pierre Francis James, Bruno Balt, Maria B. Leite, Eugene Berthier, Elen Estange, Frank Estange, Ruy Belos, Bernard Revon
-                </p>
-            </div>
-            <!-- Curta 2 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Orós</h2>
-                <p class="text-sm mb-2">1959, Brasil</p>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> Carlos Niemeyer
-                </p>
-            </div>
-            <!-- Curta 3 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Cavalo de Oxumaré</h2>
-                <p class="text-sm mb-2">1960, Brasil</p>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> Carlos Niemeyer<br>
-                    <strong>Elenco:</strong> Irma Alvarez e Haroldo Costa
-                </p>
-                <div class="mt-4">
-                    <img src="images/longas/irma_alvarez.jpg" alt="Irma Alvarez" class="w-32 rounded-lg mb-2">
-                    <div class="text-sm italic">Irma Alvarez</div>
-                    <img src="images/longas/cavalo_oxumare.jpg" alt="Ruy Guerra e Miguel Torres" class="w-48 rounded-lg mt-2">
-                    <div class="text-sm italic">Ruy Guerra e seu parceiro Miguel Torres, início dos anos 60</div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    ${curtas.map(curta => `
+                        <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                            <h2 class="text-xl font-bold">${curta.titulo}</h2>
+                            <p class="text-sm mb-2">${curta.info}</p>
+                            ${curta.descricao ? `<p>${curta.descricao}</p>` : ''}
+                            <p>${Object.entries(curta.detalhes).map(([key, value]) => `<strong>${key}:</strong> ${value}`).join('<br>')}</p>
+                            ${curta.imagens ? `
+                                <div class="mt-4">
+                                    ${curta.imagens.map(img => `
+                                        <img src="${img.src}" alt="${img.alt}" class="w-48 rounded-lg mt-2">
+                                        ${img.legenda ? `<div class="text-sm italic">${img.legenda}</div>` : ''}
+                                    `).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('')}
                 </div>
-            </div>
-            <!-- Curta 4 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Chanson pour traverser une rivière</h2>
-                <p class="text-sm mb-2">1966, Bretanha, França</p>
-                <p>
-                    Episódio para o filme Loin du Vietnam, de Chris Marker.<br>
-                    <strong>Direção:</strong> Ruy Guerra
-                </p>
-            </div>
-            <!-- Curta 5 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Operação Búfalo</h2>
-                <p class="text-sm mb-2">1978, Moçambique, 25 min, 16mm, p&b</p>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique<br>
-                    <strong>Fotografia:</strong> Fernando Silva, Ruy Guerra<br>
-                    <strong>Montagem:</strong> Enoque Mate, Moira Forjaz<br>
-                    <strong>Música:</strong> J. Muscavel, Sox, Pedro Bem, Sigauque, Grupo Musical da Zona de Marromeu<br>
-                    <strong>Locução:</strong> Gulamo Khan
-                </p>
-            </div>
-            <!-- Curta 6 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Danças Moçambicanas</h2>
-                <p class="text-sm mb-2">1979, Moçambique, 35mm, cor</p>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique
-                </p>
-            </div>
-            <!-- Curta 7 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Um Povo Nunca Morre</h2>
-                <p class="text-sm mb-2">1980, Moçambique, 18 min, 16mm, cor</p>
-                <p>
-                    <strong>Roteiro:</strong> Licínio de Azevedo<br>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> INC - Instituto Nacional de Cinema de Moçambique<br>
-                    <strong>Fotografia:</strong> Edgar Moura, Ahmed Ali, Bonifácio Simbine, João Costa, Luis Simão, Ruy Guerra<br>
-                    <strong>Música:</strong> Obadias, Fernando Sofane<br>
-                    <strong>Locução:</strong> Gulamo Khan
-                </p>
-            </div>
-            <!-- Curta 8 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Talk To Me</h2>
-                <p class="text-sm mb-2">1984, EUA, 6 min, videoclipe</p>
-                <p>
-                    Videoclipe da banda <span class="italic">I am Sian</span>.<br>
-                    <strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Produtora:</strong> David Sonnenberg / Guerra Filmes LTDA<br>
-                    <strong>Elenco:</strong> Claudia Ohana, Paula Maria, Evandro Carvalho, Juan Chomze, Dama de Lara, Nayra Fernandes, Jorge Lino, Lé Meireles, Nestor Fernandes, Jorge Lino, Nestor Capueira e outros
-                </p>
-            </div>
-            <!-- Curta 9 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Obvious Child</h2>
-                <p class="text-sm mb-2">1990, EUA, 5 min, 35mm, cor, videoclipe</p>
-                <p>
-                    Videoclipe da música Obvious Child, do álbum <span class="italic">Rythm of The Saints</span>, de Paul Simon. Filmado em Salvador com o grupo <span class="italic">Olodum</span>.<br>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> Roberlo Backer, Peregrine INC, Warner Music
-                </p>
-            </div>
-            <!-- Curta 10 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Carta portuguesa a Sarajevo</h2>
-                <p class="text-sm mb-2">1994, França e Inglaterra, 3 min, cor</p>
-                <p>
-                    <strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Produção:</strong> Prod. Point Du Jour / Arte / BBC2 / Saga<br>
-                    <strong>Idéia original:</strong> Patrice Barrat
-                </p>
-            </div>
-        </div>
-    </main>`,
+            </main>`,
+    interviews_title: "Entrevistas",
+    interviews_content: `${entrevistas.map(e => `
+    <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
+      <h2 class="text-lg font-bold text-gray-900">${e.titulo}</h2>
+      <p class="text-sm text-gray-700 italic">(${e.data})</p>
+      ${e.autor ? `<p><strong>Autor:</strong> ${e.autor}</p>` : ''}
+      ${e.fonte ? `<p><strong>Fonte:</strong> ${e.fonte}</p>` : ''}
+      ${e.local ? `<p>${e.local}</p>` : ''}
+    </div>
+  `).join('')}
+    <div class="flex justify-center my-10">
+        <img class="img480" src="images/cine_olho.jpg" alt="cine-olho" title="cine-olho">
+    </div>`,
     actor_title: "Ator",
     actor_content: `
 <main class="max-w-5xl mx-auto p-6">
@@ -1524,128 +1218,38 @@ export const pt = {
     </main>`,
     theater_title: "Teatro",
     theater_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="space-y-8">
-            <!-- Shows de música -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold mb-2">Shows de música: direção entre 1964 e 1970</h2>
-                <div>
-                    <h3 class="font-semibold">Francis Hime e Dori Caymmi <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra</p>
+                <div class="space-y-8">
+                    ${teatro.map(item => {
+        if (item.type === 'group') {
+            return `<div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                                <h2 class="text-xl font-bold mb-2">${item.titulo}</h2>
+                                ${item.items.map(subItem => `
+                                    <div class="mt-4">
+                                        <h3 class="font-semibold">${subItem.titulo} <span class="text-base font-normal">${subItem.local}</span></h3>
+                                        <p>${Object.entries(subItem.detalhes).map(([key, value]) => `<strong>${key}:</strong> ${value}`).join('<br>')}</p>
+                                    </div>
+                                `).join('')}
+                            </div>`;
+        } else {
+            return `<div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                                <h3 class="font-semibold">${item.titulo} <span class="text-base font-normal">${item.ano}, ${item.local}</span></h3>
+                                <p>${Object.entries(item.detalhes).map(([key, value]) => `<strong>${key}:</strong> ${value}`).join('<br>')}</p>
+                                ${item.imagens ? `
+                                    <div class="mt-4">
+                                        ${item.imagens.map(img => `
+                                            <img class="w-80 rounded-lg mb-2" src="${img.src}" alt="${img.alt}">
+                                            ${img.legenda ? `<div class="text-sm italic">${img.legenda}</div>` : ''}
+                                        `).join('')}
+                                    </div>
+                                ` : ''}
+                            </div>`;
+        }
+    }).join('')}
                 </div>
-                <div class="mt-4">
-                    <h3 class="font-semibold">Recital de Samba <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    Com Baden Powell, Alaíde Costa, Dulce Nunes e Oscar Castro Neves.</p>
-                </div>
-                <div class="mt-4">
-                    <h3 class="font-semibold">Poeira de Estrelas <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    Espetáculo para o Sindicato dos Artistas e Técnicos.</p>
-                </div>
-                <div class="mt-4">
-                    <h3 class="font-semibold">Clube da Esquina <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    Com Milton Nascimento, Lo Borges, entre outros.</p>
-                </div>
-                <div class="mt-4">
-                    <h3 class="font-semibold">Chico Buarque e Maria Bethânia no Canecão <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra</p>
-                </div>
-                <div class="mt-4">
-                    <h3 class="font-semibold">Grupo de Criação <span class="text-base font-normal">Rio de Janeiro, Brasil</span></h3>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    Parceria com Caetano Veloso.</p>
-                </div>
-            </div>
-            <!-- Woyzeck -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Woyzeck, de G. Bruchner <span class="text-base font-normal">1972, Rio de Janeiro, Brasil</span></h3>
-                <p>
-                    <strong>Tradução de Texto e Letras Originais:</strong> Ruy Guerra<br>
-                    <strong>Direção:</strong> Marília Pedroso<br>
-                    <strong>Canções:</strong> Edu Lobo
-                </p>
-            </div>
-            <!-- Tempo e Contratempo -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Tempo e Contratempo <span class="text-base font-normal">1972, Brasil</span></h3>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    Com Chico Buarque e MPB4.
-                </p>
-            </div>
-            <!-- O Homem de la Mancha -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">O Homem de la Mancha <span class="text-base font-normal">1973, Rio de Janeiro, Brasil</span></h3>
-                <p>
-                    Peça teatral original de Dale Wasserman.<br>
-                    <strong>Versão letras de música:</strong> Ruy Guerra em parceria Chico Buarque<br>
-                    <strong>Direção:</strong> Flávio Rangel
-                </p>
-            </div>
-            <!-- Calabar -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Calabar, O Elogio da Traição <span class="text-base font-normal">1974, Brasil</span></h3>
-                <p>
-                    Texto original e letras de Chico Buarque e Ruy Guerra (censurada).
-                </p>
-                <div class="mt-4">
-                    <img class="w-80 rounded-lg mb-2" src="images/longas/calabar.jpg" alt="Ruy Guerra e Chico Buarque, Calabar">
-                    <div class="text-sm italic">Ruy Guerra e Chico Buarque</div>
-                    <img class="w-80 rounded-lg mt-2" src="images/longas/calabar-capa.jpg" alt="Calabar: Chico Buarque e Ruy Guerra">
-                </div>
-            </div>
-            <!-- Festa do Avante -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Festa do Avante <span class="text-base font-normal">1975, Lisboa</span></h3>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    Com Chico Buarque, Edu Lobo, Simone e MPB4.
-                </p>
-            </div>
-            <!-- Trivial Simples -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Trivial Simples <span class="text-base font-normal">1976, Brasil</span></h3>
-                <p>
-                    Peça Teatral Original de Nelson Xavier.<br>
-                    <strong>Direção:</strong> Ruy Guerra
-                </p>
-            </div>
-            <!-- Fábrica de Chocolate -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Fábrica de Chocolate <span class="text-base font-normal">1979, Brasil</span></h3>
-                <p>
-                    Peça Teatral Original de Mário Prata.<br>
-                    <strong>Direção:</strong> Ruy Guerra
-                </p>
-                <img class="w-80 rounded-lg mt-4" src="images/longas/fabrica_de_chocolate.jpg" alt="Mário Prata - Fábrica de Chocolate">
-            </div>
-            <!-- Dom Quixote de Lugar Nenhum -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Dom Quixote de Lugar Nenhum <span class="text-base font-normal">2007/08, Brasil</span></h3>
-                <p>
-                    <strong>Autor:</strong> Ruy Guerra<br>
-                    <strong>Elenco:</strong> Edson Celulari
-                </p>
-                <img class="w-96 rounded-lg mt-4" src="images/longas/dom_quixote_de_lugar_nenhum.jpg" alt="Dom Quixote de lugar nenhum - peça">
-            </div>
-            <!-- Os Exilados -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h3 class="font-semibold">Os Exilados <span class="text-base font-normal">2012, Brasil</span></h3>
-                <p>
-                    Peça Teatral Original de James Joyce.<br>
-                    <strong>Direção:</strong> Ruy Guerra
-                </p>
-                <img class="w-80 rounded-lg mt-4" src="images/longas/os_exilados-2.jpg" alt="Ruy Guerra e Franciely Freduzeski da peça Os exilados">
-                <div class="text-sm italic">Ruy Guerra e a atriz Franciely Freduzeski de Os Exilados</div>
-                <img class="w-full rounded-lg mt-4" src="images/longas/exilados-trupe.jpg" alt="Ruy Guerra e os atores da peça Os exilados">
-                <div class="text-sm italic">Ruy Guerra e os atores da peça Os exilados</div>
-            </div>
-        </div>
-    </main>`,
+            </main>`,
     poesias_title: "Poesias",
     poesias_content: `${poesias.map(poema => `
-        <div class="mb-6 p-4 bg-[#f7f3ee] rounded border border-black/10">
+        <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
             <h3 class="text-xl font-bold mb-1">${poema.titulo}</h3>
             <div class="text-sm text-gray-700 mb-1">
                 <span><b>Autor:</b> ${poema.autor}</span> &nbsp;|&nbsp;
@@ -1657,7 +1261,7 @@ export const pt = {
     `).join('')};`,
     songs_title: "Letras de Músicas",
     songs_content: `${musicas.map(musica => `
-        <div class="mb-6 p-4 bg-[#f7f3ee] rounded border border-black/10">
+        <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
             <h3 class="text-xl font-bold mb-1">${musica.titulo}</h3>
             <div class="text-sm text-gray-700 mb-1">
                 <span><b>Autor:</b> ${musica.autores}</span> &nbsp;|&nbsp;
@@ -1715,4 +1319,3 @@ export const pt = {
     contact_agent: "Agente:",
     footer_text: "&copy; 2025 Ruy Guerra. Todos os direitos reservados."
 }
-
