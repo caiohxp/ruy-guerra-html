@@ -97,6 +97,42 @@ const entrevistas = [
     { titulo: 'Entretien avec Ruy Guerra', data: '1966', autor: 'Jean-André Fieschi e Jean Narboni', fonte: 'Cahiers du Cinéma', local: 'Paris - França' }
 ];
 
+const montador = [
+    { titulo: "Cinco Vezes Favela - Escola de Samba, Alegria de Viver (Brasil - 1962)", detalhes: { "Direção": "Carlos Diegues", "Duração": "longa-metragem" } },
+    { titulo: "História da Praia (Brasil - 1962)", detalhes: { "Direção": "Fernando Amaral", "Duração": "curta-metragem" } },
+    { titulo: "Esse Mundo é Meu (Brasil - 1963)", detalhes: { "Direção": "Sérgio Ricardo", "Duração": "longa-metragem" } },
+    { titulo: "Os Fuzis (Brasil - 1964)", detalhes: { "Direção": "Ruy Guerra", "Duração": "longa-metragem" } },
+    { titulo: "Heitor dos Prazeres (Brasil - 1965)", detalhes: { "Direção": "Antonio Carlos Fontoura", "Duração": "curta-metragem" } },
+    { titulo: "Série de documentários semanais (França - 1966/68)", detalhes: { "Descrição": "Montagem para a ORTF." } },
+    { titulo: "Os Deuses e Os Mortos (Brasil - 1970)", detalhes: { "Direção": "Ruy Guerra", "Duração": "longa-metragem" } },
+    { titulo: "Marcados para Viver (Brasil - 1976)", detalhes: { "Direção": "Maria do Rosário Nascimento Silva", "Duração": "longa-metragem" } },
+    { titulo: "A Queda (Brasil - 1977)", detalhes: { "Direção": "Ruy Guerra", "Duração": "longa-metragem" } },
+    { titulo: "Mueda, Memória e Massacre (Moçambique - 1979)", detalhes: { "Direção": "Ruy Guerra", "Duração": "longa-metragem" } },
+    { titulo: "O Judeu (Brasil, Portugal - 1995)", detalhes: { "Direção": "Jom Tob Azulay", "Duração": "longa-metragem" } },
+    { titulo: "Supervisão de roteiros e montagem (Portugal - 1995)", detalhes: { "Descrição": "Para a produtora “D&D Audiovisuais” (TV) Portugal." } }
+];
+
+const festivais = [
+    { tipo: 'filme', titulo: 'Os Cafajestes', info: 'Brasil - 1962', eventos: [{ evento: '1962 - Prêmios Saci do Estado de São Paulo, Brasil', premios: ['Saci Melhor Direção', 'Saci Melhor Argumento Original Ruy Guerra e Miguel Torres', 'Saci Melhor Fotografia Toni Rabattoni', 'Saci Melhor Música Luiz Bonfá', 'Saci Melhor Atriz Norma Bengell'] }, { evento: '1963 - Festival de Berlim, Alemanha', premios: ['Participação oficial representando o Brasil'] }] },
+    { tipo: 'filme', titulo: 'Os Fuzis', info: 'Brasil - 1964', eventos: [{ evento: '1964 - Festival de Berlim, Alemanha', premios: ['Urso de Prata - Prêmio Especial do Juri'], imagem: { src: 'images/longas/urso_de_prata.jpg', alt: 'Ruy Guerra premiado com o Urso de Prata, Berlim', legenda: 'Ruy Guerra sendo premiado com o Urso de Prata, Berlim' } }, { evento: '1964 - Festival de Cinema Brasileiro de Teresópolis', premios: [] }, { evento: '1964 - Festival de Pesaro, Itália', premios: ['Melhor Fotografia, Ricardo Aronovich'] }, { evento: '1965 - Festival de Acapulco, México', premios: ['Prêmio Cabeza de Palanque'] }, { evento: 'Cahiers du Cinéma, França', premios: ['Selecionado na lista de críticos europeus como um dos dez melhores filmes da história do cinema'] }] },
+    { tipo: 'filme', titulo: 'Sweet Hunters', info: 'França, Brasil, Panamá - 1969', eventos: [{ evento: '1969 - Festival de Veneza, Itália', nota: '(festival sem premiação competitiva)', premios: ['Medalha de Ouro por Participação Especial'] }, { evento: '1970 - Festival de Cannes, França', nota: '(Quinzaine des Realizateurs)' }, { evento: '1970 - Festival dos Festivais, Inglaterra', nota: '(não competitivo, Londres - Inglaterra)' }] },
+    { tipo: 'filme', titulo: 'Os Deuses e os Mortos', info: 'Brasil - 1970', eventos: [{ evento: '1970 Festival de Brasília', premios: ['Candango de Ouro, Melhor Filme, Melhor Ator Othon Bastos, Melhor Atriz Dina Sfat, Melhor Fotografia Dib Lutfi, Melhor Cenografia Marcos Weintock, Melhor Música Milton Nascimento'] }, { evento: '1970 - Prêmios do Estado do Rio de Janeiro', premios: ['Coruja de Ouro, Melhor Atriz Ítala Nandi, Melhor Fotografia Dib Lutfi, Atriz Coadjuvante Mara Rubia, Ator Coadjuvante Nelson Xavier', 'Golfinho de Ouro pela "Melhor Criação do Ano"'] }, { evento: '1970 - Festival de Berlim, Alemanha', premios: ['Competição oficial representando o Brasil'] }, { evento: '1970 - Festival de Cartago, Tunísia' }, { evento: '1971 - Xème Rencontre Internacionale du Cinema et de Jeunesse de Grenoble, França', premios: ['Melhor Realização, Melhor Fotografia Dib Lutfi'] }, { evento: '1971 - XIII Semana Internacional de Cine In Color de Barcelona', premios: ['Prêmio Dama dei Paraguas pelo Melhor Filme, Espanha'] }, { evento: '1971 - Participação na Semaine Positif, Paris, França' }, { evento: '1971 - XIX Festival de Cine, San Sebastian, Espanha' }, { evento: '1971 - Festival de Cannes, França', nota: '(Quinzaine des Realizateurs)' }, { evento: '1971 - Cahiers du Cinéma, França', premios: ['Selecionado pela revista francesa Cahiers du Cinema como um dos sete melhores filmes do ano'] }, { evento: '1974 - Prêmio de Qualidade INC (Brasil)' }] },
+    { tipo: 'filme', titulo: 'A Queda', info: 'Brasil - 1977', eventos: [{ evento: '1978 - Festival de Berlim, Alemanha', premios: ['Urso de Prata - Prêmio Especial do Juri'] }, { evento: '1978 - CNNB Rio de Janeiro', premios: ['Prêmio Margarida de Prata, Brasil'] }, { evento: '1978 - Festival de Brasília', premios: ['Melhor Ator Nelson Xavier, Brasil'] }, { evento: '1979 - Federação Cineclubes do Rio de Janeiro, Brasil', premios: ['Prêmio São Saruê'] }, { evento: '1980 - Festival Biarritz, França' }, { evento: '1981 - Festival de Edinburgh, Inglaterra' }, { evento: '1981 - Semana de Positif, Paris, França' }] },
+    { tipo: 'filme', titulo: 'Mueda - Memória e Massacre', info: 'Moçambique - 1979/80', eventos: [{ evento: '1980 - Festival de Tashkent, Rússia (ex-URSS)', premios: ['Prêmio União da Amizade dos Povos'] }, { evento: '1980 - Prêmio Filme e Cultura' }, { evento: '1981 - Festival de Rotterdam, Holanda' }, { evento: '1981 - Forum do Jovem Cinema, Festival de Berlim, Alemanha' }, { evento: '1981 - Semana Cinema Terceiro Mundo, Lisboa, Portugal' }, { evento: '1982 - Jornadas Cinematográficas de Amiens, França' }, { evento: '1983 - Confrontation Perpignan, França' }] },
+    { tipo: 'filme', titulo: 'Erendira', info: 'Brasil, México, França, Alemanha - 1982', eventos: [{ evento: '1984 - Festival de Chicago, USA', premios: ['Prêmio Melhor Atriz Irene Papas'] }, { evento: '1985 - Cine Clube, São Paulo', premios: ['Melhor Filme Brasileiro escolhido pelo público'] }, { evento: '1983 - Festival de Cannes, França', premios: ['Competição Oficial representando o México'], imagem: { src: 'images/longas/ruy-gabo-cannes-erendira.jpg', alt: 'Ruy Guerra, Gabriel García Márquez, Festival de Cannes, Erendira', legenda: 'Ruy Guerra e Gabriel García Márquez' } }, { evento: '1983 - Festival Latino Americano (Hours-Concours), Cuba' }, { evento: '1983 - Festival de New York, USA' }, { evento: '1983 - Festival de Toronto, Canadá' }, { evento: '1984 - Festival de Cartagena (Hours-Concours), Colombia' }, { evento: '1984 - 8ª Mostra Internacional de Cinema de São Paulo, Brasil' }] },
+    { tipo: 'filme', titulo: 'Ópera do Malandro', info: 'Brasil, França - 1985', eventos: [{ evento: '1986 - Prêmio do Estado do Rio de Janeiro, Brasil', premios: ['Golfinho de Ouro (Cinema)'], imagem: { src: 'images/longas/chico-buarque_jack-lang.jpg', alt: 'Chico Buarque com Jack Lang, A Ópera do Malandro', legenda: 'O ministro da cultura francês Jack Lang, a primeira dama da França Danielle Mitterand e Chico Buarque durante as filmagens' } }, { evento: '1986 - III Festival do Rio de Janeiro', premios: ['Prêmio de Melhor Direção, Brasil'] }, { evento: '1986 - Festival Latino Americano Havana, Cuba', premios: ['Prêmio Especial do Juri', 'Prêmio Melhor Trilha Sonora Chico Buarque', 'Prêmio Melhor Montagem Mair Tavares, Ide Lacreta'] }, { evento: '1988 - Quinzaine des Realisateurs, Cannes, França', premios: ['Avant - Première Square de Choisy, França'] }, { evento: '1988 - 24º New York Film Festival, USA' }, { evento: '1987 - Miami Film Festival, USA' }, { evento: '1987 - Festival Internacional de Cinema de Washington DC., USA' }, { evento: '1987 - Semana da Associação de Técnicos de Cinema, Brasil' }, { evento: '1987 - 2 Festival Internacional de Cine de Expressão Ibérica, Espanha' }, { evento: '1987 - Mostra de Cinema Latino Americano, Peru' }, { evento: '1987 - Festival de Cinema de Istambul, Turquia' }, { evento: '1988 - Semana Cinema Latino Americano - Fundación del Nuevo Cine Latino Americano, Cuba' }, { evento: '2005 - Festival das Águas, Hors-concours, Corumbá, Brasil' }] },
+    { tipo: 'filme', titulo: 'A Fábula da Bela Palomera', info: 'Brasil - 1987', eventos: [{ evento: '1988 - 25º Festival Internacional de Television', premios: ["Prague d'Or (Prêmio da Imprensa)"] }, { evento: '1988 - Festival de Munique, Alemanha' }, { evento: '1988 - 21º Festival de Brasília (Hour-Concours), Brasil' }, { evento: '1988 - XXXIII Semana Internacional de Valladolid, Espanha' }, { evento: '1988 - Mostra de Cinema em São Paulo, Brasil' }, { evento: '1989 - 13º Hong Kong International Film Festival' }, { evento: '1990 - Festival Latino Americano, Providence, USA' }] },
+    { tipo: 'filme', titulo: 'Kuarup', info: 'Brasil - 1989', eventos: [{ evento: '1988 - Prêmio Casa de las Americas, Cuba' }, { evento: '1988 - Festival of Festivals, Toronto (Canadá)' }, { evento: '1989 - Festival de Cannes, França', premios: ['Competição oficial representando o Brasil'] }, { evento: '1989 - XV Festival de Cine Ibero Americano de Huelva, Espanha', premios: ['Prêmio Radio Nacional de Espana, Espanha', 'Prêmio ASECAN (Associação de Escritores Cinematográficos de Andaluzia), Melhor Filme, Espanha'] }, { evento: '1989 - Festival Latino Americano de Havana', premios: ['Prêmio FICC (Federação Internacional de Cine Clube), Cuba, Melhor Filme'] }, { evento: '1990 - Cinco Indicações no 10 Prêmio Bel Metal, Brasil' }] },
+    { tipo: 'filme', titulo: 'Estorvo', info: 'Brasil - 2000', eventos: [{ evento: '2000 - Festival de Cannes, França', premios: ['Competição oficial representando o Brasil'], imagem: { src: 'images/longas/cannes.jpg', alt: 'Ruy Guerra sendo entrevistado em Cannes', legenda: 'Ruy Guerra sendo entrevistado em Cannes' } }, { evento: '2000 - Festival de Gramado, Brasil', premios: ['Melhor Fotografia Marcelo Durst', 'Melhor Trilha Sonora Egberto Gismonti'], imagem: { src: 'images/longas/kikito.jpg', alt: 'Ruy Guerra recebendo o Kikito em Gramado', legenda: 'Ruy Guerra sendo premiado com o Kikito' } }, { evento: '2000 - Festival de Huelva, Espanha', premios: ['Melhor Diretor'] }, { evento: '2001 - Associação Paulista de Críticos de Arte, Brasil', premios: ['Prêmio APCA de Melhor Diretor'] }, { evento: '2002 - Festival de Rabat, Marrocos' }, { evento: '2002 - Festival de Nova Delhi, Índia' }, { evento: '2002 - V FICA-Festival Internacional de Cinema e Vídeo Ambiental, Brasil' }] },
+    { tipo: 'filme', titulo: 'O Veneno da Madrugada', info: 'Brasil, Argentina, Portugal - 2004/2005', eventos: [{ evento: '2005 - Festival de Brasília, Brasil', premios: ['Prêmio de Melhor Fotografia, Walter Carvalho', 'Melhor Direção de Arte, Marcos Flaksman'] }, { evento: '2005 - Festival de Havana, Cuba', premios: ['Prêmio de Melhor Fotografia, Walter Carvalho'] }, { evento: '2005 - Festival de San Sebastian, Espanha', premios: ['Competição oficial representando o Brasil'] }, { evento: '2005 - Festival de Biarritz, França', premios: ['Competição oficial representando o Brasil'] }, { evento: '2006 - Festival Iberoamericano de Cine de Santa Cruz de la Sierra, Bolívia', premios: ['Melhor filme'] }, { evento: '2008 - 1st Cine Fest Brasil/Madrid, Espanha' }] },
+    { tipo: 'filme', titulo: 'Quase Memória', info: 'Brasil, 2015', eventos: [{ evento: '2015 - Festival do Rio de Janeiro', premios: ['Prêmio Especial do Jury'] }, { evento: '2016 - 19º Festival internacional de Cinema de Punta del Este', premios: ['Premio de melhor direção'] }, { evento: '2016 - Festival Internacional de Cinema de Moscow', premios: ['Menção Honrosa'] }] },
+    { tipo: 'filme', titulo: 'Aos Pedaços', info: 'Brasil - 2020', eventos: [{ evento: '2020 - 48º Festival de Gramado, Brasil', premios: ['Melhor Direção', 'Melhor Fotografia', 'Melhor Desenho de Som'] }, { evento: '2020 - Rotterdam Film FESTIVAL', premios: ['Participação com exibição em fevereiro/2020'] }] },
+    { tipo: 'categoria', titulo: 'Prêmios e Homenagens', eventos: [{ evento: '1987 - Grau de Comendador da Ordem do Mérito', premios: ['Outorgada pelo Presidente Mário Soares (Portugal)'] }, { evento: '1987 - Governo do Estado do Rio de Janeiro', premios: ['Golfinho de Ouro do Cinema'] }, { evento: '1993 - Festival de Trieste (Itália)', premios: ['Prêmio pela obra'] }, { evento: '2000 - Festival Iberoamericano de Cine de Santa Cruz (Bolívia)', premios: ['Prêmio Tatá Tumpa por “Excelencia y aporte al Cine Iberoamericano”'] }, { evento: '2002 - Festival de Cinema, Vídeo e Cine de Curitiba', premios: ['Prêmio “Ruy Guerra”'] }, { evento: '2003 - 8º Festival de Cinema Universitário (UFF/CCBB)', premios: ['Homenagem ao Professor Ruy Guerra'] }, { evento: '2003 - Jornal O Estado de S. Paulo e Serasa S/A', premios: ['Prêmio Multicultural - Cinema'] }, { evento: '2004 - Festival Internacional de Cine de San Sebastian', premios: ['Presidente do Juri “Horizontes”'] }, { evento: '2008 - Ordem ao Mérito Cultural (Brasil)', premios: ['Grau de Comendador'] }, { evento: '2009 - Homenagem da ABDeC (Associação Brasileira de Documentaristas e Curtametragistas Rio de Janeiro)' }, { evento: '2010 - Premio Kikito de Cristal – Festival de Gramado', premios: ['Homenagem pelo conjunto da obra'] }, { evento: '2011 - Mostra Comemorativa dos 80 anos de Ruy Guerra na Cinemateca de São Paulo', premios: ['Exibição de seus filmes entre os dias 18 a 25 de agosto'] }, { evento: '2012 - Homenagem Especial 6º Festival Dockanemo Maputo, Moçambique (setembro)' }] },
+    { tipo: 'categoria', titulo: 'Retrospectivas', eventos: [{ evento: '1981 - Festival de Cinema de Biarritz, França', premios: ['Retrospectiva Ruy Guerra'] }, { evento: '1998 - Cinemateca de Lisboa', premios: ['Retrospectiva de toda a obra'] }, { evento: '1998 - Centro Cultural Banco do Brasil (CCBB) Rio de Janeiro', premios: ['Retrospectiva de toda a obra'] }, { evento: '2005 - Cineclube SESC-SP', premios: ['Mostra “O cinema de Ruy Guerra”'] }, { evento: '2006 - Centro Cultural Banco do Brasil CCBB São Paulo', premios: ['Retrospectiva de toda a obra - Ruy Guerra, Filmar e Viver'] }] },
+    { tipo: 'categoria', titulo: 'Participação como Jurado', eventos: [{ evento: '1980 - Jornadas da Bahia, Brasil' }, { evento: '1980 - Festival de Cinema de Gramado, Brasil' }, { evento: '1980 - Festival de Cinema em Cartagena, Colombia' }, { evento: '1981 - 1º Concurso de Fotografia, Moçambique' }, { evento: '1981 - 2º Concurso de Fotografia, Moçambique' }, { evento: '1981 - Festival de Arte e Areia, Paraíba, Brasil' }, { evento: '1981 - Festival de Cinema de Biarritz, França' }, { evento: '1982 - Festival de Cinema de Biarritz, França' }, { evento: '1982 - 1º Seminário de Audio Visual, Moçambique' }, { evento: '1994 - Laboratório de Guiones, Sundance, México', premios: ['Assessor'] }, { evento: '1996 Workshop de roteiros Sundance, Búzios', premios: ['Assessor'] }, { evento: '2003 - Festival de Curta Metragem da Universidade Gama Filho', premios: ['Presidente'] }, { evento: '2004 - Festival do Rio de Janeiro', premios: ['Presidente do Juri'] }, { evento: '2006 – Festival de Gramado', premios: ['Presidente do Juri Latino americano'] }, { evento: '2010 - Festival de Mar Del Plata, Argentina' }] },
+    { tipo: 'categoria', titulo: 'Participação como Palestrante', eventos: [{ evento: '1976 - Universidad Autónoma do México, México' }, { evento: '1978 - 1ª Feira de Livro Progressista, República Popular de Angola' }, { evento: '1982 - 1ª Assembléia Mundial de Realizadores (Funchal)' }, { evento: '1985 - Jornadas Democráticas do Presidente Raoul Alfonsín, Buenos Aires' }] }
+];
+
 const musicas = [
     { titulo: "Sob Pressão", data: "2020", autores: "Gilberto Gil e Ruy Guerra" },
     { titulo: "Você vai me seguir", data: "1976", autores: "Chico Buarque e Ruy Guerra" },
@@ -352,21 +388,21 @@ export const pt = {
         Realizado em Paris nos dias 8 e 9 de outubro, com apoio da Fundação Calouste Gulbenkian e do INHA. <a href="coloquio_Ruy_Guerra-2015.pdf" target="_blank">Documento completo</a> | <a`,
     archive_title: "Acervo",
     archive_content: `
-<p class="basico">
-    Uma parte da documentação pessoal acumulada por Ruy Guerra foi depositada, desde os anos 1989/1990, no <b>Museu de Arte Moderna do Rio de Janeiro (MAM)</b> e uma segunda parte, desde o segundo semestre de 2021, comprada pelo <b>Instituto Moreira Salles (IMS)</b> e depositada em seu arquivo do Rio de Janeiro.
-</p>
-<p class="basico">No <b>Arquivo Nacional</b> no Rio de Janeiro podem ser encontrados alguns de seus filmes:</p>
-<p class="basico"><b>Sweet Hunters</b> - uma cópia com legendas em francês;</p>
-<p class="basico"><b>A Queda</b> - uma cópia com legendas em espanhol, um negativo do som somente e um trailer;</p>
-<p class="basico"><b>Mueda, Memória e Massacre</b> - uma cópia sem legendas.</p>
-<p class="basico"><b>Erendira</b> - uma cópia sem legendas e uma cópia com legendas em francês;</p>
-<p class="basico"><b>Ópera do Malandro</b> - uma cópia sem legendas;</p>
-<p class="basico"><b>Bela Palomera</b> - uma cópia sem legendas;</p>
-<p class="basico"><b>Kuarup</b> - uma cópia sem legendas.</p>
-<p class="basico">
-    A <b>Cinemateca Brasileira em São Paulo</b> possui uma cópia restaurada de <b>Os Fuzis</b>, versão nacional autorizada pelo produtor Jarbas Barbosa que, por ter sofrido um corte de vários minutos, Ruy não assina.
-</p>
-`,
+        <p class="basico">
+            Uma parte da documentação pessoal acumulada por Ruy Guerra foi depositada, desde os anos 1989/1990, no <b>Museu de Arte Moderna do Rio de Janeiro (MAM)</b> e uma segunda parte, desde o segundo semestre de 2021, comprada pelo <b>Instituto Moreira Salles (IMS)</b> e depositada em seu arquivo do Rio de Janeiro.
+        </p>
+        <p class="basico">No <b>Arquivo Nacional</b> no Rio de Janeiro podem ser encontrados alguns de seus filmes:</p>
+        <p class="basico"><b>Sweet Hunters</b> - uma cópia com legendas em francês;</p>
+        <p class="basico"><b>A Queda</b> - uma cópia com legendas em espanhol, um negativo do som somente e um trailer;</p>
+        <p class="basico"><b>Mueda, Memória e Massacre</b> - uma cópia sem legendas.</p>
+        <p class="basico"><b>Erendira</b> - uma cópia sem legendas e uma cópia com legendas em francês;</p>
+        <p class="basico"><b>Ópera do Malandro</b> - uma cópia sem legendas;</p>
+        <p class="basico"><b>Bela Palomera</b> - uma cópia sem legendas;</p>
+        <p class="basico"><b>Kuarup</b> - uma cópia sem legendas.</p>
+        <p class="basico">
+            A <b>Cinemateca Brasileira em São Paulo</b> possui uma cópia restaurada de <b>Os Fuzis</b>, versão nacional autorizada pelo produtor Jarbas Barbosa que, por ter sofrido um corte de vários minutos, Ruy não assina.
+        </p>
+        `,
     longas_title: "Longas-metragens",
     longas_content: `<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 ${longas.map(filme => `
@@ -698,524 +734,39 @@ export const pt = {
         </div>
     </main>`,
     montador_title: "Montador",
-    montador_content: `
-<main class="max-w-5xl mx-auto p-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Montador 1 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Cinco Vezes Favela - Escola de Samba, Alegria de Viver (Brasil - 1962)</h2>
-                <p>
-                    <strong>Direção:</strong> Carlos Diegues<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
+    montador_content: `<main class="max-w-5xl mx-auto p-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                ${montador.map(item => `
+                    <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                        <h2 class="text-xl font-bold">${item.titulo}</h2>
+                        <div class="text-sm mt-2">
+                            ${Object.entries(item.detalhes).map(([key, value]) => {
+                                // Se a chave for 'Descrição', não mostra o título da chave
+                                return key === 'Descrição' ? `<p>${value}</p>` : `<p><strong>${key}:</strong> ${value}</p>`;
+                            }).join('')}
+                        </div>
+                    </div>
+                `).join('')}
             </div>
-            <!-- Montador 2 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">História da Praia (Brasil - 1962)</h2>
-                <p>
-                    <strong>Direção:</strong> Fernando Amaral<br>
-                    <strong>Duração:</strong> curta-metragem
-                </p>
-            </div>
-            <!-- Montador 3 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Esse Mundo é Meu (Brasil - 1963)</h2>
-                <p>
-                    <strong>Direção:</strong> Sérgio Ricardo<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 4 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 5 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Heitor dos Prazeres (Brasil - 1965)</h2>
-                <p>
-                    <strong>Direção:</strong> Antonio Carlos Fontoura<br>
-                    <strong>Duração:</strong> curta-metragem
-                </p>
-            </div>
-            <!-- Montador 6 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Série de documentários semanais (França - 1966/68)</h2>
-                <p>
-                    Montagem para a ORTF.
-                </p>
-            </div>
-            <!-- Montador 7 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Os Deuses e Os Mortos (Brasil - 1970)</h2>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 8 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Marcados para Viver (Brasil - 1976)</h2>
-                <p>
-                    <strong>Direção:</strong> Maria do Rosário Nascimento Silva<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 9 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 10 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Mueda, Memória e Massacre (Moçambique - 1979)</h2>
-                <p>
-                    <strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 11 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">O Judeu (Brasil, Portugal - 1995)</h2>
-                <p>
-                    <strong>Direção:</strong> Jom Tob Azulay<br>
-                    <strong>Duração:</strong> longa-metragem
-                </p>
-            </div>
-            <!-- Montador 12 -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Supervisão de roteiros e montagem (Portugal - 1995)</h2>
-                <p>
-                    Para a produtora “D&D Audiovisuais” (TV) Portugal.
-                </p>
-            </div>
-        </div>
-    </main>`,
+        </main>`,
     festivais_title: "Festivais e Premiações",
     festivais_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="space-y-8">
-            <!-- Os Cafajestes -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Os Cafajestes <span class="text-base font-normal">Brasil - 1962</span></h2>
-                <h3 class="font-semibold mt-2">1962 - Prêmios Saci do Estado de São Paulo, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Saci Melhor Direção</li>
-                    <li>Saci Melhor Argumento Original Ruy Guerra e Miguel Torres</li>
-                    <li>Saci Melhor Fotografia Toni Rabattoni</li>
-                    <li>Saci Melhor Música Luiz Bonfá</li>
-                    <li>Saci Melhor Atriz Norma Bengell</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1963 - Festival de Berlim, Alemanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Participação oficial representando o Brasil</li>
-                </ul>
+            <div class="space-y-8">
+                ${festivais.map(item => `
+                    <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                        <h2 class="text-xl font-bold">${item.titulo} ${item.info ? `<span class="text-base font-normal">${item.info}</span>` : ''}</h2>
+                        ${item.eventos.map(evento => `
+                            <div class="mt-4">
+                                <h3 class="font-semibold">${evento.evento}</h3>
+                                ${evento.nota ? `<div class="text-sm italic">${evento.nota}</div>` : ''}
+                                ${evento.premios ? `<ul class="list-disc ml-6">${evento.premios.map(premio => `<li>${premio}</li>`).join('')}</ul>` : ''}
+                                ${evento.imagem ? `<img src="${evento.imagem.src}" alt="${evento.imagem.alt}" class="w-96 rounded-lg my-4"><div class="text-sm italic">${evento.imagem.legenda}</div>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `).join('')}
             </div>
-            <!-- Os Fuzis -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Os Fuzis <span class="text-base font-normal">Brasil - 1964</span></h2>
-                <h3 class="font-semibold mt-2">1964 - Festival de Berlim, Alemanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Urso de Prata - Prêmio Especial do Juri</li>
-                </ul>
-                <img src="images/longas/urso_de_prata.jpg" alt="Ruy Guerra premiado com o Urso de Prata, Berlim" class="w-96 rounded-lg my-4">
-                <div class="text-sm italic">Ruy Guerra sendo premiado com o Urso de Prata, Berlim</div>
-                <h3 class="font-semibold mt-2">1964 - Festival de Cinema Brasileiro de Teresópolis</h3>
-                <h3 class="font-semibold mt-2">1964 - Festival de Pesaro, Itália</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Fotografia, Ricardo Aronovich</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1965 - Festival de Acapulco, México</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Cabeza de Palanque</li>
-                </ul>
-                <h3 class="font-semibold mt-2">Cahiers du Cinéma, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Selecionado na lista de críticos europeus como um dos dez melhores filmes da história do cinema</li>
-                </ul>
-            </div>
-            <!-- Sweet Hunters -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Sweet Hunters <span class="text-base font-normal">França, Brasil, Panamá - 1969</span></h2>
-                <h3 class="font-semibold mt-2">1969 - Festival de Veneza, Itália</h3>
-                <div class="text-sm italic">(festival sem premiação competitiva)</div>
-                <ul class="list-disc ml-6">
-                    <li>Medalha de Ouro por Participação Especial</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1970 - Festival de Cannes, França</h3>
-                <div class="text-sm italic">(Quinzaine des Realizateurs)</div>
-                <h3 class="font-semibold mt-2">1970 - Festival dos Festivais, Inglaterra</h3>
-                <div class="text-sm italic">(não competitivo, Londres - Inglaterra)</div>
-            </div>
-            <!-- Os Deuses e os Mortos -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Os Deuses e os Mortos <span class="text-base font-normal">Brasil - 1970</span></h2>
-                <h3 class="font-semibold mt-2">1970 Festival de Brasília</h3>
-                <ul class="list-disc ml-6">
-                    <li>Candango de Ouro, Melhor Filme, Melhor Ator Othon Bastos, Melhor Atriz Dina Sfat, Melhor Fotografia Dib Lutfi, Melhor Cenografia Marcos Weintock, Melhor Música Milton Nascimento</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1970 - Prêmios do Estado do Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Coruja de Ouro, Melhor Atriz Ífala Nandi, Melhor Fotografia Dib Lutfi, Atriz Coadjuvante Mara Rubia, Ator Coadjuvante Nelson Xavier</li>
-                    <li>Golfinho de Ouro pela "Melhor Criação do Ano"</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1970 - Festival de Berlim, Alemanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição oficial representando o Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1970 - Festival de Cartago, Tunísia</h3>
-                <h3 class="font-semibold mt-2">1971 - Xème Rencontre Internacionale du Cinema et de Jeunesse de Grenoble, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Realização, Melhor Fotografia Dib Lutfi</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1971 - XIII Semana Internacional de Cine In Color de Barcelona</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Dama dei Paraguas pelo Melhor Filme, Espanha</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1971 - Participação na Semaine Positif, Paris, França</h3>
-                <h3 class="font-semibold mt-2">1971 - XIX Festival deI Cine, San Sebastian, Espanha</h3>
-                <h3 class="font-semibold mt-2">1971 - Festival de Cannes, França</h3>
-                <div class="text-sm italic">(Quinzaine des Realizateurs)</div>
-                <h3 class="font-semibold mt-2">1971 - Cahiers du Cinéma, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Selecionado pela revista francesa Cahiers du Cinema como um dos sete melhores filmes do ano</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1974 - Prêmio de Qualidade INC (Brasil)</h3>
-            </div>
-            <!-- A Queda -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">A Queda <span class="text-base font-normal">Brasil - 1977</span></h2>
-                <h3 class="font-semibold mt-2">1978 - Festival de Berlim, Alemanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Urso de Prata - Prêmio Especial do Juri</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1978 - CNNB Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Margarida de Prata, Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1978 - Festival de Brasília</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Ator Nelson Xavier, Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1979 - Federação Cineclubes do Rio de Janeiro, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio São Saruê</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1980 - Festival Biarritz, França</h3>
-                <h3 class="font-semibold mt-2">1981 - Festival de Edinburgh, Inglaterra</h3>
-                <h3 class="font-semibold mt-2">1981 - Semana de Positif, Paris, França</h3>
-            </div>
-            <!-- Mueda - Memória e Massacre -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Mueda - Memória e Massacre <span class="text-base font-normal">Moçambique - 1979/80</span></h2>
-                <h3 class="font-semibold mt-2">1980 - Festival de Tashkent, Rússia (ex-URSS)</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio União da Amizade dos Povos</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1980 - Prêmio Filme e Cultura</h3>
-                <h3 class="font-semibold mt-2">1981 - Festival de Rotterdam, Holanda</h3>
-                <h3 class="font-semibold mt-2">1981 - Forum do Jovem Cinema, Festival de Berlim, Alemanha</h3>
-                <h3 class="font-semibold mt-2">1981 - Semana Cinema Terceiro Mundo, Lisboa, Portugal</h3>
-                <h3 class="font-semibold mt-2">1982 - Jornadas Cinematográficas de Amiens, França</h3>
-                <h3 class="font-semibold mt-2">1983 - Confrontation Perpignan, França</h3>
-            </div>
-            <!-- Erendira -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Erendira <span class="text-base font-normal">Brasil, México, França, Alemanha - 1982</span></h2>
-                <h3 class="font-semibold mt-2">1984 - Festival de Chicago, USA</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Melhor Atriz Irene Papas</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1985 - Cine Clube, São Paulo</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Filme Brasileiro escolhido pelo público</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1983 - Festival de Cannes, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição Oficial representando o México</li>
-                </ul>
-                <img src="images/longas/ruy-gabo-cannes-erendira.jpg" alt="Ruy Guerra, Gabriel García Márquez, Festival de Cannes, Erendira" class="w-96 rounded-lg my-4">
-                <div class="text-sm italic">Ruy Guerra e Gabriel García Márquez</div>
-                <h3 class="font-semibold mt-2">1983 - Festival Latino Americano (Hours-Concours), Cuba</h3>
-                <h3 class="font-semibold mt-2">1983 - Festival de New York, USA</h3>
-                <h3 class="font-semibold mt-2">1983 - Festival de Toronto, Canadá</h3>
-                <h3 class="font-semibold mt-2">1984 - Festival de Cartagena (Hours-Concours), Colombia</h3>
-                <h3 class="font-semibold mt-2">1984 - 8ª Mostra Internacional de Cinema de São Paulo, Brasil</h3>
-            </div>
-            <!-- Ópera do Malandro -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Ópera do Malandro <span class="text-base font-normal">Brasil, França - 1985</span></h2>
-                <h3 class="font-semibold mt-2">1986 - Prêmio do Estado do Rio de Janeiro, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Golfinho de Ouro (Cinema)</li>
-                </ul>
-                <img src="images/longas/chico-buarque_jack-lang.jpg" alt="Chico Buarque com Jack Lang, A Ópera do Malandro" class="w-96 rounded-lg my-4">
-                <div class="text-sm italic">O ministro da cultura francês Jack Lang, a primeira dama da França Danielle Mitterand e Chico Buarque durante as filmagens</div>
-                <h3 class="font-semibold mt-2">1986 - III Festival do Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio de Melhor Direção, Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1986 - Festival Latino Americano Havana, Cuba</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Especial do Juri</li>
-                    <li>Prêmio Melhor Trilha Sonora Chico Buarque</li>
-                    <li>Prêmio Melhor Montagem Mair Tavares, Ide Lacreta</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1988 - Ouinzaine des Realisateurs, Cannes, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Avant - Première Square de Choisy, França</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1988 - 24º New York Film Festival, USA</h3>
-                <h3 class="font-semibold mt-2">1987 - Miami Film Festival, USA</h3>
-                <h3 class="font-semibold mt-2">1987 - Festival Internacional de Cinema de Washington DC., USA</h3>
-                <h3 class="font-semibold mt-2">1987 - Semana da Associação de Técnicos de Cinema, Brasil</h3>
-                <h3 class="font-semibold mt-2">1987 - 2 Festival Internacional de Cine de Expressão Ibérica, Espanha</h3>
-                <h3 class="font-semibold mt-2">1987 - Mostra de Cinema Latino Americano, Peru</h3>
-                <h3 class="font-semibold mt-2">1987 - Festival de Cinema de Istambul, Turquia</h3>
-                <h3 class="font-semibold mt-2">1988 - Semana Cinema Latino Americano - Fundación del Nuevo Cine Latino Americano, Cuba</h3>
-                <h3 class="font-semibold mt-2">2005 - Festival das Águas, Hors-concours, Corumbá, Brasil</h3>
-            </div>
-            <!-- A Fábula da Bela Palomera -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">A Fábula da Bela Palomera <span class="text-base font-normal">Brasil - 1987</span></h2>
-                <h3 class="font-semibold mt-2">1988 - 25º Festival Internacional de Television</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prague d'Or (Prêmio da Imprensa)</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1988 - Festival de Munique, Alemanha</h3>
-                <h3 class="font-semibold mt-2">1988 - 21º Festival de Brasília (Hour-Concours), Brasil</h3>
-                <h3 class="font-semibold mt-2">1988 - XXXIII Semana Internacional de Valladolid, Espanha</h3>
-                <h3 class="font-semibold mt-2">1988 - Mostra de Cinema em São Paulo, Brasil</h3>
-                <h3 class="font-semibold mt-2">1989 - 13º Hong Kong International Film Festival</h3>
-                <h3 class="font-semibold mt-2">1990 - Festival Latino Americano, Providence, USA</h3>
-            </div>
-            <!-- Kuarup -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Kuarup <span class="text-base font-normal">Brasil - 1989</span></h2>
-                <h3 class="font-semibold mt-2">1988 - Prêmio Casa de Ias Americas, Cuba</h3>
-                <h3 class="font-semibold mt-2">1988 - Festival of Festivais, Toronto (Canadá)</h3>
-                <h3 class="font-semibold mt-2">1989 - Festival de Cannes, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição oficial representando o Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1989 - XV Festival de Cine Ibero Americano de Huelva, Espanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Radio Nacional de Espana, Espanha</li>
-                    <li>Prêmio ASECAN (Associação dei Escritor Cinematografico de Andaluzia), Melhor Filme, Espanha</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1989 - Festival Latino Americano de Havana</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio FICC (Federação Internacional de Cine Clube), Cuba, Melhor Filme</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1990 - Cinco Indicações no 10 Prêmio Bel Metal, Brasil</h3>
-            </div>
-            <!-- Estorvo -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Estorvo <span class="text-base font-normal">Brasil - 2000</span></h2>
-                <h3 class="font-semibold mt-2">2000 - Festival de Cannes, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição oficial representando o Brasil</li>
-                </ul>
-                <img src="images/longas/cannes.jpg" alt="Ruy Guerra sendo entrevistado em Cannes" class="w-96 rounded-lg my-4">
-                <div class="text-sm italic">Ruy Guerra sendo entrevistado em Cannes</div>
-                <h3 class="font-semibold mt-2">2000 - Festival de Gramado, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Fotografia Marcelo Durst</li>
-                    <li>Melhor Trilha Sonora Egberto Gismonti</li>
-                </ul>
-                <img src="images/longas/kikito.jpg" alt="Ruy Guerra recebendo o Kikito em Gramado" class="w-64 rounded-lg my-4">
-                <div class="text-sm italic">Ruy Guerra sendo premiado com o Kikito</div>
-                <h3 class="font-semibold mt-2">2000 - Festival de Huelva, Espanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Diretor</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2001 - Associação Paulista de Críticos de Arte, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio APCA de Melhor Diretor</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2002 - Festival de Rabat, Marrocos</h3>
-                <h3 class="font-semibold mt-2">2002 - Festival de Nova Delhi, Índia</h3>
-                <h3 class="font-semibold mt-2">2002 - V FICA-Festival Internacional de Cinema e Vídeo Ambiental, Brasil</h3>
-            </div>
-            <!-- O Veneno da Madrugada -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">O Veneno da Madrugada <span class="text-base font-normal">Brasil, Argentina, Portugal - 2004/2005</span></h2>
-                <h3 class="font-semibold mt-2">2005 - Festival de Brasília, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio de Melhor Fotografia, Walter Carvalho</li>
-                    <li>Melhor Direção de Arte, Marcos Flaksman</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2005 - Festival de Havana, Cuba</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio de Melhor Fotografia, Walter Carvalho</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2005 - Festival de San Sebastian, Espanha</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição oficial representando o Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2005 - Festival de Biarritz, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Competição oficial representando o Brasil</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2006 - Festival Iberoamericano de Cine de Santa Cruz de la Sierra, Bolívia</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor filme</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2008 - 1st Cine Fest Brasil/Madrid, Espanha</h3>
-            </div>
-            <!-- Quase Memória -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Quase Memória <span class="text-base font-normal">Brasil, 2015</span></h2>
-                <h3 class="font-semibold mt-2">2015 - Festival do Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Especial do Jury</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2016 - 19º Festival internacional de Cinema de Punta del Este</h3>
-                <ul class="list-disc ml-6">
-                    <li>Premio de melhor direção</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2016 - Festival Internacional de Cinema de Moscow</h3>
-                <ul class="list-disc ml-6">
-                    <li>Menção Honrosa</li>
-                </ul>
-            </div>
-            <!-- Aos Pedaços -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Aos Pedaços <span class="text-base font-normal">Brasil - 2020</span></h2>
-                <h3 class="font-semibold mt-2">2020 - 48º Festival de Gramado, Brasil</h3>
-                <ul class="list-disc ml-6">
-                    <li>Melhor Direção</li>
-                    <li>Melhor Fotografia</li>
-                    <li>Melhor Desenho de Som</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2020 - Rotterdam Film FESTIVAL</h3>
-                <ul class="list-disc ml-6">
-                    <li>Participação com exibição em fevereiro/2020</li>
-                </ul>
-            </div>
-            <!-- Prêmios e Homenagens -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Prêmios e Homenagens</h2>
-                <h3 class="font-semibold mt-2">1987 - Grau de Comendador da Ordem do Mérito</h3>
-                <ul class="list-disc ml-6">
-                    <li>Outorgada pelo Presidente Mário Soares (Portugal)</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1987 - Governo do Estado do Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Golfinho de Ouro do Cinema</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1993 - Festival de Trieste (Itália)</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio pela obra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2000 - Festival Iberoamericano de Cine de Santa Cruz (Bolívia)</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Tatá Tumpa por “Excelencia y aporte al Cine Iberoamericano”</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2002 - Festival de Cinema, Vídeo e Cine de Curitiba</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio “Ruy Guerra”</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2003 - 8º Festival de Cinema Universitário (UFF/CCBB)</h3>
-                <ul class="list-disc ml-6">
-                    <li>Homenagem ao Professor Ruy Guerra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2003 - Jornal O Estado de S. Paulo e Serasa S/A</h3>
-                <ul class="list-disc ml-6">
-                    <li>Prêmio Multicultural - Cinema</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2004 - Festival Internacional de Cine de San Sebastian</h3>
-                <ul class="list-disc ml-6">
-                    <li>Presidente do Juri “Horizontes”</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2008 - Ordem ao Mérito Cultural (Brasil)</h3>
-                <ul class="list-disc ml-6">
-                    <li>Grau de Comendador</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2009 - Homenagem da ABDeC (Associação Brasileira de Documentaristas e Curtametragistas Rio de Janeiro)</h3>
-                <h3 class="font-semibold mt-2">2010 - Premio Kikito de Cristal – Festival de Gramado</h3>
-                <ul class="list-disc ml-6">
-                    <li>Homenagem pelo conjunto da obra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2011 - Mostra Comemorativa dos 80 anos de Ruy Guerra na Cinemateca de São Paulo</h3>
-                <ul class="list-disc ml-6">
-                    <li>Exibição de seus filmes entre os dias 18 a 25 de agosto</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2012 - Homenagem Especial 6º Festival Dockanemo Maputo, Moçambique (setembro)</h3>
-            </div>
-            <!-- Retrospectivas -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Retrospectivas</h2>
-                <h3 class="font-semibold mt-2">1981 - Festival de Cinema de Biarritz, França</h3>
-                <ul class="list-disc ml-6">
-                    <li>Retrospectiva Ruy Guerra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1998 - Cinemateca de Lisboa</h3>
-                <ul class="list-disc ml-6">
-                    <li>Retrospectiva de toda a obra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1998 - Centro Cultural Banco do Brasil (CCBB) Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Retrospectiva de toda a obra</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2005 - Cineclube SESC-SP</h3>
-                <ul class="list-disc ml-6">
-                    <li>Mostra “O cinema de Ruy Guerra”</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2006 - Centro Cultural Banco do Brasil CCBB São Paulo</h3>
-                <ul class="list-disc ml-6">
-                    <li>Retrospectiva de toda a obra - Ruy Guerra, Filmar e Viver</li>
-                </ul>
-            </div>
-            <!-- Participação como Jurado -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Participação como Jurado</h2>
-                <h3 class="font-semibold mt-2">1980 - Jornadas da Bahia, Brasil</h3>
-                <h3 class="font-semibold mt-2">1980 - Festival de Cinema de Gramado, Brasil</h3>
-                <h3 class="font-semibold mt-2">1980 - Festival de Cinema em Cartagena, Colombia</h3>
-                <h3 class="font-semibold mt-2">1981 - 1º Concurso de Fotografia, Moçambique</h3>
-                <h3 class="font-semibold mt-2">1981 - 2º Concurso de Fotografia, Moçambique</h3>
-                <h3 class="font-semibold mt-2">1981 - Festival de Arte e Areia, Paraíba, Brasil</h3>
-                <h3 class="font-semibold mt-2">1981 - Festival de Cinema de Biarritz, França</h3>
-                <h3 class="font-semibold mt-2">1982 - Festival de Cinema de Biarritz, França</h3>
-                <h3 class="font-semibold mt-2">1982 - 1º Seminário de Audio Visual, Moçambique</h3>
-                <h3 class="font-semibold mt-2">1994 - Laboratório de Guiones, Sundance, México</h3>
-                <ul class="list-disc ml-6">
-                    <li>Assessor</li>
-                </ul>
-                <h3 class="font-semibold mt-2">1996 Workshop de roteiros Sundance, Búzios</h3>
-                <ul class="list-disc ml-6">
-                    <li>Assessor</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2003 - Festival de Curta Metragem da Universidade Gama Filho</h3>
-                <ul class="list-disc ml-6">
-                    <li>Presidente</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2004 - Festival do Rio de Janeiro</h3>
-                <ul class="list-disc ml-6">
-                    <li>Presidente do Juri</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2006 – Festival de Gramado</h3>
-                <ul class="list-disc ml-6">
-                    <li>Presidente do Juri Latino americano</li>
-                </ul>
-                <h3 class="font-semibold mt-2">2010 - Festival de Mar Del Plata, Argentina</h3>
-            </div>
-            <!-- Participação como Palestrante -->
-            <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <h2 class="text-xl font-bold">Participação como Palestrante</h2>
-                <h3 class="font-semibold mt-2">1976 - Universidad Autónoma do México, México</h3>
-                <h3 class="font-semibold mt-2">1978 - 1ª Feira de Livro Progressista, República Popular de Angola</h3>
-                <h3 class="font-semibold mt-2">1982 - 1ª Assembléia Mundial de Realizadores (Funchal)</h3>
-                <h3 class="font-semibold mt-2">1985 - Jornadas Democráticas do Presidente Raoul Alfonsín, Buenos Aires</h3>
-            </div>
-        </div>
-    </main>`,
+        </main>`,
     theater_title: "Teatro",
     theater_content: `<main class="max-w-5xl mx-auto p-6">
                 <div class="space-y-8">
