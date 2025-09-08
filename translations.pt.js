@@ -1,125 +1,154 @@
+const musicas = [
+    { titulo: "Sob Pressão", data: "2020", autores: "Gilberto Gil e Ruy Guerra" },
+    { titulo: "Você vai me seguir", data: "1976", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Fado tropical", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Não Existe Pecado ao Sul do Equador", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Tatuagem", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Bárbara", data: "1972", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Bodas", data: "1970", autores: "Milton Nascimento e Ruy Guerra" },
+    { titulo: "Dois Coelhos", data: "1966", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Jogo de roda", data: "1966", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Aleluia", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Canção da terra", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Requiem por um amor", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Reza", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Em tempos de adeus", data: "1964", autores: "Edu Lobo e Ruy Guerra" },
+    { titulo: "Esse mundo é meu", data: "1963", autores: "Sérgio Ricardo e Ruy Guerra" },
+    { titulo: "Bloco do eu sozinho", data: "década de 1960", autores: "Marcos Valle e Ruy Guerra" },
+    { titulo: "Canto latino", data: "1960/1970", autores: "Milton Nascimento e Ruy Guerra" },
+    { titulo: "E daí?", data: "1960/1970", autores: "Milton Nascimento e Ruy Guerra" },
+    { titulo: "À meia-luz", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
+    { titulo: "Boi voador", data: "Indefinida", autores: "Chico Buarque e Ruy Guerra" },
+    { titulo: "Carta", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
+    { titulo: "Entrudo", data: "Indefinida", autores: "Carlos Lyra e Ruy Guerra" },
+    { titulo: "Máscara", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
+    { titulo: "Meu homem", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
+    { titulo: "Minha", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
+    { titulo: "Pouco me importa", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" }
+];
+
 const poesias = [
-  {
-    titulo: "Definição",
-    data: "1986",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  },
-  {
-    titulo: "Escuta, Fidel",
-    data: "18/11/1981",
-    autor: "Ruy Guerra",
-    local: "Maputo - Moçambique"
-  },
-  {
-    titulo: "Por que não a RUDYARD",
-    data: "18/11/1981",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  },
-  {
-    titulo: "Meu país",
-    data: "1981",
-    autor: "Ruy Guerra",
-    local: "Moçambique"
-  },
-  {
-    titulo: "E tu, lua?",
-    data: "1981",
-    autor: "Ruy Guerra",
-    local: "Moçambique"
-  },
-  {
-    titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne",
-    data: "1980",
-    autor: "Ruy Guerra",
-    local: "Moçambique"
-  },
-  {
-    titulo: "Lendo Borges",
-    data: "1971",
-    autor: "Ruy Guerra",
-    local: "Rio de Janeiro - Brasil"
-  },
-  {
-    titulo: "Não sei onde me começo...",
-    data: "1962",
-    autor: "Ruy Guerra",
-    local: "Rio de Janeiro - Brasil"
-  },
-  {
-    titulo: "Não posso cantar os olhos de minha amada...",
-    data: "1961",
-    autor: "Ruy Guerra",
-    local: "Rio de Janeiro - Brasil"
-  },
-  {
-    titulo: "Lendo um poema de ontem, sempre para ti",
-    data: "11/1960",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  },
-  {
-    titulo: "E assim sendo",
-    data: "1960",
-    autor: "Ruy Guerra",
-    local: "Rio de Janeiro - Brasil"
-  },
-  {
-    titulo: "Na mesa do bar",
-    data: "1960",
-    autor: "Ruy Guerra",
-    local: "Rio de Janeiro - Brasil"
-  },
-  {
-    titulo: "Ah esta rouquidão dentro de mim!",
-    data: "15/03/1956",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  },
-  {
-    titulo: "Apenas",
-    data: "1956",
-    autor: "Ruy Guerra",
-    local: "Madri - Espanha"
-  },
-  {
-    titulo: "Intelectualismo e fome",
-    data: "1956",
-    autor: "Ruy Guerra",
-    local: "Paris - França"
-  },
-  {
-    titulo: "Hoje morreu meu Pai",
-    data: "1956",
-    autor: "Ruy Guerra",
-    local: "Madri - Espanha"
-  },
-  {
-    titulo: "Herança",
-    data: "1954",
-    autor: "Ruy Guerra",
-    local: "Paris - França"
-  },
-  {
-    titulo: "Ode",
-    data: "1947",
-    autor: "Ruy Guerra",
-    local: "Moçambique",
-    fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16"
-  },
-  {
-    titulo: "Para ler, sem dar muita importância",
-    data: "Indefinida",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  },
-  {
-    titulo: "Prólogo, como um epitáfio",
-    data: "Indefinida",
-    autor: "Ruy Guerra",
-    local: "Indefinido"
-  }
+    {
+        titulo: "Definição",
+        data: "1986",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    },
+    {
+        titulo: "Escuta, Fidel",
+        data: "18/11/1981",
+        autor: "Ruy Guerra",
+        local: "Maputo - Moçambique"
+    },
+    {
+        titulo: "Por que não a RUDYARD",
+        data: "18/11/1981",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    },
+    {
+        titulo: "Meu país",
+        data: "1981",
+        autor: "Ruy Guerra",
+        local: "Moçambique"
+    },
+    {
+        titulo: "E tu, lua?",
+        data: "1981",
+        autor: "Ruy Guerra",
+        local: "Moçambique"
+    },
+    {
+        titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne",
+        data: "1980",
+        autor: "Ruy Guerra",
+        local: "Moçambique"
+    },
+    {
+        titulo: "Lendo Borges",
+        data: "1971",
+        autor: "Ruy Guerra",
+        local: "Rio de Janeiro - Brasil"
+    },
+    {
+        titulo: "Não sei onde me começo...",
+        data: "1962",
+        autor: "Ruy Guerra",
+        local: "Rio de Janeiro - Brasil"
+    },
+    {
+        titulo: "Não posso cantar os olhos de minha amada...",
+        data: "1961",
+        autor: "Ruy Guerra",
+        local: "Rio de Janeiro - Brasil"
+    },
+    {
+        titulo: "Lendo um poema de ontem, sempre para ti",
+        data: "11/1960",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    },
+    {
+        titulo: "E assim sendo",
+        data: "1960",
+        autor: "Ruy Guerra",
+        local: "Rio de Janeiro - Brasil"
+    },
+    {
+        titulo: "Na mesa do bar",
+        data: "1960",
+        autor: "Ruy Guerra",
+        local: "Rio de Janeiro - Brasil"
+    },
+    {
+        titulo: "Ah esta rouquidão dentro de mim!",
+        data: "15/03/1956",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    },
+    {
+        titulo: "Apenas",
+        data: "1956",
+        autor: "Ruy Guerra",
+        local: "Madri - Espanha"
+    },
+    {
+        titulo: "Intelectualismo e fome",
+        data: "1956",
+        autor: "Ruy Guerra",
+        local: "Paris - França"
+    },
+    {
+        titulo: "Hoje morreu meu Pai",
+        data: "1956",
+        autor: "Ruy Guerra",
+        local: "Madri - Espanha"
+    },
+    {
+        titulo: "Herança",
+        data: "1954",
+        autor: "Ruy Guerra",
+        local: "Paris - França"
+    },
+    {
+        titulo: "Ode",
+        data: "1947",
+        autor: "Ruy Guerra",
+        local: "Moçambique",
+        fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16"
+    },
+    {
+        titulo: "Para ler, sem dar muita importância",
+        data: "Indefinida",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    },
+    {
+        titulo: "Prólogo, como um epitáfio",
+        data: "Indefinida",
+        autor: "Ruy Guerra",
+        local: "Indefinido"
+    }
 ];
 
 export const pt = {
@@ -1753,6 +1782,16 @@ export const pt = {
                 <span><b>Data:</b> ${poema.data}</span> &nbsp;|&nbsp;
                 <span><b>Local:</b> ${poema.local}</span>
                 ${poema.fonte ? `&nbsp;|&nbsp;<span><b>Fonte:</b> ${poema.fonte}</span>` : ""}
+            </div>
+        </div>
+    `).join('')};`,
+    songs_title: "Letras de Músicas",
+    songs_content: `${musicas.map(musica => `
+        <div class="mb-6 p-4 bg-[#f7f3ee] rounded border border-black/10">
+            <h3 class="text-xl font-bold mb-1">${musica.titulo}</h3>
+            <div class="text-sm text-gray-700 mb-1">
+                <span><b>Autor:</b> ${musica.autores}</span> &nbsp;|&nbsp;
+                <span><b>Data:</b> ${musica.data}</span> &nbsp;|&nbsp;
             </div>
         </div>
     `).join('')};`,
