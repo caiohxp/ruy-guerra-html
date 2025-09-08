@@ -1,3 +1,127 @@
+const poesias = [
+  {
+    titulo: "Definição",
+    data: "1986",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  },
+  {
+    titulo: "Escuta, Fidel",
+    data: "18/11/1981",
+    autor: "Ruy Guerra",
+    local: "Maputo - Moçambique"
+  },
+  {
+    titulo: "Por que não a RUDYARD",
+    data: "18/11/1981",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  },
+  {
+    titulo: "Meu país",
+    data: "1981",
+    autor: "Ruy Guerra",
+    local: "Moçambique"
+  },
+  {
+    titulo: "E tu, lua?",
+    data: "1981",
+    autor: "Ruy Guerra",
+    local: "Moçambique"
+  },
+  {
+    titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne",
+    data: "1980",
+    autor: "Ruy Guerra",
+    local: "Moçambique"
+  },
+  {
+    titulo: "Lendo Borges",
+    data: "1971",
+    autor: "Ruy Guerra",
+    local: "Rio de Janeiro - Brasil"
+  },
+  {
+    titulo: "Não sei onde me começo...",
+    data: "1962",
+    autor: "Ruy Guerra",
+    local: "Rio de Janeiro - Brasil"
+  },
+  {
+    titulo: "Não posso cantar os olhos de minha amada...",
+    data: "1961",
+    autor: "Ruy Guerra",
+    local: "Rio de Janeiro - Brasil"
+  },
+  {
+    titulo: "Lendo um poema de ontem, sempre para ti",
+    data: "11/1960",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  },
+  {
+    titulo: "E assim sendo",
+    data: "1960",
+    autor: "Ruy Guerra",
+    local: "Rio de Janeiro - Brasil"
+  },
+  {
+    titulo: "Na mesa do bar",
+    data: "1960",
+    autor: "Ruy Guerra",
+    local: "Rio de Janeiro - Brasil"
+  },
+  {
+    titulo: "Ah esta rouquidão dentro de mim!",
+    data: "15/03/1956",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  },
+  {
+    titulo: "Apenas",
+    data: "1956",
+    autor: "Ruy Guerra",
+    local: "Madri - Espanha"
+  },
+  {
+    titulo: "Intelectualismo e fome",
+    data: "1956",
+    autor: "Ruy Guerra",
+    local: "Paris - França"
+  },
+  {
+    titulo: "Hoje morreu meu Pai",
+    data: "1956",
+    autor: "Ruy Guerra",
+    local: "Madri - Espanha"
+  },
+  {
+    titulo: "Herança",
+    data: "1954",
+    autor: "Ruy Guerra",
+    local: "Paris - França"
+  },
+  {
+    titulo: "Ode",
+    data: "1947",
+    autor: "Ruy Guerra",
+    local: "Moçambique",
+    fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16"
+  },
+  {
+    titulo: "Para ler, sem dar muita importância",
+    data: "Indefinida",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  },
+  {
+    titulo: "Prólogo, como um epitáfio",
+    data: "Indefinida",
+    autor: "Ruy Guerra",
+    local: "Indefinido"
+  }
+];
+
 export const pt = {
     nav_home: "Início",
     nav_with_ruy: "Com o Ruy",
@@ -281,11 +405,7 @@ export const pt = {
 `,
     news_title: "Notícias",
     news_content: `<main class="max-w-5xl mx-auto p-6">
-    <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-        <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-        <img src="images/noticiasv.jpg" alt="Notícias" class="w-60 rounded-lg shadow-lg">
-    </div>
-    <h1 class="text-3xl font-bold mb-6 text-center">Ruy Guerra faz 90 anos</h1>
+    <h1 class="text-2xl font-bold mb-2">Ruy Guerra faz 90 anos</h1>
     <p class="news mb-8">
         Ruy Guerra completou 90 anos em 2021. Homenagens começaram no 26º Festival Internacional de Documentários – Tudo Verdade, organizado em São Paulo por Amir Labaki, de 8 a 18 de abril. A exibição foi nacional e virtual devido à pandemia. Foram exibidos dois de seus cinco documentários africanos: <b>Mueda Memória e Massacre</b> e <b>Os Comprometidos – Atas de um processo de descolonização</b>. Ruy também deu uma aula magistral, entrevistado por Adilson Mendes (autor de livro de entrevistas) e Diogo Oliveira (diretor de <i>O Homem que Matou John Wayne</i>).
     </p>
@@ -380,10 +500,6 @@ export const pt = {
 `,
     longas_title: "Longas-metragens",
     longas_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/longasv.jpg" alt="Longas-metragens" class="w-60 rounded-lg shadow-lg">
-        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Filme 1 -->
             <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -586,10 +702,7 @@ export const pt = {
     </main>`,
     curtas_title: "Curtas-metragens",
     curtas_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/curtasv.jpg" alt="Curtas-metragens" class="w-60 rounded-lg shadow-lg">
-        </div>
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Curta 1 -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -712,10 +825,7 @@ export const pt = {
     actor_title: "Ator",
     actor_content: `
 <main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/atorv.jpg" alt="Ator" class="w-60 rounded-lg shadow-lg">
-        </div>
+        
        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Filme 1 -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -854,11 +964,6 @@ export const pt = {
     roteirista_title: "Roteirista",
     roteirista_content: `
 <main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/roteiristav.jpg" alt="Roteirista" class="w-60 rounded-lg shadow-lg">
-        </div>
-        <h1 class="text-4xl font-bold mb-8 text-center">Roteirista</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Roteirista 1 -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -1002,11 +1107,6 @@ export const pt = {
     montador_title: "Montador",
     montador_content: `
 <main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/montadorv.jpg" alt="Montador" class="w-60 rounded-lg shadow-lg">
-        </div>
-        <h1 class="text-4xl font-bold mb-8 text-center">Montador</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- Montador 1 -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -1106,11 +1206,6 @@ export const pt = {
     </main>`,
     festivais_title: "Festivais e Premiações",
     festivais_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/festivaisv.jpg" alt="Festivais e Premiações" class="w-60 rounded-lg shadow-lg">
-        </div>
-        <h1 class="text-4xl font-bold mb-8 text-center">Festivais e Premiações</h1>
         <div class="space-y-8">
             <!-- Os Cafajestes -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -1530,11 +1625,6 @@ export const pt = {
     </main>`,
     theater_title: "Teatro",
     theater_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
-            <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
-            <img src="images/teatrov.jpg" alt="Teatro" class="w-60 rounded-lg shadow-lg">
-        </div>
-        <h1 class="text-4xl font-bold mb-8 text-center">Teatro</h1>
         <div class="space-y-8">
             <!-- Shows de música -->
             <div class="bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
@@ -1654,6 +1744,18 @@ export const pt = {
             </div>
         </div>
     </main>`,
+    poesias_title: "Poesias",
+    poesias_content: `${poesias.map(poema => `
+        <div class="mb-6 p-4 bg-[#f7f3ee] rounded border border-black/10">
+            <h3 class="text-xl font-bold mb-1">${poema.titulo}</h3>
+            <div class="text-sm text-gray-700 mb-1">
+                <span><b>Autor:</b> ${poema.autor}</span> &nbsp;|&nbsp;
+                <span><b>Data:</b> ${poema.data}</span> &nbsp;|&nbsp;
+                <span><b>Local:</b> ${poema.local}</span>
+                ${poema.fonte ? `&nbsp;|&nbsp;<span><b>Fonte:</b> ${poema.fonte}</span>` : ""}
+            </div>
+        </div>
+    `).join('')};`,
     workshops_title: "Oficinas",
     workshops_content: `<main class="max-w-5xl mx-auto p-6">
         <div class="mb-8">
@@ -1704,3 +1806,4 @@ export const pt = {
     contact_agent: "Agente:",
     footer_text: "&copy; 2025 Ruy Guerra. Todos os direitos reservados."
 }
+
