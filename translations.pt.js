@@ -1,3 +1,232 @@
+const chronology = [
+    { year: "1931", type: "personal", content: "22/08 - nascimento em Lourenço Marques, Moçambique, colônia portuguesa na África Austral" },
+    { year: "1933-1974", type: "context", content: "Estado Novo, ditadura de Antônio Salazar em Portugal" },
+    { year: "1936-1937", type: "personal", content: "viagem a Portugal com a família, aos 3/4 anos" },
+    { year: "1939-1945", type: "context", content: "Segunda Guerra Mundial" },
+    { year: "1951", type: "personal", content: "21/06 - morte da mãe em desastre de avião da Pan American Airlines sobre a Libéria" },
+    { year: "1952", type: "personal", content: "em março, ida de navio para Portugal" },
+    { year: "1952", type: "personal", content: "alguns meses depois breve visita com pai e irmão em Londres e depois Paris" },
+    { year: "1952-1954", type: "professional", content: "Paris: profissionalização no IDHEC – Institut des Hautes Études Cinématographiques" },
+    { year: "1954", type: "professional", content: "primeiro curta metragem no IDHEC, roteiro e direção de <i>Quand le soleil dort</i>, inspirado no romance de Uomini o No, de Elio Vittorini" },
+    { year: "1954-1955", type: "professional", content: "curso de ator no Théâtre National de Paris" },
+    { year: "1955", type: "professional", content: "assistência de direção - estagiário em <i>Chiens perdus sans collier</i>, de Jean Delannoy" },
+    { year: "1955", type: "personal", content: "21/09 - morte do pai em Lourenço Marques" },
+    { year: "1956", type: "professional", content: "Madrid – estada de quase um ano" },
+    { year: "1957", type: "personal", content: "quase um ano em Atenas, Grécia" },
+    { year: "1957", type: "professional", content: "Córsega: ator e assistente de direção estagiário em <i>SOS Noronha</i>, de Georges Rouquier" },
+    { year: "1958", type: "personal", content: "09/07 – desembarque no Rio de Janeiro" },
+    { year: "1958", type: "context", content: "Revolução Cubana sob liderança de Fidel Castro" },
+    { year: "1959", type: "context", content: "início da Nouvelle Vague na França com os filmes <i>Os Incompreendidos</i> de François Truffaut e <i>Acossado</i> de Jean Luc Godard" },
+    { year: "1962", type: "professional", content: "primeiro longa metragem <i>Os Cafajestes</i> (Rio de Janeiro e Cabo Frio)" },
+    { year: "1961-1963", type: "personal", content: "relacionamento com Nara Leão" },
+    { year: "1963-1973", type: "professional", content: "uma década de mais de cem letras de músicas e direção de espetáculos musicais" },
+    { year: "1963", type: "professional", content: "filmagem do 2º longa metragem <i>Os Fuzis</i> em Milagres, Bahia" },
+    { year: "1964", type: "context", content: "golpe civil militar inicia ditadura militar brasileira" },
+    { year: "1964", type: "professional", content: "visibilidade internacional do Cinema Novo com a tríade: <i>Deus e o Diabo</i>, <i>Vidas Secas</i> e <i>Os Fuzis</i>" },
+    { year: "1970", type: "professional", content: "longa metragem <i>Os deuses e os mortos</i>, filmado no sul do estado da Bahia" },
+    { year: "1971", type: "personal", content: "19/11 - nascimento de uma filha com Leila Diniz, Janaina Diniz Guerra" },
+    { year: "1972", type: "personal", content: "14/06 - explosão do avião onde viajava Leila Diniz, morta aos 27 anos" },
+    { year: "1973", type: "professional", content: "autoria de texto e letras de músicas no espetáculo teatral <i>Calabar: o elogio da traição</i>, em parceria com Chico Buarque – censurado" },
+    { year: "1974", type: "context", content: "Revolução dos Cravos, fim da ditadura em Portugal" },
+    { year: "1975", type: "context", content: "FRELIMO toma o poder em Maputo com Samora Machel" },
+    { year: "1975", type: "personal", content: "Viagem a Maputo para a festa da independência moçambicana, depois de ausência de 25 anos" },
+    { year: "1976", type: "professional", content: "longa metragem A Queda, 2º Urso de Prata de Berlim" },
+    { year: "1979-1980", type: "professional", content: "longa metragem documentário/ficcional Mueda, Memória, Massacre, Maputo" },
+    { year: "1982", type: "personal", content: "relacionamento com Cláudia Ohana" },
+    { year: "1983", type: "professional", content: "longa metragem Erendira, inspirado em Gabriel García Márquez, México" },
+    { year: "1983", type: "personal", content: "10/10: nascimento da 2ª filha, Dandara, com Cláudia Ohana" },
+    { year: "1985", type: "context", content: "Fundação em Cuba da Escuela Internacional de Cine y Televisión San Antonio de Los Baños" },
+    { year: "1985", type: "professional", content: "longa metragem Ópera do Malandro, inspirada em peça musical de Chico Buarque, Rio de Janeiro" },
+    { year: "1989", type: "professional", content: "longa metragem Kuarup - inspirado em romance do mesmo nome de Antônio Callado, filmado na região do Xingu e em Recife" },
+    { year: "2000", type: "personal", content: "descoberta e acolhimento do filho Adriano, então com 20 anos" },
+    { year: "2000", type: "personal", content: "casamento com Luciana Mazzotti" },
+    { year: "2000", type: "professional", content: "longa metragem Estorvo, inspirado em Chico Buarque, Cuba e Rio de Janeiro" },
+    { year: "2005-2006", type: "professional", content: "longa metragem O veneno na Madrugada inspirado em La Mala Hora, de Gabriel García Márquez, Xerém, Rio de Janeiro e Buenos Aires" },
+    { year: "2005", type: "personal", content: "Nascimento do primeiro neto, Martim, da filha Dandara" }
+];
+
+const longas = [
+    {
+        titulo: "Os Cafajestes (Brasil - 1962)",
+        imagem: "images/longas/os_cafagestes-cartaz.jpg",
+        detalhes: {
+            "Direção e roteiro": "Ruy Guerra",
+            "Duração": "100 min",
+            "Elenco": "Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho"
+        }
+    },
+    {
+        titulo: "Os Fuzis (Brasil - 1964)",
+        imagem: "images/longas/os_fuzis-cartaz2.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Ruy Guerra, Miguel Torres",
+            "Duração": "103 min",
+            "Elenco": "Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff"
+        }
+    },
+    {
+        titulo: "Sweet Hunters (França - 1969)",
+        imagem: "images/longas/tendres_chasseurs.jpg",
+        detalhes: {
+            "Direção e roteiro": "Ruy Guerra",
+            "Duração": "102 min",
+            "Elenco": "Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden"
+        }
+    },
+    {
+        titulo: "Os Deuses e os Mortos (Brasil - 1970)",
+        imagem: "images/longas/os_deuses_e_os_mortos.jpg",
+        detalhes: {
+            "Direção e roteiro": "Ruy Guerra",
+            "Duração": "97 min",
+            "Elenco": "Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia"
+        }
+    },
+    {
+        titulo: "A Queda (Brasil - 1977)",
+        imagem: "images/longas/a_queda.jpg",
+        detalhes: {
+            "Direção e roteiro": "Ruy Guerra, Nelson Xavier",
+            "Duração": "110 min",
+            "Elenco": "Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves"
+        }
+    },
+    {
+        titulo: "Mueda: Memória e Massacre (Moçambique - 1979/80)",
+        imagem: "images/longas/mueda_memoria_e_massacre.jpg",
+        detalhes: {
+            "Direção e roteiro": "Ruy Guerra",
+            "Duração": "80 min",
+            "Elenco": "Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema"
+        }
+    },
+    {
+        titulo: "Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)",
+        imagem: "images/longas/la_lettre_volee.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Gerard Zingg, Ruy Guerra",
+            "Produção": "FR3, Films du Triangle, TCV, RTP",
+            "Duração": "52 min, 16 mm, cor",
+            "Argumentação": "Adaptação do texto original de Edgar Allan Poe"
+        }
+    },
+    {
+        titulo: "Erendira (Brasil, México, França, Alemanha - 1982)",
+        imagem: "images/longas/erendira.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Gabriel García Márquez",
+            "Duração": "103 min",
+            "Elenco": "Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck"
+        }
+    },
+    {
+        titulo: "Ópera do Malandro (Brasil, França - 1985)",
+        imagem: "images/longas/opera_do_malandro.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra",
+            "Duração": "100 min",
+            "Elenco": "Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez"
+        }
+    },
+    {
+        titulo: "A Fábula da Bela Palomera (Brasil, Espanha - 1987)",
+        imagem: "images/longas/a_bela_palomera.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Ruy Guerra, Gabriel García Márquez",
+            "Duração": "90 min",
+            "Elenco": "Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré"
+        }
+    },
+    {
+        titulo: "Kuarup (Brasil - 1989)",
+        imagem: "images/longas/kuarup.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Antonio Callado (romance), Ruy Guerra, Rudy Langemann",
+            "Duração": "115 min",
+            "Elenco": "Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença"
+        }
+    },
+    {
+        titulo: "Me Alquilo Para Soñar (Espanha - 1991/92)",
+        imagem: "images/longas/me-alquilo-para-sonar.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra",
+            "Produção": "Ing, TVE - Espanha",
+            "Fotografia": "Raul Perez Ureta",
+            "Montagem": "Julia Salvador",
+            "Música": "Mario Dali",
+            "Elenco": "Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros"
+        }
+    },
+    {
+        titulo: "Estorvo (Brasil - 2000)",
+        imagem: "images/longas/estorvo.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Chico Buarque de Hollanda (romance), Ruy Guerra",
+            "Duração": "95 min",
+            "Elenco": "Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira"
+        }
+    },
+    {
+        titulo: "Monsanto (Portugal - 2000)",
+        imagem: "images/longas/monsanto.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Vicente Alves do Ó",
+            "Duração": "90 min",
+            "Elenco": "Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho"
+        }
+    },
+    {
+        titulo: "Portugal S/A (Portugal - 2003)",
+        imagem: "images/longas/portugal_sa.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Carlos Vale Ferraz",
+            "Duração": "95 min",
+            "Elenco": "Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira"
+        }
+    },
+    {
+        titulo: "O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)",
+        imagem: "images/longas/o_veneno_da_madrugada.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Ruy Guerra, Tairone Feitosa",
+            "Duração": "118 min",
+            "Elenco": "Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto"
+        }
+    },
+    {
+        titulo: "Quase Memória (Brasil - 2015)",
+        imagem: "images/longas/quase_memoria.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Ruy Guerra, Bruno Laet, Diogo de Oliveira",
+            "Duração": "132 min",
+            "Elenco": "Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro"
+        }
+    },
+    {
+        titulo: "Aos Pedaços (Brasil - 2020)",
+        imagem: "images/longas/aos-pedacos.jpg",
+        detalhes: {
+            "Direção": "Ruy Guerra",
+            "Roteiro": "Ruy Guerra, Luciana Mazzotti",
+            "Duração": "93 min",
+            "Elenco": "Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach"
+        }
+    }
+];
+
 const musicas = [
     { titulo: "Sob Pressão", data: "2020", autores: "Gilberto Gil e Ruy Guerra" },
     { titulo: "Você vai me seguir", data: "1976", autores: "Chico Buarque e Ruy Guerra" },
@@ -204,183 +433,12 @@ export const pt = {
                     <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/atacama.jpg" alt="Ruy Guerra no deserto do Atacama"><p class="text-sm italic mt-2">No deserto do Atacama (Chile, 2014)</p></div> `,
     chronology_title: "Cronologia",
     chronology_content: `
-        <div class="timeline-item personal">
-            <div class="timeline-year">1931</div>
-            <div class="timeline-content"><p>22/08 - nascimento em Lourenço Marques, Moçambique, colônia portuguesa na África Austral</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1933-1974</div>
-            <div class="timeline-content"><p>Estado Novo, ditadura de Antônio Salazar em Portugal</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1936-1937</div>
-            <div class="timeline-content"><p>viagem a Portugal com a família, aos 3/4 anos</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1939-1945</div>
-            <div class="timeline-content"><p>Segunda Guerra Mundial</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1951</div>
-            <div class="timeline-content"><p>21/06 - morte da mãe em desastre de avião da Pan American Airlines sobre a Libéria</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1952</div>
-            <div class="timeline-content"><p>em março, ida de navio para Portugal</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1952</div>
-            <div class="timeline-content"><p>alguns meses depois breve visita com pai e irmão em Londres e depois Paris</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1952-1954</div>
-            <div class="timeline-content"><p>Paris: profissionalização no IDHEC – Institut des Hautes Études Cinématographiques</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1954</div>
-            <div class="timeline-content"><p>primeiro curta metragem no IDHEC, roteiro e direção de <i>Quand le soleil dort</i>, inspirado no romance de Uomini o No, de Elio Vittorini</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1954-1955</div>
-            <div class="timeline-content"><p>curso de ator no Théâtre National de Paris</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1955</div>
-            <div class="timeline-content"><p>assistência de direção - estagiário em <i>Chiens perdus sans collier</i>, de Jean Delannoy</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1955</div>
-            <div class="timeline-content"><p>21/09 - morte do pai em Lourenço Marques</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1956</div>
-            <div class="timeline-content"><p>Madrid – estada de quase um ano</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1957</div>
-            <div class="timeline-content"><p>quase um ano em Atenas, Grécia</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1957</div>
-            <div class="timeline-content"><p>Córsega: ator e assistente de direção estagiário em <i>SOS Noronha</i>, de Georges Rouquier</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1958</div>
-            <div class="timeline-content"><p>09/07 – desembarque no Rio de Janeiro</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1958</div>
-            <div class="timeline-content"><p>Revolução Cubana sob liderança de Fidel Castro</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1959</div>
-            <div class="timeline-content"><p>início da Nouvelle Vague na França com os filmes <i>Os Incompreendidos</i> de François Truffaut e <i>Acossado</i> de Jean Luc Godard</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1962</div>
-            <div class="timeline-content"><p>primeiro longa metragem <i>Os Cafajestes</i> (Rio de Janeiro e Cabo Frio)</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1961-1963</div>
-            <div class="timeline-content"><p>relacionamento com Nara Leão</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1963-1973</div>
-            <div class="timeline-content"><p>uma década de mais de cem letras de músicas e direção de espetáculos musicais</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1963</div>
-            <div class="timeline-content"><p>filmagem do 2º longa metragem <i>Os Fuzis</i> em Milagres, Bahia</p></div>
-        </div>
-        <div class="timeline-item context">
-            <div class="timeline-year">1964</div>
-            <div class="timeline-content"><p>golpe civil militar inicia ditadura militar brasileira</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1964</div>
-            <div class="timeline-content"><p>visibilidade internacional do Cinema Novo com a tríade: <i>Deus e o Diabo</i>, <i>Vidas Secas</i> e <i>Os Fuzis</i></p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1970</div>
-            <div class="timeline-content"><p>longa metragem <i>Os deuses e os mortos</i>, filmado no sul do estado da Bahia</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1971</div>
-            <div class="timeline-content"><p>19/11 - nascimento de uma filha com Leila Diniz, Janaina Diniz Guerra</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1972</div>
-            <div class="timeline-content"><p>14/06 - explosão do avião onde viajava Leila Diniz, morta aos 27 anos</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1973</div>
-            <div class="timeline-content"><p>autoria de texto e letras de músicas no espetáculo teatral <i>Calabar: o elogio da traição</i>, em parceria com Chico Buarque – censurado</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1974</div>
-            <div class="timeline-content"><p>Revolução dos Cravos, fim da ditadura em Portugal</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1975</div>
-            <div class="timeline-content"><p>FRELIMO toma o poder em Maputo com Samora Machel</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">1975</div>
-            <div class="timeline-content"><p>Viagem a Maputo para a festa da independência moçambicana, depois de ausência de 25 anos</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1976</div>
-            <div class="timeline-content"><p>longa metragem A Queda, 2º Urso de Prata de Berlim</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1979-1980</div>
-            <div class="timeline-content"><p>longa metragem documentário/ficcional Mueda, Memória, Massacre, Maputo</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1982</div>
-            <div class="timeline-content"><p>relacionamento com Cláudia Ohana</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1983</div>
-            <div class="timeline-content"><p>longa metragem Erendira, inspirado em Gabriel García Márquez, México</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">1983</div>
-            <div class="timeline-content"><p>10/10: nascimento da 2ª filha, Dandara, com Cláudia Ohana</p></div>
-        </div>
-         <div class="timeline-item context">
-            <div class="timeline-year">1985</div>
-            <div class="timeline-content"><p>Fundação em Cuba da Escuela Internacional de Cine y Televisión San Antonio de Los Baños</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">1985</div>
-            <div class="timeline-content"><p>longa metragem Ópera do Malandro, inspirada em peça musical de Chico Buarque, Rio de Janeiro</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">1989</div>
-            <div class="timeline-content"><p>longa metragem Kuarup - inspirado em romance do mesmo nome de Antônio Callado, filmado na região do Xingu e em Recife</p></div>
-        </div>
-        <div class="timeline-item personal">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>descoberta e acolhimento do filho Adriano, então com 20 anos</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>casamento com Luciana Mazzotti</p></div>
-        </div>
-        <div class="timeline-item professional">
-            <div class="timeline-year">2000</div>
-            <div class="timeline-content"><p>longa metragem Estorvo, inspirado em Chico Buarque, Cuba e Rio de Janeiro</p></div>
-        </div>
-         <div class="timeline-item professional">
-            <div class="timeline-year">2005-2006</div>
-            <div class="timeline-content"><p>longa metragem O veneno na Madrugada inspirado em La Mala Hora, de Gabriel García Márquez, Xerém, Rio de Janeiro e Buenos Aires</p></div>
-        </div>
-         <div class="timeline-item personal">
-            <div class="timeline-year">2005</div>
-            <div class="timeline-content"><p>Nascimento do primeiro neto, Martim, da filha Dandara</p></div>
-        </div>
-    `,
+    ${chronology.map(item => `
+    <div class="timeline-item ${item.type}">
+        <div class="timeline-year">${item.year}</div>
+        <div class="timeline-content"><p>${item.content}</p></div>
+    </div>
+    `).join("")}`,
     works_about_title: "Trabalhos Sobre",
     works_about_content: `
 <ul class="teses">
@@ -528,207 +586,19 @@ export const pt = {
 </p>
 `,
     longas_title: "Longas-metragens",
-    longas_content: `<main class="max-w-5xl mx-auto p-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Filme 1 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/os_cafagestes-cartaz.jpg" alt="Os Cafajestes (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Os Cafajestes (Brasil - 1962)</h2>
-                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> 100 min<br>
-                    <strong>Elenco:</strong> Norma Bengell, Hugo Carvana, Glauce Rocha, Jece Valadão, Daniel Filho</p>
-                </div>
-            </div>
-            <!-- Filme 2 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/os_fuzis-cartaz2.jpg" alt="Os Fuzis (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Os Fuzis (Brasil - 1964)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Ruy Guerra, Miguel Torres<br>
-                    <strong>Duração:</strong> 103 min<br>
-                    <strong>Elenco:</strong> Nelson Xavier, Átila Iório, Paulo César Peréio, Hugo Carvana, Mauricio Loyola, Maria Adélia, Leonidas Bayer, Ruy Polanah, Joel Barcellos, Antonio Pitanga, Ivan Cândido, Maria Ligia, Paulo Campos, Maria Gladys, Billy Davis, Hugo Kusnetzoff</p>
-                </div>
-            </div>
-            <!-- Filme 3 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/tendres_chasseurs.jpg" alt="Sweet Hunters" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Sweet Hunters (França - 1969)</h2>
-                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> 102 min<br>
-                    <strong>Elenco:</strong> Stuart Whitman, Susan Strasberg, Maureen McNally, Sterling Hayden, Andrew Hayden</p>
-                </div>
-            </div>
-            <!-- Filme 4 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/os_deuses_e_os_mortos.jpg" alt="Os Deuses e os Mortos" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Os Deuses e os Mortos (Brasil - 1970)</h2>
-                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> 97 min<br>
-                    <strong>Elenco:</strong> Norma Bengell, Othon Bastos, Ítala Nandi, Nelson Xavier, Ruy Polanah, Jorge Chaia</p>
-                </div>
-            </div>
-            <!-- Filme 5 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/a_queda.jpg" alt="A Queda" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">A Queda (Brasil - 1977)</h2>
-                    <p><strong>Direção e roteiro:</strong> Ruy Guerra, Nelson Xavier<br>
-                    <strong>Duração:</strong> 110 min<br>
-                    <strong>Elenco:</strong> Leonidas Bayer, Carlos Alberto Baía, Hugo Carvana, Murilo de Lima, Jurandir de Oliveira, Ginaldo de Souza, Ivan De Souza, Luiz Antônio de Souza, Cosme dos Santos, Lima Duarte, Marco Antônio Esteves</p>
-                </div>
-            </div>
-            <!-- Filme 6 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/mueda_memoria_e_massacre.jpg" alt="Mueda: Memória e Massacre" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Mueda: Memória e Massacre (Moçambique - 1979/80)</h2>
-                    <p><strong>Direção e roteiro:</strong> Ruy Guerra<br>
-                    <strong>Duração:</strong> 80 min<br>
-                    <strong>Elenco:</strong> Romão Canapoquele, Filipe Gunoguacala, Mauricio Machimbuco, Baltazar Nchilema</p>
-                </div>
-            </div>
-            <!-- Filme 7 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/la_lettre_volee.jpg" alt="Histoires Extraordinaires: la lettre volée" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Histoires Extraordinaires: la lettre volée (França/Portugal - 1981)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Gerard Zingg, Ruy Guerra<br>
-                    <strong>Produção:</strong> FR3, Films du Triangle, TCV, RTP<br>
-                    <strong>Duração:</strong> 52 min, 16 mm, cor<br>
-                    <strong>Argumentação:</strong> Adaptação do texto original de Edgar Allan Poe</p>
-                </div>
-            </div>
-            <!-- Filme 8 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/erendira.jpg" alt="Erendira (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Erendira (Brasil, México, França, Alemanha - 1982)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Gabriel García Márquez<br>
-                    <strong>Duração:</strong> 103 min<br>
-                    <strong>Elenco:</strong> Claudia Ohana, Irene Papas, Michael Lonsdale, Oliver Wehe, Rufus, Blanca Guerra, Pierre Vaneck</p>
-                </div>
-            </div>
-            <!-- Filme 9 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/opera_do_malandro.jpg" alt="Ópera do Malandro (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Ópera do Malandro (Brasil, França - 1985)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Chico Buarque de Hollanda, Orlando Senna, Ruy Guerra<br>
-                    <strong>Duração:</strong> 100 min<br>
-                    <strong>Elenco:</strong> Edson Celulari, Claudia Ohana, Elba Ramalho, Fábio Sabag, J.C. Violla, Wilson Grey, Maria Sílvia, Cláudia Jimenez</p>
-                </div>
-            </div>
-            <!-- Filme 10 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/a_bela_palomera.jpg" alt="A Fábula da Bela Palomera (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">A Fábula da Bela Palomera (Brasil, Espanha - 1987)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Ruy Guerra, Gabriel García Márquez<br>
-                    <strong>Duração:</strong> 90 min<br>
-                    <strong>Elenco:</strong> Ney Latorraca, Claudia Ohana, Tânia Carrero, Dina Sfat, Chico Díaz, Cecil Thiré</p>
-                </div>
-            </div>
-            <!-- Filme 11 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/kuarup.jpg" alt="Kuarup (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Kuarup (Brasil - 1989)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Antonio Callado (romance), Ruy Guerra, Rudy Langemann<br>
-                    <strong>Duração:</strong> 115 min<br>
-                    <strong>Elenco:</strong> Taumaturgo Ferreira, Fernanda Torres, Cláudio Mamberti, Umberto Magnani, Ewerton de Castro, Roberto Bonfim, Cláudia Raia, Rui Resende, Dionísio Azevedo, Claudia Ohana, Maitê Proença</p>
-                </div>
-            </div>
-            <!-- Filme 12 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/me-alquilo-para-sonar.jpg" alt="Me Alquilo Para Soñar" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Me Alquilo Para Soñar (Espanha - 1991/92)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Gabriel García Márquez, Eliseo Alberto Diego, Cláudio McDowell, Ruy Guerra<br>
-                    <strong>Produção:</strong> Ing, TVE - Espanha<br>
-                    <strong>Fotografia:</strong> Raul Perez Ureta<br>
-                    <strong>Montagem:</strong> Julia Salvador<br>
-                    <strong>Música:</strong> Mario Dali<br>
-                    <strong>Elenco:</strong> Hanna Schygulla, Fernando Guillén, Charo López, Leonor Arocha, J.L. Alvarez, Alicia Bustamante, Álvaro de Luna, Francisco Gattorno, Gilberto Reyes, entre outros</p>
-                </div>
-            </div>
-            <!-- Filme 13 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/estorvo.jpg" alt="Estorvo (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Estorvo (Brasil - 2000)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Chico Buarque de Hollanda (romance), Ruy Guerra<br>
-                    <strong>Duração:</strong> 95 min<br>
-                    <strong>Elenco:</strong> Jorge Perugorría, Bianca Byington, Suzana Ribeiro, Leonor Arocha, Xando Graça, Athayde Arcoverde, Candido Damm, José Antônio Rodriguez, Dandara Guerra, Tonico Oliveira</p>
-                </div>
-            </div>
-            <!-- Filme 14 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/monsanto.jpg" alt="Monsanto (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Monsanto (Portugal - 2000)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Vicente Alves do Ó<br>
-                    <strong>Duração:</strong> 90 min<br>
-                    <strong>Elenco:</strong> Vítor Norte, Maria d'Aires, João Lagarto, Paula Neves, Teresa Roby, Júlia Correia, Ivo Canelas, Rui Luís, Bibi Gomes, Zeka Laplaine, José Raposo, João Maria Pinto, Luís Zagalo, Francisco Brás, Carlos Curto, Otelo Saraiva de Carvalho</p>
-                </div>
-            </div>
-            <!-- Filme 15 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/portugal_sa.jpg" alt="Portugal S/A (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Portugal S/A (Portugal - 2003)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Carlos Vale Ferraz<br>
-                    <strong>Duração:</strong> 95 min<br>
-                    <strong>Elenco:</strong> Ana Bustorff, Cândido Ferreira, Cristina Carvalhal, Cristina Câmara, Diogo Infante, Henrique Viana, João D’Ávila, João Reis, João Vaz, Luís Madureira, Maria do Céu Guerra, Pedro Oliveira</p>
-                </div>
-            </div>
-            <!-- Filme 16 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/o_veneno_da_madrugada.jpg" alt="O Veneno da Madrugada (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">O Veneno da Madrugada (Brasil, Argentina, Portugal - 2004/2005)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Ruy Guerra, Tairone Feitosa<br>
-                    <strong>Duração:</strong> 118 min<br>
-                    <strong>Elenco:</strong> Leonardo Medeiros, Juliana Carneiro da Cunha, Fábio Sabag, Zózimo Bulbul, Jean Pierre Noher, Rejane Arruda, Luah Galvão, Nélton Bicudo, Amir Haddad, Tonico Pereira, Emílio de Melo, Murilo Grossi, Fernando Alves Pinto</p>
-                </div>
-            </div>
-            <!-- Filme 17 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/quase_memoria.jpg" alt="Quase Memória (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Quase Memória (Brasil - 2015)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Ruy Guerra, Bruno Laet, Diogo de Oliveira<br>
-                    <strong>Duração:</strong> 132 min<br>
-                    <strong>Elenco:</strong> Tony Ramos, Charles Fricks, João Miguel, Mariana Gimenes, Antonio Pedro</p>
-                </div>
-            </div>
-            <!-- Filme 18 -->
-            <div class="flex gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
-                <img src="images/longas/aos-pedacos.jpg" alt="Aos Pedaços (cartaz)" class="w-32 rounded-lg">
-                <div>
-                    <h2 class="text-xl font-bold">Aos Pedaços (Brasil - 2020)</h2>
-                    <p><strong>Direção:</strong> Ruy Guerra<br>
-                    <strong>Roteiro:</strong> Ruy Guerra, Luciana Mazzotti<br>
-                    <strong>Duração:</strong> 93 min<br>
-                    <strong>Elenco:</strong> Julio Adrião, Emílio de Mello, Simone Spoladore, Christiana Ubach</p>
-                </div>
-            </div>
-        </div>
-    </main>`,
+    longas_content: `<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                ${longas.map(filme => `
+                    <div class="flex flex-col sm:flex-row gap-4 bg-[#d8cbb7] rounded-lg p-4 border border-black/20">
+                        <img src="${filme.imagem}" alt="${filme.titulo}" class="w-32 rounded-lg flex-shrink-0">
+                        <div>
+                            <h2 class="text-xl font-bold">${filme.titulo}</h2>
+                            <div class="text-sm mt-2">
+                                ${Object.entries(filme.detalhes).map(([key, value]) => `<p><strong>${key}:</strong> ${value}</p>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>`,
     curtas_title: "Curtas-metragens",
     curtas_content: `<main class="max-w-5xl mx-auto p-6">
         
