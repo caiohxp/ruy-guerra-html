@@ -198,6 +198,81 @@ const poesias = [
     { titulo: "Prólogo, como um epitáfio", data: "Indefinida", autor: "Ruy Guerra", local: "Indefinido" }
 ];
 
+const albuns = [
+  {
+    titulo: `Em Lourenço Marques (Moçambique)`,
+    fotos: [
+      { src: `images/pelo-mundo/na_barriga.jpg`, legenda: `Clara esperando seu caçula, Ruy Alexandre` }
+    ]
+  },
+  {
+    titulo: `Lisboa, idas e vindas`,
+    fotos: [
+      { src: `images/pelo-mundo/avo_paterno.jpg`, legenda: `O avô paterno, pintor e desenhista, José Maria Pereira Junior, vulgo Pereira Cão` }
+    ]
+  },
+  {
+    titulo: `Formação como cineasta, França (1952/54)`,
+    fotos: [
+      { src: `images/pelo-mundo/paris-2.jpg`, legenda: `Chegando a Paris com o pai` }
+    ]
+  },
+  {
+    titulo: `Rio de Janeiro, família e amigos`,
+    fotos: [
+      { src: `images/pelo-mundo/chegada-rj-58.jpg`, legenda: `Chegada ao Rio de Janeiro em 1958` }
+    ]
+  },
+  {
+    titulo: `Rio de Janeiro, colegas e amigos de trabalho`,
+    fotos: [
+      { src: `images/pelo-mundo/ruy_guerra-italia.jpg`, legenda: `` }
+    ]
+  },
+  {
+    titulo: `México`,
+    fotos: [
+      { src: `images/pelo-mundo/claudia_ohana-erendira.jpg`, legenda: `Com Cláudia Ohana nas filmagens de Erendira (1981)` }
+    ]
+  },
+  {
+    titulo: `Havana, Cuba`,
+    fotos: [
+      { src: `images/pelo-mundo/hanna_schygulla.jpg`, legenda: `Com Hannah Schygulla nas filmagens de Me Alquillo para Soñar (1991/92)` }
+    ]
+  },
+  {
+    titulo: `Filmando pelo mundo`,
+    fotos: [
+      { src: `images/pelo-mundo/eduardo_simoes.jpg`, legenda: `Com Edmundo Simões, Lourenço Marques, 1949` }
+    ]
+  },
+  {
+    titulo: `Encontros de cinema`,
+    fotos: [
+      { src: `images/pelo-mundo/urso_de_prata-fuzis.jpg`, legenda: `Comemoração da entrega do Urso de Prata (Os Fuzis), Berlin, 1964` }
+    ]
+  },
+  {
+    titulo: `2011 - Maputo (Moçambique) e Pilgrim’s Rest (África do Sul) - fotos de Chico Carneiro (*)`,
+    fotos: [
+      { src: `images/pelo-mundo/maputo-inac.jpg`, legenda: `INAC - Instituto Nacional do Audio-Visual e Cinema*` }
+    ]
+  },
+  {
+    titulo: `Pessoas e destinos diversos`,
+    fotos: [
+      { src: `images/pelo-mundo/idhec-5.jpg`, legenda: `Na Grécia, amigos, 1957` }
+    ]
+  },
+  {
+    titulo: `Tempos de Ruy`,
+    fotos: [
+      { src: `images/pelo-mundo/rg-1.jpg`, legenda: `` }
+    ]
+  }
+];
+
 export const pt = {
     nav_home: "Início",
     nav_with_ruy: "Com o Ruy",
@@ -741,9 +816,9 @@ export const pt = {
                         <h2 class="text-xl font-bold">${item.titulo}</h2>
                         <div class="text-sm mt-2">
                             ${Object.entries(item.detalhes).map(([key, value]) => {
-                                // Se a chave for 'Descrição', não mostra o título da chave
-                                return key === 'Descrição' ? `<p>${value}</p>` : `<p><strong>${key}:</strong> ${value}</p>`;
-                            }).join('')}
+        // Se a chave for 'Descrição', não mostra o título da chave
+        return key === 'Descrição' ? `<p>${value}</p>` : `<p><strong>${key}:</strong> ${value}</p>`;
+    }).join('')}
                         </div>
                     </div>
                 `).join('')}
@@ -820,6 +895,31 @@ export const pt = {
             </div>
         </div>
     `).join('')};`,
+    globetrotter_title: "Globetrotter",
+    globetrotter_content: `
+    ${albuns.map((album, i) => `
+      <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20">
+        <h3 class="text-2xl font-bold mb-4 text-center">${album.titulo}</h3>
+        
+        <div class="text-center">
+          <img id="foto-${i}" src="${album.fotos[0].src}" class="max-h-96 mx-auto rounded-lg shadow" alt="">
+          <p id="legenda-${i}" class="italic text-sm mt-2">${album.fotos[0].legenda}</p>
+        </div>
+
+        <div class="flex justify-center mt-3 space-x-1">
+          ${album.fotos.map((f, idx) => `
+            <button class="px-2 py-1 border rounded ${idx===0?"bg-black text-white":"bg-white"}"
+              onclick="
+                document.querySelector('#foto-${i}').src='${f.src}';
+                document.querySelector('#legenda-${i}').textContent='${f.legenda}';
+                [...this.parentNode.children].forEach(b=>b.classList.remove('bg-black','text-white'));
+                this.classList.add('bg-black','text-white');
+              ">${idx+1}</button>
+          `).join('')}
+        </div>
+      </div>
+    `).join('')}
+  `,
     workshops_title: "Oficinas",
     workshops_content: `<main class="max-w-5xl mx-auto p-6">
         <div class="mb-8">
