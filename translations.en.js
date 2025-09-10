@@ -1,22 +1,35 @@
 export const en = {
     nav_home: "Home",
-        nav_with_ruy: "With Ruy",
-        nav_who_is_ruy: "Who is Ruy?",
-        nav_chronology: "Chronology",
-        nav_works_about: "Works About",
-        nav_news_dropdown: "News",
-        nav_archive: "Archive",
-        nav_filmography: "Filmography",
-        nav_actor: "Actor",
-        nav_writings: "Writings",
-        nav_around_the_world: "Around the World",
-        nav_contact: "Contact",
-        home_p1: `<span class="text-highlight">Born in Mozambique, Portuguese African colony on 08/22/1931.</span> Since youth, he was <span class="text-highlight">in love with words and images.</span> He wrote poetry, short stories, and film criticism, many of them printed in Lourenço Marques’ media. He loved to go to the movies. He also filmed a documentary about the daily lives of longshoremen in that important port in Southern Africa.`,
-        home_p2: `When he was twenty, he went to <span class="text-highlight">Paris where he graduated as a movie maker.</span> He landed in Rio de Janeiro in July 1958. His first two films – The Unscrupulous Ones (1962) and The Guns (1964) – soon became known among Brazilian and international critics and film lovers. He was the first director of the Cinema Novo group shooting outside of Brazil (France, 1968).`,
-        home_p3: `In the 60’s and 70’s <span class="text-highlight">he wrote lyrics for young musicians who became famous,</span> such as Edu Lobo, Francis Hime, Milton Nascimento, and Chico Buarque de Holanda. With Chico he wrote the musical play Calabar. Two of his films were also inspired by Chico’s works: Ópera do Malandro (1985), Chico’s musical play, and Estorvo (2000), Chico’s book of the same name. He was the director who filmed more works of Gabriel García Márquez, his friend since 1972.`,
-        home_p4: `He travelled to many countries on account of his passion for filming. After 1995 he returned to live in Rio, where his 3 children and 3 grandchildren were born.`,
-        bio_title: "Who is Ruy Guerra",
-        bio_content1: `
+    nav_with_ruy: "With Ruy",
+    nav_who_is_ruy: "Who is Ruy?",
+    nav_chronology: "Chronology",
+    nav_works_about: "Works About",
+    nav_news_dropdown: "News",
+    nav_archive: "Archive",
+    nav_filmography: "Filmography",
+    nav_longas: "Feature Films",
+    nav_curtas: "Short Films",
+    nav_interviews: "Interviews",
+    nav_actor: "Actor",
+    nav_roteirista: "Screenwriter",
+    nav_montador: "Editor",
+    nav_festivais: "Festivals & Awards",
+    nav_teatro: "Theater",
+    nav_poesias: "Poetry",
+    nav_prosa: "Prose",
+    nav_chronicles: "Chronicles",
+    nav_tales: "Short Stories",
+    nav_speeches: "Speeches & Prefaces",
+    nav_songs: "Song Lyrics",
+    nav_globetrotter: "Globetrotter",
+    nav_oficinas: "Workshops",
+    nav_contact: "Contact",
+    home_p1: `<span class="text-highlight">Born in Mozambique, Portuguese African colony on 08/22/1931.</span> Since youth, he was <span class="text-highlight">in love with words and images.</span> He wrote poetry, short stories, and film criticism, many of them printed in Lourenço Marques’ media. He loved to go to the movies. He also filmed a documentary about the daily lives of longshoremen in that important port in Southern Africa.`,
+    home_p2: `When he was twenty, he went to <span class="text-highlight">Paris where he graduated as a movie maker.</span> He landed in Rio de Janeiro in July 1958. His first two films – The Unscrupulous Ones (1962) and The Guns (1964) – soon became known among Brazilian and international critics and film lovers. He was the first director of the Cinema Novo group shooting outside of Brazil (France, 1968).`,
+    home_p3: `In the 60’s and 70’s <span class="text-highlight">he wrote lyrics for young musicians who became famous,</span> such as Edu Lobo, Francis Hime, Milton Nascimento, and Chico Buarque de Holanda. With Chico he wrote the musical play Calabar. Two of his films were also inspired by Chico’s works: Ópera do Malandro (1985), Chico’s musical play, and Estorvo (2000), Chico’s book of the same name. He was the director who filmed more works of Gabriel García Márquez, his friend since 1972.`,
+    home_p4: `He travelled to many countries on account of his passion for filming. After 1995 he returned to live in Rio, where his 3 children and 3 grandchildren were born.`,
+    bio_title: "Who is Ruy Guerra",
+    bio_content1: `
                 <div class="text-base leading-relaxed space-y-4">
                 <p>In the mid-1970s, Ruy Guerra explained himself in a poem:</p>
                     <blockquote class="my-4 pl-4 border-l-4 border-gray-400 italic text-center space-y-2">
@@ -26,7 +39,7 @@ export const en = {
                         </blockquote>
                         </div><br><br><br>
                         `,
-        bio_content2: `
+    bio_content2: `
                 <div class="text-base leading-relaxed space-y-4">
                     <p>Ruy Guerra is a well- known name to cinema fans. In the 1960s, the period of the Cinema Novo, renewing Brazilian cinema, Ruy, born in Mozambique, arrived in Rio de Janeiro, direct from Paris, where he had graduated in Film Making. Today he is one of the surviving myths of the Cinema Novo, indeed one the most famous, having been the first of the group to shoot films outside Brazil. He is also known to those who enjoy Brazilian popular music from the 1960s and 70s, when he partnered young musicians. In 1958 Ruy came to Rio de Janeiro, which has been his safe haven until today. The trip to Brazil was a desire expressed years earlier in letters to his father, brother and friends.</p>
                     <p>At the moment (August 2014) he is a well-lived 83 years-old, whose energy makes those of us who are much younger envy him. Many say that this energy comes from his home country, Mozambique, on the edge of the Indian Ocean in southern Africa. He is the son of a Portuguese couple who were trying life in the Portuguese colony and who settled in the capital, Lourenço Marques, and started a family. Since he was ten Ruy has been crazy about writing, film and film making, and during the second half of the 1940s he published short stories, articles and poetry in newspapers and even today repeatedly talks about his frustrated vocation as a writer, reaffirming his desire to write a novel. The complicated situation of living financially from film making also led him to direct the concerts of his friends, and he also wrote the play ‘Calabar: in praise of treason’ in partnership with Chico Buarque. It was banned on the eve of the premiere, causing financial losses to the producers. Like many contemporaries, Chico Buarque and Ruy Guerra often had problems with the lyrics.</p>
@@ -52,10 +65,10 @@ export const en = {
                     <div class="my-6 text-center"><img class="mx-auto max-w-md w-full rounded shadow-lg" src="images/atacama.jpg" alt="Ruy Guerra no deserto do Atacama"><p class="text-sm italic mt-2">Chile, 2014</p></div>
                 </div>
             `,
-        chronology_title: "Chronology",
-        chronology_content: "Chronology content coming soon...",
-        works_about_title: "Works About",
-        works_about_content: `
+    chronology_title: "Chronology",
+    chronology_content: "Chronology content coming soon...",
+    works_about_title: "Works About",
+    works_about_content: `
 <ul class="teses">
     <li>BORGES, Vavy Pacheco: “Ruy Guerra: uma vida à medida do sonho”, publicação, Festival do Cine Documentário, Maputo, Moçambique, 2011</li>
     <li>BORGES, Vavy Pacheco: “Nas pegadas de um leão” em Grafia da vida: reflexões e experiências com a escrita biográfica, Alexandre de Sá Avelar e Benito Bissio (orgs.), Editora Letra e Voz, SP 2012, pp. 83-104</li>
@@ -105,10 +118,10 @@ export const en = {
     <li>XAVIER, Ismail: “Os deuses e os mortos: Maldição dos deuses ou maldição da História”, artigo, Ilha do Desterro, Florianópolis No 32, 1997</li>
 </ul>
 `,
-        archive_title: "Archive",
-        archive_content: "Archive content coming soon...",
-        longas_title: "Longas-metragens",
-        longas_content: `<main class="max-w-5xl mx-auto p-6">
+    archive_title: "Archive",
+    archive_content: "Archive content coming soon...",
+    longas_title: "Longas-metragens",
+    longas_content: `<main class="max-w-5xl mx-auto p-6">
         <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
             <img src="images/ruy_guerra.png" alt="Ruy Guerra" class="w-40 rounded-lg shadow-lg">
             <img src="images/longasv.jpg" alt="Longas-metragens" class="w-60 rounded-lg shadow-lg">
@@ -314,24 +327,24 @@ export const en = {
             </div>
         </div>
     </main>`,
-        actor_title: "Actor",
-        actor_p1: `Besides directing, Ruy Guerra also made his mark...`,
-        writings_title: "Writings",
-        writings_p1: "The word is another fundamental territory...",
-        writings_poem_title: `"The Rhinoceros" (fragment)`,
-        writings_poem_content: `<p>The rhinoceros advances, slow and heavy...<br></p>`,
-        world_title: "Around the World",
-        world_p1: "A citizen of the world...",
-        news_title: "Latest News",
-        news1_title: "Ruy Guerra's Work Retrospective at MoMA",
-        news1_date: "August 15, 2025",
-        news1_content: "The Museum of Modern Art in New York announces...",
-        news2_title: "Release of a poetry collection",
-        news2_date: "July 02, 2025",
-        news2_content: `Publisher X announces the release of "24 Frames"...`,
-        contact_title: "Contact",
-        contact_p1: "For information about the work...",
-        contact_press: "Press Office:",
-        contact_agent: "Agent:",
-        footer_text: "&copy; 2025 Ruy Guerra. All rights reserved."
+    actor_title: "Actor",
+    actor_p1: `Besides directing, Ruy Guerra also made his mark...`,
+    writings_title: "Writings",
+    writings_p1: "The word is another fundamental territory...",
+    writings_poem_title: `"The Rhinoceros" (fragment)`,
+    writings_poem_content: `<p>The rhinoceros advances, slow and heavy...<br></p>`,
+    world_title: "Around the World",
+    world_p1: "A citizen of the world...",
+    news_title: "Latest News",
+    news1_title: "Ruy Guerra's Work Retrospective at MoMA",
+    news1_date: "August 15, 2025",
+    news1_content: "The Museum of Modern Art in New York announces...",
+    news2_title: "Release of a poetry collection",
+    news2_date: "July 02, 2025",
+    news2_content: `Publisher X announces the release of "24 Frames"...`,
+    contact_title: "Contact",
+    contact_p1: "For information about the work...",
+    contact_press: "Press Office:",
+    contact_agent: "Agent:",
+    footer_text: "&copy; 2025 Ruy Guerra. All rights reserved."
 }

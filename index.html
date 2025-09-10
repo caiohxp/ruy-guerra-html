@@ -18,95 +18,104 @@
 
 <body>
 
-    <div class="main-container">
-        <!-- Navegação -->
-        <nav id="main-nav" class="p-2 bg-[#d8cbb7] border-b-2 border-black flex justify-between items-center flex-wrap">
-            <div class="md:hidden">
-                <button id="mobile-menu-button" class="p-2">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
+    <nav id="main-nav" class="p-2 bg-[#d8cbb7] border-b-2 border-black flex justify-between items-center flex-wrap">
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <div id="nav-links-container"
+            class="w-full hidden md:flex md:items-center md:w-auto md:justify-center md:gap-x-2">
+            <a class="nav-link active md:w-auto" data-section="home" data-lang-key="nav_home">Início</a>
+
+            <!-- Dropdown Menu -->
+            <div class="relative dropdown w-full md:w-auto">
+                <button class="nav-link w-full md:w-auto" data-lang-key="nav_with_ruy">Com o Ruy</button>
+                <div
+                    class="dropdown-menu absolute hidden bg-[#d8cbb7] shadow-lg rounded-md top-full w-full md:w-48 z-20 border border-black/20">
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="biografia"
+                        data-lang-key="nav_who_is_ruy">Quem é Ruy?</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="cronologia"
+                        data-lang-key="nav_chronology">Cronologia</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="trabalhos"
+                        data-lang-key="nav_works_about">Trabalhos sobre</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="noticias"
+                        data-lang-key="nav_news_dropdown">Notícias</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="acervo"
+                        data-lang-key="nav_archive">Acervo</a>
+                </div>
             </div>
 
-            <div id="nav-links-container"
-                class="w-full hidden md:flex md:items-center md:w-auto md:justify-center md:gap-x-2">
-                <a class="nav-link active md:w-auto" data-section="home" data-lang-key="nav_home">Início</a>
-
-                <!-- Dropdown Menu -->
-                <div class="relative dropdown w-full md:w-auto">
-                    <button class="nav-link w-full md:w-auto" data-lang-key="nav_with_ruy">Com o Ruy</button>
-                    <div
-                        class="dropdown-menu absolute hidden bg-[#d8cbb7] shadow-lg rounded-md top-full w-full md:w-48 z-20 border border-black/20">
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="biografia"
-                            data-lang-key="nav_who_is_ruy">Quem é Ruy?</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="cronologia"
-                            data-lang-key="nav_chronology">Cronologia</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="trabalhos"
-                            data-lang-key="nav_works_about">Trabalhos sobre</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="noticias"
-                            data-lang-key="nav_news_dropdown">Notícias</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="acervo"
-                            data-lang-key="nav_archive">Acervo</a>
-                    </div>
+            <div class="relative dropdown w-full md:w-auto">
+                <button class="nav-link w-full md:w-auto" data-lang-key="nav_filmography">Filmografia</button>
+                <div
+                    class="dropdown-menu absolute hidden bg-[#d8cbb7] shadow-lg rounded-md top-full w-full md:w-48 z-20 border border-black/20">
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="longas"
+                        data-lang-key="nav_longas">Longas</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="curtas"
+                        data-lang-key="nav_curtas">Curtas</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="interviews"
+                        data-lang-key="nav_interviews">Entrevistas</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="actor"
+                        data-lang-key="nav_actor">Ator</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="roteirista"
+                        data-lang-key="nav_roteirista">Roteirista</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="montador"
+                        data-lang-key="nav_montador">Montador</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="festivais"
+                        data-lang-key="nav_festivais">Festivais e Premiações</a>
                 </div>
-
-                <div class="relative dropdown w-full md:w-auto">
-                    <button class="nav-link w-full md:w-auto" data-lang-key="nav_filmography">Filmografia</button>
-                    <div
-                        class="dropdown-menu absolute hidden bg-[#d8cbb7] shadow-lg rounded-md top-full w-full md:w-48 z-20 border border-black/20">
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="longas"
-                            data-lang-key="nav_longas">Longas</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="curtas"
-                            data-lang-key="nav_curtas">Curtas</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="interviews"
-                            data-lang-key="nav_interviews">Entrevistas</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="actor"
-                            data-lang-key="nav_actor">Ator</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="roteirista"
-                            data-lang-key="nav_roteirista">Roteirista</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="montador"
-                            data-lang-key="nav_montador">Montador</a>
-                        <a class="nav-link dropdown-link block px-4 py-2" data-section="festivais"
-                            data-lang-key="nav_festivais">Festivais e Premiações</a>
-                    </div>
-                </div>
-                <a class="nav-link md:w-auto" data-section="teatro" data-lang-key="nav_teatro">Teatro</a>
-                <a class="nav-link md:w-auto" data-section="poesias" data-lang-key="nav_poesias">Poesias</a>
-                <a class="nav-link md:w-auto" data-section="songs" data-lang-key="nav_songs">Letras de Músicas</a>
-                <a class="nav-link md:w-auto" data-section="globetrotter" data-lang-key="nav_globetrotter">Globetrotter</a>
-                <a class="nav-link md:w-auto" data-section="oficinas" data-lang-key="nav_oficinas">Oficinas</a>
-                <a class="nav-link md:w-auto" data-section="contato" data-lang-key="nav_contact">Contato</a>
-
             </div>
-            <div id="lang-switcher" class="flex space-x-2 justify-center py-2 md:py-0 md:ml-4">
-                <img src="https://flagcdn.com/32x24/br.png" alt="[Bandeira do Brasil]" title="Português"
+            <a class="nav-link md:w-auto" data-section="teatro" data-lang-key="nav_teatro">Teatro</a>
+            <a class="nav-link md:w-auto" data-section="poesias" data-lang-key="nav_poesias">Poesias</a>
+            <div class="relative dropdown w-full md:w-auto">
+                <button class="nav-link w-full md:w-auto" data-lang-key="nav_prosa">Prosa</button>
+                <div
+                    class="dropdown-menu absolute hidden bg-[#d8cbb7] shadow-lg rounded-md top-full w-full md:w-48 z-20 border border-black/20">
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="cronicas"
+                        data-lang-key="nav_chronicles">Crônicas</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="contos"
+                        data-lang-key="nav_tales">Contos</a>
+                    <a class="nav-link dropdown-link block px-4 py-2" data-section="falas"
+                        data-lang-key="nav_speeches">Falas e Prefácios</a>
+                </div>
+            </div>
+            <a class="nav-link md:w-auto" data-section="songs" data-lang-key="nav_songs">Letras de Músicas</a>
+            <a class="nav-link md:w-auto" data-section="globetrotter" data-lang-key="nav_globetrotter">Globetrotter</a>
+            <a class="nav-link md:w-auto" data-section="oficinas" data-lang-key="nav_oficinas">Oficinas</a>
+            <a class="nav-link md:w-auto" data-section="contato" data-lang-key="nav_contact">Contato</a>
+
+        </div>
+        <div id="lang-switcher" class="flex space-x-2 justify-center py-2 md:py-0 md:ml-4">
+            <img src="https://flagcdn.com/32x24/br.png" alt="[Bandeira do Brasil]" title="Português"
+                class="cursor-pointer h-6" data-lang="pt">
+            <img src="https://flagcdn.com/32x24/gb.png" alt="[Bandeira do Reino Unido]" title="English"
+                class="cursor-pointer h-6" data-lang="en">
+            <img src="https://flagcdn.com/32x24/fr.png" alt="[Bandeira da França]" title="Français"
+                class="cursor-pointer h-6" data-lang="fr">
+        </div>
+        <!-- Language switcher for mobile (to keep it visible) -->
+        <div class="hidden max-md:block">
+            <div id="lang-switcher-mobile" class="flex space-x-2">
+                <img src="https://flagcdn.com/w40/br.png" alt="[Bandeira do Brasil]" title="Português"
                     class="cursor-pointer h-6" data-lang="pt">
-                <img src="https://flagcdn.com/32x24/gb.png" alt="[Bandeira do Reino Unido]" title="English"
+                <img src="https://flagcdn.com/w40/gb.png" alt="[Bandeira do Reino Unido]" title="English"
                     class="cursor-pointer h-6" data-lang="en">
-                <img src="https://flagcdn.com/32x24/fr.png" alt="[Bandeira da França]" title="Français"
+                <img src="https://flagcdn.com/w40/fr.png" alt="[Bandeira da França]" title="Français"
                     class="cursor-pointer h-6" data-lang="fr">
             </div>
-            <!-- Language switcher for mobile (to keep it visible) -->
-            <div class="hidden max-md:block">
-                <div id="lang-switcher-mobile" class="flex space-x-2">
-                    <img src="https://flagcdn.com/w40/br.png" alt="[Bandeira do Brasil]" title="Português"
-                        class="cursor-pointer h-6" data-lang="pt">
-                    <img src="https://flagcdn.com/w40/gb.png" alt="[Bandeira do Reino Unido]" title="English"
-                        class="cursor-pointer h-6" data-lang="en">
-                    <img src="https://flagcdn.com/w40/fr.png" alt="[Bandeira da França]" title="Français"
-                        class="cursor-pointer h-6" data-lang="fr">
-                </div>
-            </div>
-        </nav>
+        </div>
+    </nav>
+    
+    <div class="main-container">
 
-        <!-- Conteúdo Principal -->
         <main class="p-6 lg:p-8">
 
-
-            <!-- Todas as seções... -->
             <section id="home" class="content-section active">
                 <h1 class="title-ruyguerra text-5xl md:text-7xl text-center mb-8">Ruy Guerra</h1>
                 <div class="text-base leading-relaxed space-y-4">
@@ -238,7 +247,7 @@
                 <div data-lang-key="songs_content">
                 </div>
             </section>
-            
+
             <section id="globetrotter" class="content-section">
                 <h2 class="text-4xl font-bold mb-6" data-lang-key="globetrotter_title">Globetrotter</h2>
                 <div data-lang-key="globetrotter_content">
