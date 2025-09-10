@@ -267,3 +267,19 @@ h4 {
 .imagem {
     text-align: center;
 }
+
+.album-btn {
+  background: white;
+  color: black;
+  border: 1px solid #222;
+  transition: background 0.2s, color 0.2s;
+  width: 25px;
+}
+.album-btn.selected {
+  background: #111;
+  color: #fff;
+}
+.album-btn:hover {
+  background: #b91c1c; /* vermelho */
+  color: #fff;
+}

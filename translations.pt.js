@@ -202,73 +202,178 @@ const albuns = [
   {
     titulo: `Em Lourenço Marques (Moçambique)`,
     fotos: [
-      { src: `images/pelo-mundo/na_barriga.jpg`, legenda: `Clara esperando seu caçula, Ruy Alexandre` }
-    ]
-  },
-  {
-    titulo: `Lisboa, idas e vindas`,
-    fotos: [
-      { src: `images/pelo-mundo/avo_paterno.jpg`, legenda: `O avô paterno, pintor e desenhista, José Maria Pereira Junior, vulgo Pereira Cão` }
+      { src: `images/mundo/mae_cadeira.jpg`, legenda: `A mãe Clara Guerra` },
+      { src: `images/mundo/pai.jpg`, legenda: `O pai Mário Coelho Pereira` },
+      { src: `images/mundo/na_barriga.jpg`, legenda: `Clara esperando seu caçula, Ruy Alexandre` },
+      { src: `images/mundo/ruy_mae-1931.jpg`, legenda: `Ruy no colo da mãe em 1931` },
+      { src: `images/mundo/irmaos_e_pai.jpg`, legenda: `Com os irmãos Mario Luiz, Maria Clara e o Pai` },
+      { src: `images/mundo/casa_ferias.jpg`, legenda: `A casa de férias na Naamacha` },
+      { src: `images/mundo/ruy_irmaos_carro.jpg`, legenda: `Os 3 filhos no carro paterno ` },
+      { src: `images/mundo/casa_maputo.jpg`, legenda: `Ruy na ultima casa que morou, rua Neutel de Abreu, atrás o Hotel Girassol` },
+      { src: `images/mundo/classe_liceu.jpg`, legenda: `Com a turma do Liceu, Ruy é o último da direita, em baixo` },
+      { src: `images/mundo/praia-mocambique.jpg`, legenda: `Com Rui Knopfli e Edmundo Simões na praia` }
     ]
   },
   {
     titulo: `Formação como cineasta, França (1952/54)`,
     fotos: [
-      { src: `images/pelo-mundo/paris-2.jpg`, legenda: `Chegando a Paris com o pai` }
+      { src: `images/mundo/paris-2.jpg`, legenda: `Chegando a Paris com o pai` },
+      { src: `images/mundo/paris-1.jpg`, legenda: `No IDHEC` },
+      { src: `images/mundo/idhec.jpg`, legenda: `No estudio do IDHEC dirigindo Edouard et Caroline` },
+      { src: `images/mundo/ruy_eletricista.jpg`, legenda: `Servindo de eletricista no IDHEC` },
+      { src: `images/mundo/idhec_sul-da-franca_1953.jpg`, legenda: `Férias no Sul da França, 1953` },
+      { src: `images/mundo/idhec-ruy_guerra.jpg`, legenda: `Filmagem nas ruas de Paris com Demosthènes Théokary` },
+      { src: `images/mundo/idhec-2.jpg`, legenda: `Ator no IDHEC em filme de colega` },
+      { src: `images/mundo/idhec-3.jpg`, legenda: `Ator no IDHEC em filme de colega` }
+    ]
+  },
+  {
+    titulo: `Lisboa, idas e vindas`,
+    fotos: [
+      { src: `images/mundo/avo_paterno.jpg`, legenda: `O avô paterno, pintor e desenhista, José Maria Pereira Junior, vulgo Pereira Cão` },
+      { src: `images/mundo/ruy_carnaval_irmaos.jpg`, legenda: `Ruy e os irmãos nos carnaval` },
+      { src: `images/mundo/ruy_20.jpg`, legenda: `1952 - com o irmão, a irmã e o cunhado` },
+      { src: `images/mundo/maria_clara.jpg`, legenda: `A irmã Maria Clara (Lara) - 1952` },
+      { src: `images/mundo/anos90.jpg`, legenda: `Com os sobrinhos João Vasco e Rui Luís, anos 90` },
+      { src: `images/mundo/com_irmaos-1992-lisboa.jpg`, legenda: `Com os irmãos Mário Luís e Maria Clara (1992)` },
+      { src: `images/mundo/monsanto.jpg`, legenda: `Encerramento das filmagens de Monsanto, 2000` },
+      { src: `images/mundo/lisboa.jpg`, legenda: `Com Otelo Saraiva e esposa, João Giraldes e esposa, Edmundo Simões e a irmã, no apartamento dela, 2011` },
+      { src: `images/mundo/lisboa-2.jpg`, legenda: `Com familiares e amigos (2011)` }
     ]
   },
   {
     titulo: `Rio de Janeiro, família e amigos`,
     fotos: [
-      { src: `images/pelo-mundo/chegada-rj-58.jpg`, legenda: `Chegada ao Rio de Janeiro em 1958` }
+      { src: `images/mundo/chegada-rj-58.jpg`, legenda: `Chegada ao Rio de Janeiro em 1958` },
+      { src: `images/mundo/leila_diniz.jpg`, legenda: `Com Leila Diniz e Ana Maria Magalhães no Hotel Nacional, Festival de Brasília, 1970` },
+      { src: `images/mundo/com_janaina-1973-copacabana.jpg`, legenda: `Com Janaína em Copacabana, 1973` },
+      { src: `images/mundo/riodejaneiro.jpg`, legenda: `Jogando pelada com o amigo Chico Buarque, anos 70` },
+      { src: `images/mundo/i-love-ruy.jpg`, legenda: `Cláudia Ohana, mãe de Dandara` },
+      { src: `images/mundo/dandara_guerra.jpg`, legenda: `Ruy com sua filha Dandara` },
+      { src: `images/mundo/gabo-no-brasil.jpg`, legenda: `Gabriel García Márquez com o amigo Ruy Guerra no Rio de Janeiro` },
+      { src: `images/mundo/janaina_dandara_guerra.jpg`, legenda: `Com as filhas Janaína e Dandara` },
+      { src: `images/mundo/jogando_buraco.jpg`, legenda: `Jogando buraco, seu passatempo preferido, com Paulo Garzua` }
     ]
   },
   {
     titulo: `Rio de Janeiro, colegas e amigos de trabalho`,
     fotos: [
-      { src: `images/pelo-mundo/ruy_guerra-italia.jpg`, legenda: `` }
-    ]
-  },
-  {
-    titulo: `México`,
-    fotos: [
-      { src: `images/pelo-mundo/claudia_ohana-erendira.jpg`, legenda: `Com Cláudia Ohana nas filmagens de Erendira (1981)` }
+      { src: `images/mundo/ruy_guerra-italia.jpg`, legenda: `` },
+      { src: `images/mundo/no_bar.jpg`, legenda: `Nelson P. dos Santos, Ruy Guerra, Joaquim P. de Andrade, Walter Lima Jr., Zelito Viana, Luís Carlos Barretto, Glauber Rocha e Leon Hirzman, no Zeppelim, ano de 1967` },
+      { src: `images/mundo/cinema-novo_namesa.jpg`, legenda: `Com Pierre Kast, 1966` },
+      { src: `images/mundo/glauber_rocha.jpg`, legenda: `Com Pierre Kast e Glauber Rocha, 1966` },
+      { src: `images/mundo/hugo_carvana.jpg`, legenda: `Com Hugo Carvana e Nelson P dos Santos, 2010` },
+      { src: `images/mundo/5xfavela-agora.jpg`, legenda: `Com Cacá Diegues, Renata Magalhães e Lilia Cabral, unidos pelo filme 5x Favela - agora por nós mesmos` },
+      { src: `images/mundo/antonio_pitanga.jpg`, legenda: `Com Paulo José e Antonio Pitanga` }
     ]
   },
   {
     titulo: `Havana, Cuba`,
     fotos: [
-      { src: `images/pelo-mundo/hanna_schygulla.jpg`, legenda: `Com Hannah Schygulla nas filmagens de Me Alquillo para Soñar (1991/92)` }
-    ]
-  },
-  {
-    titulo: `Filmando pelo mundo`,
-    fotos: [
-      { src: `images/pelo-mundo/eduardo_simoes.jpg`, legenda: `Com Edmundo Simões, Lourenço Marques, 1949` }
-    ]
-  },
-  {
-    titulo: `Encontros de cinema`,
-    fotos: [
-      { src: `images/pelo-mundo/urso_de_prata-fuzis.jpg`, legenda: `Comemoração da entrega do Urso de Prata (Os Fuzis), Berlin, 1964` }
-    ]
-  },
-  {
-    titulo: `2011 - Maputo (Moçambique) e Pilgrim’s Rest (África do Sul) - fotos de Chico Carneiro (*)`,
-    fotos: [
-      { src: `images/pelo-mundo/maputo-inac.jpg`, legenda: `INAC - Instituto Nacional do Audio-Visual e Cinema*` }
+      { src: `images/mundo/hanna_schygulla.jpg`, legenda: `Com Hannah Schygulla nas filmagens de Me Alquillo para Soñar (1991/92)` },
+      { src: `images/mundo/cuba-92.jpg`, legenda: `Com o amigo Gabriel García Márquez durante as filmagens de Me Alquilo para Soñar` },
+      { src: `images/mundo/raul_perez_ureta.jpg`, legenda: `Ruy com Raul Perez Ureta, diretor de fotografia de Me alquilo Para Soñar, Cuba, 1990` },
+      { src: `images/mundo/cuba98.jpg`, legenda: `Leonor Arocha, Ruy, Chica e Paulo Caldas, Janaína e Job Tom Azulay. Filmagem de Estorvo.` },
+      { src: `images/mundo/com_janaina_em_estorvo.jpg`, legenda: `Com a filha Janaína durante as filmagens de Estorvo, 1998/99` },
+      { src: `images/mundo/havana-98.jpg`, legenda: `Com Lucélia Santos em Havana, 1998` }
     ]
   },
   {
     titulo: `Pessoas e destinos diversos`,
     fotos: [
-      { src: `images/pelo-mundo/idhec-5.jpg`, legenda: `Na Grécia, amigos, 1957` }
+      { src: `images/mundo/festival_mar-del-plata.jpg`, legenda: `25º festival de cinema de Mar del Plata` },
+      { src: `images/mundo/restaurante-mar_del_plata.jpg`, legenda: `Perto do Atlântico em Mar del Plata` },
+      { src: `images/mundo/mar_del_plata.jpg`, legenda: `Mar del Plata` },
+      { src: `images/mundo/janaina-2010.jpg`, legenda: `Com a filha Janaina` },
+      { src: `images/mundo/livraria-ateneu.jpg`, legenda: `Com Diogo Oliveira Campos, Livraria Ateneu - Buenos Aires` },
+      { src: `images/mundo/feira_santelmo.jpg`, legenda: `Feira de Santelmo - Buenos Aires` }
+    ]
+  },
+  {
+    titulo: `2011 - Maputo (Moçambique) e Pilgrim’s Rest (África do Sul) - fotos de Chico Carneiro (*)`,
+    fotos: [
+      { src: `images/mundo/maputo-inac.jpg`, legenda: `INAC - Instituto Nacional do Audio-Visual e Cinema*` },
+      { src: `images/mundo/inac2.jpg`, legenda: `No INAC em busca de originais de Mueda*` },
+      { src: `images/mundo/maputo-2011.jpg`, legenda: `Ruy com a biógrafa Vavy Pacheco Borges e reporter na casa de José Luiz Cabaço` },
+      { src: `images/mundo/palestra-maputo.jpg`, legenda: `Palestra em Maputo*` },
+      { src: `images/mundo/pimenta-ardida.jpg`, legenda: `Piri piri (pimenta ardida) no Piri Piri (restaurante), com Diogo Oliveira Campos*` },
+      { src: `images/mundo/mocambique-2011.jpg`, legenda: `Com outro Ruy Guerra, assim chamado em sua homenagem*` },
+      { src: `images/mundo/homenagem-dockanema.jpg`, legenda: `Homenagem à Ruy Guerra em Moçambique*` },
+      { src: `images/mundo/festa-encerramento-maputo.jpg`, legenda: `Festa de encerramento, com os 3 filhos, com Isabel Noronha, Camilo de Souza e a filha*` },
+      { src: `images/mundo/com-adriano.jpg`, legenda: `Em Pilgrim´s Rest com o filho Adriano, José Luís Cabaço e Bruno Laet*` },
+      { src: `images/mundo/macaco.jpg`, legenda: `Um macaco roubando a cena, Pilgrim´s Rest*` }
+    ]
+  },
+  {
+    titulo: `Filmando pelo mundo`,
+    fotos: [
+      { src: `images/mundo/eduardo_simoes.jpg`, legenda: `Com Edmundo Simões, Lourenço Marques, 1949` },
+      { src: `images/mundo/pierre_pelergri.jpg`, legenda: `Com Pierre Pelegri, Paris, 1953` },
+      { src: `images/mundo/nara_leao.jpg`, legenda: `Os Fuzis: à esquerda, bem coberta contra o sol, Nara Leão, acima Joel Barcelos, de costas Paulo Pereio, falando com Leônidas Bayer, Milagres, Bahia 1963` },
+      { src: `images/mundo/sweet_hunters-1968.jpg`, legenda: `Sweet Hunters, Bretanha, 1968` },
+      { src: `images/mundo/la_lettre_volee.jpg`, legenda: `La lettre volée, Sintra, Portugal,1981` },
+      { src: `images/mundo/erendira-1983.jpg`, legenda: `Erêndira, México, 1983` },
+      { src: `images/mundo/claudia_ohana.jpg`, legenda: `A Ópera do Malandro, com Claudia Ohana, Rio de Janeiro, Pavilhão São Cristovão` },
+      { src: `images/mundo/kuarup_recife.jpg`, legenda: `Kuarup, a Marcha dos sem Terra, Recife, 1989` },
+      { src: `images/mundo/filmagem-kuarup-xingu.jpg`, legenda: `Kuarup, Xingu, 1989` },
+      { src: `images/mundo/veneno-da-madrugada-2004.jpg`, legenda: `Veneno da Madrugada com Walter Carvalho, Ulisses Malta e Juliana Carneiro da Cunha, Xerém, estado do Rio de Janeiro` }
+    ]
+  },
+  {
+    titulo: `México`,
+    fotos: [
+      { src: `images/mundo/claudia_ohana-erendira.jpg`, legenda: `Com Cláudia Ohana nas filmagens de Erendira (1981)` },
+      { src: `images/mundo/erendira.jpg`, legenda: `Filmagens de Erendira` },
+      { src: `images/mundo/erendira-2.jpg`, legenda: `Por trás do seu visor` },
+      { src: `images/mundo/ruy-guerra_irene-papas.jpg`, legenda: `Dirigindo a atriz Irene Papas` },
+      { src: `images/mundo/mexico81-casa-gabo.jpg`, legenda: `Jantando com o casal na casa de Mercedes e Gabriel García Márquez, México, 1981` },
+      { src: `images/mundo/dedicatoria_gabriel-garcia-marquez.jpg`, legenda: `Mostrando a dedicatória de Gabriel García Márquez` },
+      { src: `images/mundo/adolfo_garcia.jpg`, legenda: `Ruy com Adolfo Garcia Videla, autor de documentário sobre Erendira Del Fuego y del Viento 1983` }
     ]
   },
   {
     titulo: `Tempos de Ruy`,
     fotos: [
-      { src: `images/pelo-mundo/rg-1.jpg`, legenda: `` }
+      { src: `images/mundo/rg-1.jpg`, legenda: `` },
+      { src: `images/mundo/rg-2.jpg`, legenda: `` },
+      { src: `images/mundo/rg-3.jpg`, legenda: `` },
+      { src: `images/mundo/rg-4.jpg`, legenda: `` },
+      { src: `images/mundo/rg-5.jpg`, legenda: `Foto de Maria do Rosário Caetano, Ceará, 1996` },
+      { src: `images/mundo/rg-6.jpg`, legenda: `` },
+      { src: `images/mundo/rg-7.jpg`, legenda: `` },
+      { src: `images/mundo/rg-8.jpg`, legenda: `` },
+      { src: `images/mundo/rg-9.jpg`, legenda: `` },
+      { src: `images/mundo/rg-10.jpg`, legenda: `` }
+    ]
+  },
+  {
+    titulo: `Encontros de cinema`,
+    fotos: [
+      { src: `images/mundo/urso_de_prata-fuzis.jpg`, legenda: `Comemoração da entrega do Urso de Prata (Os Fuzis), Berlin, 1964` },
+      { src: `images/mundo/cinema_novo.jpg`, legenda: `Gustavo Dahl,Paulo César Sarraceni, Ruy Guerra e Joaquim Pedro de Andrade, reunião de cineastas para um programa da TV francesa Carnets Brésiliens, Copacabana, 1966` },
+      { src: `images/mundo/encontros-3.jpg`, legenda: `Almoço no ICAIC com Tomas G.Alea e diretor indiano durante meados dos anos 1980` },
+      { src: `images/mundo/encontros-8.jpg`, legenda: `1º Seminário de Comunicação Audio-Visual com José Luís Cabaço e Pedro Pimenta, Moçambique, 1983` },
+      { src: `images/mundo/encontros-2.jpg`, legenda: `Produtora MK2, Paris, 1985` },
+      { src: `images/mundo/encontros-1.jpg`, legenda: `Ruy sendo entrevistado em Cannes` },
+      { src: `images/mundo/encontros-4.jpg`, legenda: `1993` },
+      { src: `images/mundo/encontros-5.jpg`, legenda: `Com Cacá Diegues, Retrospectiva Ruy Guerra - Rio de Janeiro, 2000` },
+      { src: `images/mundo/os_jurados.jpg`, legenda: `Os jurados: Mario Canale (diretor italiano), Dominique Sanda (atriz francesa), Roman Gubém (critico espanhol ), Graciela Maglie (cineasta argentina) e Ruy Guerra; 25º Festival Internacional de Cine de Mar del Plata - novembro de 2010` },
+      { src: `images/mundo/exibicao_filme.jpg`, legenda: `Exibição do filme <i>O Veneno da Madrugada</i> em Mar del Plata e palestra, 25º Festival Internacional de Cine de Mar del Plata - novembro de 2010` }
+    ]
+  },
+  {
+    titulo: `Pelo mundo`,
+    fotos: [
+      { src: `images/mundo/idhec-5.jpg`, legenda: `Na Grécia, amigos, 1957` },
+      { src: `images/mundo/virgilio_lemos.jpg`, legenda: `Em Paris, no apartamento do amigo Virgílio de Lemos, em Port Royal, 1967` },
+      { src: `images/mundo/chapeu_mexicano.jpg`, legenda: `No México, em bar 1974, com Afonso Arrau e outros` },
+      { src: `images/mundo/puerto-rico-93.jpg`, legenda: `Em Puerto Rico, em locações,1993` },
+      { src: `images/mundo/gabo_familia.jpg`, legenda: `Gabo, Mercedes e o filho Gonçalo, um casal de amigos, em Havana, 1986` },
+      { src: `images/mundo/cannes-2000.jpg`, legenda: `Cannes, França, com produtor Bruno Estropiana, competindo com o filme Estorvo,2000` },
+      { src: `images/mundo/ruy_gauin-paris-2000.jpg`, legenda: `Paris, França, com amigo Ruy Câmara, 2000` },
+      { src: `images/mundo/santaCruzdeLaSierra.jpg`, legenda: `Produção e equipe de Veneno da Madrugada, Festival Iberoamericano de Cine de Santa Cruz de la Sierra, Bolívia, 2006` },
+      { src: `images/mundo/festival-espanha.jpg`, legenda: `Madrid, Espanha, First Brazilian Film Festival 2008` },
+      { src: `images/mundo/istambul-2011.jpg`, legenda: `Istambul, Turquia, com Bruno Laet, 2011` }
     ]
   }
 ];
@@ -907,16 +1012,16 @@ export const pt = {
         </div>
 
         <div class="flex justify-center mt-3 space-x-1">
-          ${album.fotos.map((f, idx) => `
-            <button class="px-2 py-1 border rounded ${idx===0?"bg-black text-white":"bg-white"}"
-              onclick="
-                document.querySelector('#foto-${i}').src='${f.src}';
-                document.querySelector('#legenda-${i}').textContent='${f.legenda}';
-                [...this.parentNode.children].forEach(b=>b.classList.remove('bg-black','text-white'));
-                this.classList.add('bg-black','text-white');
-              ">${idx+1}</button>
-          `).join('')}
-        </div>
+            ${album.fotos.map((f, idx) => `
+                <button class="album-btn${idx===0?" selected":""}"
+                onclick="
+                    document.querySelector('#foto-${i}').src='${f.src}';
+                    document.querySelector('#legenda-${i}').textContent='${f.legenda}';
+                    [...this.parentNode.children].forEach(b=>b.classList.remove('selected'));
+                    this.classList.add('selected');
+                ">${idx+1}</button>
+            `).join('')}
+         </div>
       </div>
     `).join('')}
   `,
