@@ -1,4 +1,8 @@
+import entrevistas from './entrevistas.json' with { type: 'json' };
 import poesias from './poesias.json' with { type: 'json' };
+import cronicas from './cronicas.json' with { type: 'json' };
+import contos from './contos.json' with { type: 'json' };
+import prefacios from './prefacios.json' with { type: 'json' };
 import musicas from './musicas.json' with { type: 'json' };
 
 const chronology = [
@@ -147,60 +151,6 @@ const teatro = [
     { type: 'single', titulo: 'Fábrica de Chocolate', ano: '1979', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de Mário Prata.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/fabrica_de_chocolate.jpg', alt: 'Mário Prata - Fábrica de Chocolate' }] },
     { type: 'single', titulo: 'Dom Quixote de Lugar Nenhum', ano: '2007/08', local: 'Brasil', detalhes: { 'Autor': 'Ruy Guerra', 'Elenco': 'Edson Celulari' }, imagens: [{ src: 'images/longas/dom_quixote_de_lugar_nenhum.jpg', alt: 'Dom Quixote de lugar nenhum - peça' }] },
     { type: 'single', titulo: 'Os Exilados', ano: '2012', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de James Joyce.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/os_exilados-2.jpg', alt: 'Ruy Guerra e Franciely Freduzeski da peça Os exilados', legenda: 'Ruy Guerra e a atriz Franciely Freduzeski de Os Exilados' }, { src: 'images/longas/exilados-trupe.jpg', alt: 'Ruy Guerra e os atores da peça Os exilados', legenda: 'Ruy Guerra e os atores da peça Os exilados' }] }
-];
-
-const cronicas = [
-    { titulo: "Algumas palavras para alguém que anda por aí há já algum tempo", data: "07/06/2014", fonte: "O Estado de S.Paulo - Caderno 2" },
-    { titulo: "O ovo da serpente", data: "01/04/2014", fonte: "Blog Carta Maior" },
-    { titulo: "Meu gordo definitivo", data: "09/10/1998", fonte: "O Estado de S. Paulo" },
-    { titulo: "O ídolo das chuteiras de prata", data: "24/07/1998", fonte: "O Estado de S.Paulo - Caderno 2" },
-    { titulo: "Flores do pântano", data: "05/06/1998", fonte: "O Estado de S. Paulo" },
-    { titulo: "Em nome da lapa", data: "15/05/1998", fonte: "O Estado de S. Paulo" },
-    { titulo: "O paladar da revolução", data: "20/03/1998", fonte: "O Estado de S. Paulo" },
-    { titulo: "Cuba: o difícil diálogo entre o poder e a arte", data: "13/03/1998", fonte: "O Estado de S. Paulo" },
-    { titulo: "Amargo travo de saudade", data: "19/12/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "A Ricardo o que é de Ricardo", data: "12/12/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "As portas da poesia", data: "12/11/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "As três paixões de Miguel Torres", data: "24/10/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "A sombra da globo e a visão estroboscópica do cinema brasileiro", data: "26/09/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "Lola Montes venceu", data: "15/08/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "O muro da lógica", data: "11/07/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "Tenho muito medo", data: "06/06/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "A imagem e o horror", data: "04/04/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "A noite e seus bêbados", data: "28/03/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "Brasil, um faroeste de colarinho branco", data: "21/03/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "Despedida", data: "14/03/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "O fantasma da homossexualidade", data: "14/03/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "Cadê aquela França?", data: "07/03/1997", fonte: "O Estado de S. Paulo" },
-    { titulo: "A idade e o sonho", data: "06/02/1997", fonte: "" },
-    { titulo: "A coragem dos poetas", data: "1996", fonte: "Ruy Guerra, op. cit., 1996" },
-    { titulo: "Esta janela", data: "1996", fonte: "Ruy Guerra, op. cit, 1996" },
-    { titulo: "Um cheiro de manga", data: "1996", fonte: "Ruy Guerra, op. cit, 1996" },
-    { titulo: "Vinte navios...", data: "1996", fonte: "Ruy Guerra, op. cit., 1996" },
-    { titulo: "A bela e o monstro", data: "12/1949", fonte: "Itinerário" },
-    { titulo: "M. Vincent (São Vicente de Paula)", data: "10/1949", fonte: "Noticias - 25 de outubro 1949 - Coluna de Cinema" },
-    { titulo: "Arco de Triunfo", data: "08/1949", fonte: "Itinerário, Moçambique" },
-    { titulo: "Lourenço Marques, uma cidade moderna", data: "05/1949", fonte: "jornal Notícias, Moçambique" },
-    { titulo: "Utilidades e perigos do cinema na formação do caráter da juventude", data: "1940", fonte: "imprensa moçambicana, final dos anos 1940" }
-];
-
-const contos = [
-    { titulo: "No pântano", data: "02/1950", autor: "Ruy Guerra", fonte: "", local: "Lourenço Marques - Moçambique" },
-    { titulo: "Negro João há de morrer no mar", data: "29/05/1949", autor: "Ruy Guerra", fonte: "", local: "Lourenço Marques - Moçambique" },
-    { titulo: "A negra rosa", data: "05/1949", autor: "Ruy Guerra", fonte: "Itinerário e posteriormente As mãos dos pretos, Antologia do Conto Moçambicano, Organização e Prefácio Nelson Saúte Publicações Dom Quixote, 2001", local: "Lourenço Marques - Moçambique" },
-    { titulo: "Foi assim que morreu Bobby", data: "04/03/1949", autor: "Ruy Guerra", fonte: "", local: "Lourenço Marques - Moçambique" },
-    { titulo: "Pablo", data: "09/1948", autor: "Ruy Guerra", fonte: "Jornal da Mocidade Portuguesa", local: "Lourenço Marques - Moçambique" },
-    { titulo: "Farol vermelho", data: "12/1947", autor: "Ruy Guerra", fonte: "", local: "Lourenço Marques - Moçambique" },
-    { titulo: "Diário de um louco: o coqueiro", data: "entre 1947/1952", autor: "Ruy Guerra", fonte: "", local: "Lourenço Marques - Moçambique" }
-];
-
-const falasEPrefacios = [
-    { titulo: "Prefácio a um livro de poesias do aluno Daniel Rocha", data: "04/2012", autor: "Ruy Guerra", fonte: "", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Fala do Mérito Cultural", data: "07/10/2008", autor: "Ruy Guerra", fonte: "", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Texto para para o livro 'RIO DOS BONS SINAIS' de Nelson Saúte", data: "2007", autor: "Ruy Guerra", fonte: "", local: "" },
-    { titulo: "Palavras do paraninfo: Ruy Guerra", data: "1998", autor: "Ruy Guerra", fonte: "Curso para 5 vezes Favela - Agora por nós mesmos", local: "Teatro Municipal do Rio de Janeiro - Rio de Janeiro - Brasil" },
-    { titulo: "Fábrica de chocolate é um desafio para todos", data: "11/1979", autor: "Ruy Guerra", fonte: "Programa da peça 'Fábrica de Chocolate'", local: "São Paulo - Brasil" },
-    { titulo: "Fotografando o que não se vê", data: "data ", autor: "Ruy Guerra", fonte: "Texto escrito por Ruy Guerra para imprensa carioca sobre o fotógrafo Walter Carvalho", local: "" }
 ];
 
 const albuns = [
@@ -995,7 +945,7 @@ export const pt = {
     tales_title: "Contos",
     tales_content: listItems(contos),
     speeches_title: "Falas e Prefácios",
-    speeches_content: listItems(falasEPrefacios),
+    speeches_content: listItems(prefacios),
     songs_title: "Letras de Músicas",
     songs_content: listItems(musicas),
     globetrotter_title: "Globetrotter",

@@ -1,5 +1,9 @@
 import { setLanguage } from './translations.js';
+import entrevistas from './entrevistas.json' with { type: 'json' };
 import poesias from './poesias.json' with { type: 'json' };
+import cronicas from './cronicas.json' with { type: 'json' };
+import contos from './contos.json' with { type: 'json' };
+import prefacios from './prefacios.json' with { type: 'json' };
 import musicas from './musicas.json' with { type: 'json' };
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -117,6 +121,9 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 
     setupListPage(poesias, '[data-lang-key="poesias_content"]');
+    setupListPage(cronicas, '[data-lang-key="chronicles_content"]');
+    setupListPage(contos, '[data-lang-key="tales_content"]');
+    setupListPage(prefacios, '[data-lang-key="speeches_content"]');
     setupListPage(musicas, '[data-lang-key="songs_content"]');
 
     // function setupListModal(array, containerSelector) {
