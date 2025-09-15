@@ -1,4 +1,3 @@
-import entrevistas from './entrevistas.json' with { type: 'json' };
 import poesias from './poesias.json' with { type: 'json' };
 import cronicas from './cronicas.json' with { type: 'json' };
 import contos from './contos.json' with { type: 'json' };
