@@ -1,3 +1,6 @@
+import poesias from './poesias.json' with { type: 'json' };
+import musicas from './musicas.json' with { type: 'json' };
+
 const chronology = [
     { year: "1931", type: "personal", content: "22/08 - nascimento em Lourenço Marques, Moçambique, colônia portuguesa na África Austral" },
     { year: "1933-1974", type: "context", content: "Estado Novo, ditadura de Antônio Salazar em Portugal" },
@@ -133,35 +136,6 @@ const festivais = [
     { tipo: 'categoria', titulo: 'Participação como Palestrante', eventos: [{ evento: '1976 - Universidad Autónoma do México, México' }, { evento: '1978 - 1ª Feira de Livro Progressista, República Popular de Angola' }, { evento: '1982 - 1ª Assembléia Mundial de Realizadores (Funchal)' }, { evento: '1985 - Jornadas Democráticas do Presidente Raoul Alfonsín, Buenos Aires' }] }
 ];
 
-const musicas = [
-    { titulo: "Sob Pressão", data: "2020", autores: "Gilberto Gil e Ruy Guerra" },
-    { titulo: "Você vai me seguir", data: "1976", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Fado tropical", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Não Existe Pecado ao Sul do Equador", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Tatuagem", data: "1973", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Bárbara", data: "1972", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Bodas", data: "1970", autores: "Milton Nascimento e Ruy Guerra" },
-    { titulo: "Dois Coelhos", data: "1966", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Jogo de roda", data: "1966", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Aleluia", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Canção da terra", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Requiem por um amor", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Reza", data: "1965", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Em tempos de adeus", data: "1964", autores: "Edu Lobo e Ruy Guerra" },
-    { titulo: "Esse mundo é meu", data: "1963", autores: "Sérgio Ricardo e Ruy Guerra" },
-    { titulo: "Bloco do eu sozinho", data: "década de 1960", autores: "Marcos Valle e Ruy Guerra" },
-    { titulo: "Canto latino", data: "1960/1970", autores: "Milton Nascimento e Ruy Guerra" },
-    { titulo: "E daí?", data: "1960/1970", autores: "Milton Nascimento e Ruy Guerra" },
-    { titulo: "À meia-luz", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
-    { titulo: "Boi voador", data: "Indefinida", autores: "Chico Buarque e Ruy Guerra" },
-    { titulo: "Carta", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
-    { titulo: "Entrudo", data: "Indefinida", autores: "Carlos Lyra e Ruy Guerra" },
-    { titulo: "Máscara", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
-    { titulo: "Meu homem", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
-    { titulo: "Minha", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" },
-    { titulo: "Pouco me importa", data: "Indefinida", autores: "Francis Hime e Ruy Guerra" }
-];
-
 const teatro = [
     { type: 'group', titulo: 'Shows de música: direção entre 1964 e 1970', items: [{ titulo: 'Francis Hime e Dori Caymmi', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra' } }, { titulo: 'Recital de Samba', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Baden Powell, Alaíde Costa, Dulce Nunes e Oscar Castro Neves.' } }, { titulo: 'Poeira de Estrelas', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Descrição': 'Espetáculo para o Sindicato dos Artistas e Técnicos.' } }, { titulo: 'Clube da Esquina', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Com': 'Milton Nascimento, Lo Borges, entre outros.' } }, { titulo: 'Chico Buarque e Maria Bethânia no Canecão', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra' } }, { titulo: 'Grupo de Criação', local: 'Rio de Janeiro, Brasil', detalhes: { 'Direção': 'Ruy Guerra', 'Descrição': 'Parceria com Caetano Veloso.' } }] },
     { type: 'single', titulo: 'Woyzeck, de G. Bruchner', ano: '1972', local: 'Rio de Janeiro, Brasil', detalhes: { 'Tradução de Texto e Letras Originais': 'Ruy Guerra', 'Direção': 'Marília Pedroso', 'Canções': 'Edu Lobo' } },
@@ -173,29 +147,6 @@ const teatro = [
     { type: 'single', titulo: 'Fábrica de Chocolate', ano: '1979', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de Mário Prata.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/fabrica_de_chocolate.jpg', alt: 'Mário Prata - Fábrica de Chocolate' }] },
     { type: 'single', titulo: 'Dom Quixote de Lugar Nenhum', ano: '2007/08', local: 'Brasil', detalhes: { 'Autor': 'Ruy Guerra', 'Elenco': 'Edson Celulari' }, imagens: [{ src: 'images/longas/dom_quixote_de_lugar_nenhum.jpg', alt: 'Dom Quixote de lugar nenhum - peça' }] },
     { type: 'single', titulo: 'Os Exilados', ano: '2012', local: 'Brasil', detalhes: { 'Descrição': 'Peça Teatral Original de James Joyce.', 'Direção': 'Ruy Guerra' }, imagens: [{ src: 'images/longas/os_exilados-2.jpg', alt: 'Ruy Guerra e Franciely Freduzeski da peça Os exilados', legenda: 'Ruy Guerra e a atriz Franciely Freduzeski de Os Exilados' }, { src: 'images/longas/exilados-trupe.jpg', alt: 'Ruy Guerra e os atores da peça Os exilados', legenda: 'Ruy Guerra e os atores da peça Os exilados' }] }
-];
-
-const poesias = [
-    { titulo: "Definição", data: "1986", autor: "Ruy Guerra", local: "Indefinido" },
-    { titulo: "Escuta, Fidel", data: "18/11/1981", autor: "Ruy Guerra", local: "Maputo - Moçambique" },
-    { titulo: "Por que não a RUDYARD", data: "18/11/1981", autor: "Ruy Guerra", local: "Indefinido" },
-    { titulo: "Meu país", data: "1981", autor: "Ruy Guerra", local: "Moçambique" },
-    { titulo: "E tu, lua?", data: "1981", autor: "Ruy Guerra", local: "Moçambique" },
-    { titulo: "Cuba, cemitério de cow-boy: carta aberta a John 'Alamo' Wayne", data: "1980", autor: "Ruy Guerra", local: "Moçambique" },
-    { titulo: "Lendo Borges", data: "1971", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Não sei onde me começo...", data: "1962", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Não posso cantar os olhos de minha amada...", data: "1961", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Lendo um poema de ontem, sempre para ti", data: "11/1960", autor: "Ruy Guerra", local: "Indefinido" },
-    { titulo: "E assim sendo", data: "1960", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Na mesa do bar", data: "1960", autor: "Ruy Guerra", local: "Rio de Janeiro - Brasil" },
-    { titulo: "Ah esta rouquidão dentro de mim!", data: "15/03/1956", autor: "Ruy Guerra", local: "Indefinido" },
-    { titulo: "Apenas", data: "1956", autor: "Ruy Guerra", local: "Madri - Espanha" },
-    { titulo: "Intelectualismo e fome", data: "1956", autor: "Ruy Guerra", local: "Paris - França" },
-    { titulo: "Hoje morreu meu Pai", data: "1956", autor: "Ruy Guerra", local: "Madri - Espanha" },
-    { titulo: "Herança", data: "1954", autor: "Ruy Guerra", local: "Paris - França" },
-    { titulo: "Ode", data: "1947", autor: "Ruy Guerra", local: "Moçambique", fonte: "Jornal Mocidade Portuguesa, Nos 1947-1949 e Itinerário de 1955, pg.5 do Nº 16" },
-    { titulo: "Para ler, sem dar muita importância", data: "Indefinida", autor: "Ruy Guerra", local: "Indefinido" },
-    { titulo: "Prólogo, como um epitáfio", data: "Indefinida", autor: "Ruy Guerra", local: "Indefinido" }
 ];
 
 const cronicas = [
@@ -249,7 +200,7 @@ const falasEPrefacios = [
     { titulo: "Texto para para o livro 'RIO DOS BONS SINAIS' de Nelson Saúte", data: "2007", autor: "Ruy Guerra", fonte: "", local: "" },
     { titulo: "Palavras do paraninfo: Ruy Guerra", data: "1998", autor: "Ruy Guerra", fonte: "Curso para 5 vezes Favela - Agora por nós mesmos", local: "Teatro Municipal do Rio de Janeiro - Rio de Janeiro - Brasil" },
     { titulo: "Fábrica de chocolate é um desafio para todos", data: "11/1979", autor: "Ruy Guerra", fonte: "Programa da peça 'Fábrica de Chocolate'", local: "São Paulo - Brasil" },
-    { titulo: "Fotografando o que não se vê", data: "data indefinida", autor: "Ruy Guerra", fonte: "Texto escrito por Ruy Guerra para imprensa carioca sobre o fotógrafo Walter Carvalho", local: "" }
+    { titulo: "Fotografando o que não se vê", data: "data ", autor: "Ruy Guerra", fonte: "Texto escrito por Ruy Guerra para imprensa carioca sobre o fotógrafo Walter Carvalho", local: "" }
 ];
 
 const albuns = [
@@ -686,15 +637,7 @@ export const pt = {
                 </div>
             </main>`,
     interviews_title: "Entrevistas",
-    interviews_content: `${entrevistas.map(e => `
-    <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-      <h2 class="text-lg font-bold text-gray-900">${e.titulo}</h2>
-      <p class="text-sm text-gray-700 italic">(${e.data})</p>
-      ${e.autor ? `<p><strong>Autor:</strong> ${e.autor}</p>` : ''}
-      ${e.fonte ? `<p><strong>Fonte:</strong> ${e.fonte}</p>` : ''}
-      ${e.local ? `<p>${e.local}</p>` : ''}
-    </div>
-  `).join('')}
+    interviews_content: `${listItems(entrevistas)}
     <div class="flex justify-center my-10">
         <img class="img480" src="images/cine_olho.jpg" alt="cine-olho" title="cine-olho">
     </div>`,
@@ -1046,61 +989,15 @@ export const pt = {
                 </div>
             </main>`,
     poesias_title: "Poesias",
-    poesias_content: `${poesias.map(poema => `
-        <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-            <h3 class="text-xl font-bold mb-1">${poema.titulo}</h3>
-            <div class="text-sm text-gray-700 mb-1">
-                <span><b>Autor:</b> ${poema.autor}</span> &nbsp;|&nbsp;
-                <span><b>Data:</b> ${poema.data}</span> &nbsp;|&nbsp;
-                <span><b>Local:</b> ${poema.local}</span>
-                ${poema.fonte ? `&nbsp;|&nbsp;<span><b>Fonte:</b> ${poema.fonte}</span>` : ""}
-            </div>
-        </div>
-    `).join('')};`,
+    poesias_content: listItems(poesias),
     chronicles_title: "Crônicas",
-    chronicles_content: `${cronicas.map(cronica => `
-                    <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-                        <h2 class="text-xl font-bold mb-1">
-                            ${cronica.titulo}
-                            <span class="chronicle-date">(${cronica.data})</span>
-                        </h2>
-                        ${cronica.fonte ? `<p class="chronicle-source"><strong>Fonte:</strong> ${cronica.fonte}</p>` : ''}
-                    </div>
-                    `).join('')};`,
+    chronicles_content: listItems(cronicas),
     tales_title: "Contos",
-    tales_content: `${contos.map(conto => `
-                    <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-                        <h2 class="text-xl font-bold mb-1">
-                            ${conto.titulo}
-                            <span class="story-date">(${conto.data})</span>
-                        </h2>
-                        <p class="story-info"><strong>Autor:</strong> ${conto.autor}</p>
-                        ${conto.fonte ? `<p class="story-info"><strong>Fonte:</strong> ${conto.fonte}</p>` : ''}
-                        <p class="story-info"><strong>Local:</strong> ${conto.local}</p>
-                    </div>
-                    `).join('')};`,
+    tales_content: listItems(contos),
     speeches_title: "Falas e Prefácios",
-    speeches_content: `${falasEPrefacios.map(fala => `
-                    <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-                        <h2 class="text-xl font-bold mb-1">
-                            ${fala.titulo}
-                            <span class="speech-date">(${fala.data})</span>
-                        </h2>
-                        <p class="speech-info"><strong>Autor:</strong> ${fala.autor}</p>
-                        ${fala.fonte ? `<p class="speech-info"><strong>Fonte:</strong> ${fala.fonte}</p>` : ''}
-                        ${fala.local ? `<p class="speech-info"><strong>Local:</strong> ${fala.local}</p>` : ''}
-                    </div>
-                    `).join('')};`,
+    speeches_content: listItems(falasEPrefacios),
     songs_title: "Letras de Músicas",
-    songs_content: `${musicas.map(musica => `
-        <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition">
-            <h3 class="text-xl font-bold mb-1">${musica.titulo}</h3>
-            <div class="text-sm text-gray-700 mb-1">
-                <span><b>Autor:</b> ${musica.autores}</span> &nbsp;|&nbsp;
-                <span><b>Data:</b> ${musica.data}</span> &nbsp;|&nbsp;
-            </div>
-        </div>
-    `).join('')};`,
+    songs_content: listItems(musicas),
     globetrotter_title: "Globetrotter",
     globetrotter_content: `
     ${albuns.map((album, i) => `
@@ -1175,4 +1072,19 @@ export const pt = {
     contact_press: "Assessoria de Imprensa:",
     contact_agent: "Agente:",
     footer_text: "&copy; 2025 Ruy Guerra. Todos os direitos reservados."
+}
+
+function listItems(array) {
+    return array.map((item, idx) => `
+        <div class="bg-[#d8cbb7] m-5 p-6 rounded-lg border border-black/20 hover:shadow-lg transition cursor-pointer list-item" data-index="${idx}">
+            <h2 class="text-xl font-bold mb-1">
+                ${item.titulo || ""}
+                ${item.data ? `<span>(${item.data})</span>` : ""}
+            </h2>
+            ${item.autor ? `<p><b>Autor:</b> ${item.autor}</p>` : ""}
+            ${item.autores ? `<p><b>Autores:</b> ${item.autores}</p>` : ""}
+            ${item.local ? `<p><b>Local:</b> ${item.local}</p>` : ""}
+            ${item.fonte ? `<p><b>Fonte:</b> ${item.fonte}</p>` : ""}
+        </div>
+    `).join('');
 }
