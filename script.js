@@ -1,4 +1,5 @@
 import { setLanguage } from './translations.js';
+import entrevistas from './entrevistas.json' with { type: 'json' };
 import poesias from './poesias.json' with { type: 'json' };
 import cronicas from './cronicas.json' with { type: 'json' };
 import contos from './contos.json' with { type: 'json' };
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     });
 }
-
+    setupListPage(entrevistas, '[data-lang-key="interviews_content"]');
     setupListPage(poesias, '[data-lang-key="poesias_content"]');
     setupListPage(cronicas, '[data-lang-key="chronicles_content"]');
     setupListPage(contos, '[data-lang-key="tales_content"]');

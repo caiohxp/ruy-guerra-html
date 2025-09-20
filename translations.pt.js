@@ -1,3 +1,4 @@
+import entrevistas from './entrevistas.json' with { type: 'json' };
 import poesias from './poesias.json' with { type: 'json' };
 import cronicas from './cronicas.json' with { type: 'json' };
 import contos from './contos.json' with { type: 'json' };
@@ -83,24 +84,6 @@ const curtas = [
     { titulo: "Talk To Me", info: "1984, EUA, 6 min, videoclipe", descricao: "Videoclipe da banda <i>I am Sian</i>.", detalhes: { "Direção e roteiro": "Ruy Guerra", "Produtora": "David Sonnenberg / Guerra Filmes LTDA", "Elenco": "Claudia Ohana, Paula Maria, Evandro Carvalho, Juan Chomze, Dama de Lara, Nayra Fernandes, Jorge Lino, Lé Meireles, Nestor Fernandes, Jorge Lino, Nestor Capueira e outros" } },
     { titulo: "Obvious Child", info: "1990, EUA, 5 min, 35mm, cor, videoclipe", descricao: "Videoclipe da música Obvious Child, do álbum <i>Rythm of The Saints</i>, de Paul Simon. Filmado em Salvador com o grupo <i>Olodum</i>.", detalhes: { "Direção": "Ruy Guerra", "Produção": "Roberlo Backer, Peregrine INC, Warner Music" } },
     { titulo: "Carta portuguesa a Sarajevo", info: "1994, França e Inglaterra, 3 min, cor", detalhes: { "Direção e roteiro": "Ruy Guerra", "Produção": "Prod. Point Du Jour / Arte / BBC2 / Saga", "Idéia original": "Patrice Barrat" } }
-];
-
-const entrevistas = [
-    { titulo: 'Aos 90 anos cineasta Ruy Guerra escreve seu primeiro romance, critica desmonte da cultura e afirma "Vamos sair deste buraco"', data: '06/09/2021', autor: 'Ruan de Souza Gabriel', fonte: 'O Globo', local: 'Brasil' },
-    { titulo: 'Diretor de cinema destaca a importância da sétima arte na Amazônia', data: '30/01/2014', autor: 'Jony Clay Borges', fonte: 'A Crítica', local: 'Manaus - Brasil' },
-    { titulo: '“Fazer e desfazer, tudo é fazer” (Os filmes de minha vida, vol.5 – Cinema é sonho)', data: '2013', fonte: 'Mostra Internacional de Cinema SP / Imprensa Oficial', local: 'São Paulo - Brasil' },
-    { titulo: 'Ruy Guerra: cidadão de várias pátrias, passageiro de várias revoluções', data: '2012', fonte: 'Revista Atlântica Nº21', local: 'Portugal' },
-    { titulo: 'Ruy Guerra, o cineasta da palavra', data: '23/05/2011', autor: 'Rafael Antunes e António Costa', local: 'Lisboa - Portugal' },
-    { titulo: '“Trabalhar com o oculto e com o que já se esqueceu”', data: '08/2006', autor: 'José Carlos Avellar, Geraldo Sarno e Sergio Sanz', fonte: 'Mostra Cultural de Cinema Banco do Brasil', local: 'São Paulo - Brasil' },
-    { titulo: 'De volta ao campo de batalha', data: '2005', autor: 'Neusa Barbosa', fonte: 'Revista Bine\'Art' },
-    { titulo: '28º Festival de Cinema de Gramado: "Temos direito à universidade"', data: '03/08/2000', fonte: 'Agência Estado' },
-    { titulo: 'Entrevista em Retrospectiva Ruy Guerra', data: '1999', autor: 'Nuno Sena', local: 'Lisboa - Portugal' },
-    { titulo: 'O idioma como pátria e o sentimento do mundo', data: '1997', autor: 'Ana Maria Galano', fonte: 'LINGUAMAR - Funarte', local: 'Brasil' },
-    { titulo: 'Entretien avec... Ruy Guerra: "Ma rencontre avec García Márquez"', data: '24/11/1983', fonte: 'Les Nouvelles Littéraires', local: 'França' },
-    { titulo: 'Ruy Guerra abre o verbo', data: '11/1976', autor: 'Ivalda Freitas, Henrique Faulhaber e Caio Rubens', fonte: 'Cine-Olho (PUC RJ)', local: 'Rio de Janeiro - Brasil' },
-    { titulo: 'Entretien avec Ruy Guerra: À propos des "Fusils"', data: '13/04/1967', fonte: 'Le Monde', local: 'França' },
-    { titulo: 'Entretien avec Ruy Guerra', data: '1966', autor: 'Robert Benayoun, Michel Ciment, Jacques Demeure, Michèle Firk, Paul-Louis Thirard', fonte: 'Revista Positif', local: 'França' },
-    { titulo: 'Entretien avec Ruy Guerra', data: '1966', autor: 'Jean-André Fieschi e Jean Narboni', fonte: 'Cahiers du Cinéma', local: 'Paris - França' }
 ];
 
 const montador = [
